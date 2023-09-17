@@ -20,7 +20,7 @@ export default class Entity {
         this.currentState.enter();
     }
 
-    draw(context) {
+    draw(context) {;
         this.animation.draw(context);
     }
 
@@ -85,5 +85,65 @@ export default class Entity {
         const spawnY = centerY - (this.height / 2);
 
         return spawnY;
+    }
+
+    getWorldXFloat() {
+        const tile = this.getCenterTile();
+        const offset = (tile.x - this.x) * -1;
+
+        return tile.spawnWorldX + offset / tile.width;
+    }
+
+    getWorldYFloat() {
+        const tile = this.getCenterTile();
+        const offset = (tile.y - this.y) * -1;
+
+        return tile.spawnWorldY + offset / tile.height;
+    }
+
+    getWorldXPixel() {
+        const referenceTile = this.game.world.tiles[0][0];
+        
+        return Math.abs(referenceTile.x) + this.x;
+    }
+
+    getWorldYPixel() {
+        const referenceTile = this.game.world.tiles[0][0];
+
+        return Math.abs(referenceTile.y) + this.y;
+    }
+
+    getCenterTile() {
+        let centerTile = null;
+
+        this.game.world.tiles.forEach(row => {
+            row.forEach(tile => {
+                if (tile.x <= this.getCenterX() && tile.x + tile.width >= this.getCenterX() && tile.y <= this.getCenterY() && tile.y + tile.width >= this.getCenterY()) {
+                    centerTile = tile;
+                }
+            })
+        });
+
+        return centerTile;
+    }
+
+    /**
+     * 
+     * @param {Number} x 
+     */
+    getCanvasXFromWorldXPixel(x) {
+        const referenceTile = this.game.world.tiles[0][0];
+
+        return  Math.abs(referenceTile.y) + this.y;
+    }
+
+    /**
+     * 
+     * @param {Number} y 
+     */
+    getCanvasYFromWorldYPixel(y) {
+        const referenceTile = this.game.world.tiles[0][0];
+
+        return  Math.abs(referenceTile.y) + this.y;
     }
 }

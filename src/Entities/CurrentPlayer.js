@@ -84,22 +84,10 @@ export default class CurrentPlayer extends Player {
         });
     }
 
-    getWorldXPixel() {
-        const referenceTile = this.game.world.tiles[0][0];
-        
-        return Math.abs(referenceTile.x) + this.x;
-    }
-
-    getWorldYPixel() {
-        const referenceTile = this.game.world.tiles[0][0];
-
-        return  Math.abs(referenceTile.y) + this.y;
-    }
-
     moveCamera() {
+        this.getWorldXFloat();
         this.handlePlayScreenBorders();
         this.handleObstacle();
-        this.getWorldXPixel();
 
         this.game.world.tiles.forEach(row => {
             row.forEach(tile => {
