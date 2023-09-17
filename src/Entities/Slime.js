@@ -11,14 +11,16 @@ const colors = [
 ]
 
 export default class Slime extends Entity {
-    constructor(game, x, y) {
-        super(game, x, y);
+    constructor(game, name, x, y) {
+        super(game, name);
 
         this.width = 36;
         this.height = 22;
 
-        this.x = this.calculateSpawnPointX();
-        this.y = this.calculateSpawnPointY();
+        const point = this.getCanvasPositionFromWorldPixelPosition(x, y);
+
+        this.x = point[0];
+        this.y = point[1];
 
         this.animation = new MobAnimation(this);
         this.animation.maxFrame = 7;

@@ -12,8 +12,8 @@ export default class Tile extends Entity {
      * @param {String} spriteId 
      * @param {Boolean} isimpassable
      */
-    constructor(game, worldX, worldY, spriteId = 'land') {
-        super(game, worldX, worldY);
+    constructor(game, spriteId, worldX, worldY) {
+        super(game, spriteId, worldX, worldY);
 
         this.isImpassable = this.getIsImpassanle(spriteId);
 
@@ -31,7 +31,7 @@ export default class Tile extends Entity {
 
     draw(context) {
         this.animation.draw(context);
-        context.fillText(`${this.spawnWorldX};${this.spawnWorldY}`, this.x + 2, this.y + 11);
+        context.fillText(`${this.getCenterTile().getWorldXPixel() / 48};${this.getCenterTile().getWorldYPixel() / 48}`, this.x + 2, this.y + 11);
     }
 
     setSprite(spriteId) {

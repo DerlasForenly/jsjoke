@@ -2,11 +2,10 @@ import Player from "./Player.js";
 import { PlayerAnimation } from "../Animation.js";
 
 export default class CurrentPlayer extends Player {
-    constructor(game, x, y, name) {
-        super(game, x, y, name);
+    constructor(game, name, x, y) {
+        super(game, name, x, y);
 
         this.animation = new PlayerAnimation(this);
-        //this.alingCamera();
     }
 
     update(input, deltaTime) {
@@ -85,7 +84,6 @@ export default class CurrentPlayer extends Player {
     }
 
     moveCamera() {
-        this.getCanvasPositionFromWorldPixelPosition(423, 56);
         this.handlePlayScreenBorders();
         this.handleObstacle();
 

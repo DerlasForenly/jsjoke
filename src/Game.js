@@ -17,7 +17,7 @@ export default class Game {
         this.height = height;
 
         this.world = new World(this, map);
-        this.player = new CurrentPlayer(this, playerData.worldX, playerData.worldY, "Hrysha");
+        this.player = new CurrentPlayer(this, "Hrysha", playerData.worldX, playerData.worldY);
         
         this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
@@ -69,7 +69,7 @@ export default class Game {
         entities.forEach(entity => {
             const classConstructor = classMapping[entity.class];
 
-            data.push(new classConstructor(this, entity.worldX, entity.worldY));
+            data.push(new classConstructor(this, 'Some', entity.worldX, entity.worldY));
         });
  
         return data;
@@ -81,8 +81,7 @@ export default class Game {
         for (const key in players) {
             if (players.hasOwnProperty(key)) {
                 const value = players[key];
-                const position = Entity.getCanvasPositionFromWorldPixelPosition(value.worldX, value.worldY)
-                data[key] = new Player(this, value.worldX, value.worldY, key);
+                data[key] = new Player(this, key, value.worldX, value.worldY);
             }
         }
  

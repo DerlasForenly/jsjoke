@@ -25,16 +25,16 @@ function sendMessage() {
 
 const players = {
     "player0": {
-        "worldXPixel": 423,
-        "worldYPixel": 56,
+        "worldX": 423,
+        "worldY": 56,
     },
     "player1": {
-        "worldXPixel": 423+48,
-        "worldYPixel": 56+58,
+        "worldX": 423+48,
+        "worldY": 56+58,
     },
     "player2": {
-        "worldXPixel": 423+48,
-        "worldYPixel": 56+98,
+        "worldX": 423+48,
+        "worldY": 56+98,
     },
 };
 

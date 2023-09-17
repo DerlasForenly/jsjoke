@@ -13,7 +13,7 @@ export default class World {
         this.tiles = new Array(this.worldXSize + 1).fill(null).map(() => new Array(this.worldYSize + 1).fill(null));
 
         tiles.forEach(item => {
-            this.tiles[item.worldX][item.worldY] = new Tile(this.game, item.worldX, item.worldY, item.spriteId);
+            this.tiles[item.worldX][item.worldY] = new Tile(this.game, item.spriteId, item.worldX, item.worldY);
         });
     }
 
