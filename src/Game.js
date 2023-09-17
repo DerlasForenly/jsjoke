@@ -5,6 +5,7 @@ import Rock from "./Rock.js";
 import MapEditor from "./MapEditor.js";
 import Slime from "./Slime.js";
 import { Map } from "./Map.js";
+import Tile from "./Tile.js";
 
 export default class Game {
     /**
@@ -22,7 +23,7 @@ export default class Game {
         this.mapEditor = new MapEditor(this.world);
 
         this.entities = this.loadEntities();
-        //this.world.tiles = this.loadWorld(Map);
+        this.world.tiles = this.loadWorld(Map);
     }
 
     /**
@@ -55,14 +56,15 @@ export default class Game {
     }
 
     loadWorld(tiles) {
-        // const maxX = Math.max(...Map.map(item => item.x));
-        // const maxY = Math.max(...Map.map(item => item.y));
+        const maxX = Math.max(...Map.map(item => item.worldX));
+        const maxY = Math.max(...Map.map(item => item.worldY));
 
-        // let twoDimArray = new Array(maxX + 1).fill(null).map(() => new Array(maxY + 1).fill(null));
+        let twoDimArray = new Array(maxX + 1).fill(null).map(() => new Array(maxY + 1).fill(null));
 
-        // // Populate the two-dimensional array based on the data
-        // data.forEach(item => {
-        //     twoDimArray[item.x][item.y] = item; // You can store the object or any value you want here
-        // });
+        Map.forEach(item => {
+            twoDimArray[item.worldX][item.worldY] = new Tile(this.world.game, item.worldX, item.worldY, item.spriteId); // You can store the object or any value you want here
+        });
+
+        return twoDimArray;
     }
 }

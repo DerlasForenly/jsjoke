@@ -2,7 +2,7 @@ export const Map = [
     {
       "worldX": 0,
       "worldY": 0,
-      "spriteId": "land"
+      "spriteId": "rockTile"
     },
     {
       "worldX": 0,
