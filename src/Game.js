@@ -2,8 +2,24 @@ import Player from "./Player.js";
 import InputHandler from "../src/InputHandler.js";
 import World from "./World.js";
 import MapEditor from "./MapEditor.js";
-import { Map } from "./Map.js";
+
 import { Entities, classMapping } from "./Entities.js";
+import CurrentPlayer from "./CurrentPlayer.js";
+
+const players = {
+    "player0": {
+        "worldX": 4,
+        "worldY": 4,
+    },
+    "player1": {
+        "worldX": 5,
+        "worldY": 4,
+    },
+    "player2": {
+        "worldX": 4,
+        "worldY": 5,
+    },
+};
 
 export default class Game {
     /**
@@ -11,15 +27,17 @@ export default class Game {
      * @param {Number} width 
      * @param {Number} height 
      */
-    constructor(width, height) {
+    constructor(width, height, map, playerData) {
         this.width = width;
         this.height = height;
 
-        this.world = new World(this, Map);
-        this.player = new Player(this, 6, 6);
+        this.world = new World(this, map);
+        this.player = new CurrentPlayer(this, playerData.worldX, playerData.worldY);
+        
         this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
 
+        this.players = this.loadPlayers(players);
         this.entities = this.loadEntities(Entities);
     }
 
@@ -33,6 +51,12 @@ export default class Game {
         this.entities.forEach(entity => {
             entity.draw(context);
         });
+        for (const key in this.players) {
+            if (this.players.hasOwnProperty(key)) {
+                const value = this.players[key];
+                value.draw(context);
+            }
+        }
         this.player.draw(context);
     }
 
@@ -46,6 +70,12 @@ export default class Game {
         this.entities.forEach(entity => {
             entity.update(deltaTime);
         });
+        for (const key in this.players) {
+            if (this.players.hasOwnProperty(key)) {
+                const value = this.players[key];
+                value.update(deltaTime);
+            }
+        }
     }
 
     loadEntities(entities) {
@@ -56,6 +86,20 @@ export default class Game {
 
             data.push(new classConstructor(this, entity.worldX, entity.worldY));
         });
+ 
+        return data;
+    }
+
+    loadPlayers(players) {
+        let data = {};
+
+        for (const key in players) {
+            if (players.hasOwnProperty(key)) {
+                const value = players[key];
+                console.log(key, value);
+                data[key] = new Player(this, value.worldX, value.worldY);
+            }
+        }
  
         return data;
     }

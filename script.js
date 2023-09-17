@@ -1,11 +1,7 @@
 import Game from "./src/Game.js";
+import { Map } from "./src/Map.js";
 
 const socket = new WebSocket('ws://localhost:8080');
-
-const canvasSizes = {
-    width: 624,
-    height: 624,
-}
 
 socket.addEventListener('open', (event) => {
     console.log('Connected to the server');
@@ -27,6 +23,11 @@ function sendMessage() {
     socket.send('Hello');
 }
 
+const playerData = {
+    "worldX": 6,
+    "worldY": 6,
+};
+
 window.addEventListener('load', function () {
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
@@ -34,7 +35,7 @@ window.addEventListener('load', function () {
     canvas.height = 624;
     canvas.width = 624;
 
-    const game = new Game(canvas.width, canvas.height);
+    const game = new Game(canvas.width, canvas.height, Map, playerData);
     let lastTime = 0;
 
     function animate(timeStamt = 0) {
