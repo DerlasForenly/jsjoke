@@ -25,22 +25,22 @@ function sendMessage() {
 
 const players = {
     "player0": {
-        "worldX": 4,
-        "worldY": 4,
+        "worldXPixel": 423,
+        "worldYPixel": 56,
     },
     "player1": {
-        "worldX": 5,
-        "worldY": 4,
+        "worldXPixel": 423+48,
+        "worldYPixel": 56+58,
     },
     "player2": {
-        "worldX": 4,
-        "worldY": 5,
+        "worldXPixel": 423+48,
+        "worldYPixel": 56+98,
     },
 };
 
 const playerData = {
-    "worldX": 6,
-    "worldY": 6,
+    "worldX": 6*48,
+    "worldY": 6*48,
 };
 
 window.addEventListener('load', function () {

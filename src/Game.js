@@ -81,6 +81,7 @@ export default class Game {
         for (const key in players) {
             if (players.hasOwnProperty(key)) {
                 const value = players[key];
+                const position = Entity.getCanvasPositionFromWorldPixelPosition(value.worldX, value.worldY)
                 data[key] = new Player(this, value.worldX, value.worldY, key);
             }
         }
@@ -90,7 +91,7 @@ export default class Game {
 
     updatePlayers(newPlayers) {
         delete newPlayers[this.player.name];
-        
+
         this.players = this.loadPlayers(newPlayers)
     }
 }

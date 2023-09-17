@@ -2,14 +2,16 @@ import { Standing } from "../playerStates.js";
 import { DIRECTIONS } from "../consts.js";
 
 export default class Entity {
-    constructor(game, worldX, worldY) {
+    constructor(game, x, y) {
         this.game = game;
 
         this.width = 0;
         this.height = 0;
 
-        this.spawnWorldX = worldX;
-        this.spawnWorldY = worldY;
+        const point = this.getCanvasPositionFromWorldPixelPosition(x, y);
+
+        this.x = point[0];
+        this.y = point[1];
 
         this.xSpeed = 0;
         this.ySpeed = 0;
@@ -131,19 +133,19 @@ export default class Entity {
      * 
      * @param {Number} x 
      */
-    getCanvasXFromWorldXPixel(x) {
+    getCanvasPositionFromWorldPixelPosition(x, y) {
         const referenceTile = this.game.world.tiles[0][0];
 
-        return  Math.abs(referenceTile.y) + this.y;
-    }
+        const offsetX = x % referenceTile.width;
+        const tileWorldX = (x - offsetX) / referenceTile.width;
 
-    /**
-     * 
-     * @param {Number} y 
-     */
-    getCanvasYFromWorldYPixel(y) {
-        const referenceTile = this.game.world.tiles[0][0];
+        const offsetY = y % referenceTile.height;
+        const tileWorldY = (y - offsetY) / referenceTile.height;
 
-        return  Math.abs(referenceTile.y) + this.y;
+        const tile = this.game.world.tiles[tileWorldX][tileWorldY];
+
+        console.log([tile.x + offsetX, tile.y + offsetY]);
+
+        return [tile.x + offsetX, tile.y + offsetY];
     }
 }

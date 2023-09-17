@@ -11,8 +11,8 @@ const colors = [
 ]
 
 export default class Slime extends Entity {
-    constructor(game, worldX, worldY) {
-        super(game, worldX, worldY);
+    constructor(game, x, y) {
+        super(game, x, y);
 
         this.width = 36;
         this.height = 22;
