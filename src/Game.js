@@ -62,7 +62,7 @@ export default class Game {
         let twoDimArray = new Array(maxX + 1).fill(null).map(() => new Array(maxY + 1).fill(null));
 
         Map.forEach(item => {
-            twoDimArray[item.worldX][item.worldY] = new Tile(this.world.game, item.worldX, item.worldY, item.spriteId); // You can store the object or any value you want here
+            twoDimArray[item.worldX][item.worldY] = new Tile(this.world.game, item.worldX, item.worldY, item.spriteId);
         });
 
         return twoDimArray;

@@ -48,12 +48,10 @@ export default class MapEditor {
 
         this.world.tiles.forEach(row => {
             row.forEach(tile => {
-                /**
-                * @var {Tile} tile
-                */
+                console.log(tile);
                 data.push({
-                    worldX: tile.worldX,
-                    worldY: tile.worldY,
+                    worldX: tile.spawnWorldX,
+                    worldY: tile.spawnWorldY,
                     spriteId: tile.spriteId,
                     isImpassable: tile.isImpassable
                 })
