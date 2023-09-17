@@ -1,11 +1,9 @@
 import Player from "./Player.js";
 import InputHandler from "../src/InputHandler.js";
 import World from "./World.js";
-import Rock from "./Rock.js";
 import MapEditor from "./MapEditor.js";
-import Slime from "./Slime.js";
 import { Map } from "./Map.js";
-import Tile from "./Tile.js";
+import { Entities, classMapping } from "./Entities.js";
 
 export default class Game {
     /**
@@ -22,7 +20,7 @@ export default class Game {
         this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
 
-        this.entities = this.loadEntities();
+        this.entities = this.loadEntities(Entities);
     }
 
     /**
@@ -51,6 +49,14 @@ export default class Game {
     }
 
     loadEntities(entities) {
-        return [new Rock(this, 7, 7), new Slime(this, 2, 2)];
+        let data = [];
+
+        entities.forEach(entity => {
+            const classConstructor = classMapping[entity.class];
+
+            data.push(new classConstructor(this, entity.worldX, entity.worldY));
+        });
+ 
+        return data;
     }
 }
