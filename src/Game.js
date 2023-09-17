@@ -87,4 +87,10 @@ export default class Game {
  
         return data;
     }
+
+    updatePlayers(newPlayers) {
+        delete newPlayers[this.player.name];
+        
+        this.players = this.loadPlayers(newPlayers)
+    }
 }

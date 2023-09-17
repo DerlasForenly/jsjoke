@@ -76,9 +76,9 @@ export default class CurrentPlayer extends Player {
         this.game.world.tiles.forEach(row => {
             row.forEach(tile => {
                 if (tile.x <= this.getCenterX() && tile.x + tile.width >= this.getCenterX() && tile.y <= this.getCenterY() && tile.y + tile.width >= this.getCenterY()) {
-                    //tile.setSprite('land_s');
+                    tile.setSprite('land_s');
                 } else if (tile.spriteId === 'land_s') {
-                    //tile.setSprite('land');
+                    tile.setSprite('land');
                 }
             })
         });
@@ -86,14 +86,14 @@ export default class CurrentPlayer extends Player {
 
     getWorldXPixel() {
         const referenceTile = this.game.world.tiles[0][0];
-
-        return this.x + referenceTile.x;
+        
+        return Math.abs(referenceTile.x) + this.x;
     }
 
     getWorldYPixel() {
         const referenceTile = this.game.world.tiles[0][0];
 
-        return this.y + referenceTile.y;
+        return  Math.abs(referenceTile.y) + this.y;
     }
 
     moveCamera() {
