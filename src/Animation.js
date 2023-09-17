@@ -1,6 +1,6 @@
-import Entity from "./Entity.js";
-import Player from "./Player.js";
-import Tile from "./Tile.js";
+import Entity from "./Entities/Entity.js";
+import Player from "./Entities/Player.js";
+import Tile from "./Entities/Tile.js";
 import { DIRECTIONS } from "./consts.js";
 import { Standing } from "./playerStates.js";
 

@@ -1,4 +1,4 @@
-import Tile from "./Tile.js";
+import Tile from "./Entities/Tile.js";
 
 export default class World {
     constructor(game, tiles = []) {

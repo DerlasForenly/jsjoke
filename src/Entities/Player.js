@@ -1,6 +1,6 @@
-import { DIRECTIONS } from "./consts.js";
+import { DIRECTIONS } from "../consts.js";
 import Entity from "./Entity.js";
-import { RemotePlayerAnimation } from "./Animation.js";
+import { RemotePlayerAnimation } from "../Animation.js";
 
 export default class Player extends Entity {
     constructor(game, worldX, worldY) {

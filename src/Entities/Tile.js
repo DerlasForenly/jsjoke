@@ -1,6 +1,6 @@
-import { TileAnimation } from "./Animation.js";
+import { TileAnimation } from "../Animation.js";
 import Entity from "./Entity.js";
-import { IMPASSABLE_TILES } from "./consts.js";
+import { IMPASSABLE_TILES } from "../consts.js";
 
 const TILE_SIZE = 48;
 

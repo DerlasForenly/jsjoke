@@ -1,10 +1,10 @@
-import Player from "./Player.js";
+import Player from "./Entities/Player.js";
 import InputHandler from "../src/InputHandler.js";
 import World from "./World.js";
 import MapEditor from "./MapEditor.js";
 
 import { Entities, classMapping } from "./Entities.js";
-import CurrentPlayer from "./CurrentPlayer.js";
+import CurrentPlayer from "./Entities/CurrentPlayer.js";
 
 const players = {
     "player0": {

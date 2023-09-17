@@ -1,4 +1,4 @@
-import { MobAnimation } from "./Animation.js";
+import { MobAnimation } from "../Animation.js";
 import Entity from "./Entity.js";
 
 const colors = [

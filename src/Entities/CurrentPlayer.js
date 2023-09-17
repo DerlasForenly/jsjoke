@@ -1,5 +1,5 @@
 import Player from "./Player.js";
-import { PlayerAnimation } from "./Animation.js";
+import { PlayerAnimation } from "../Animation.js";
 
 export default class CurrentPlayer extends Player {
     constructor(game, worldX, worldY) {

@@ -1,5 +1,4 @@
-import Slime from "./Slime.js";
-import Rock from "./Rock.js";
+import Slime from "./Entities/Slime.js";
 
 export const Entities = [
     {
@@ -36,5 +35,4 @@ export const Entities = [
 
 export const classMapping = {
     "Slime": Slime,
-    "Rock": Rock,
 };

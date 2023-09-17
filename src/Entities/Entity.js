@@ -1,5 +1,5 @@
-import { Standing } from "./playerStates.js";
-import { DIRECTIONS } from "./consts.js";
+import { Standing } from "../playerStates.js";
+import { DIRECTIONS } from "../consts.js";
 
 export default class Entity {
     constructor(game, worldX, worldY) {
