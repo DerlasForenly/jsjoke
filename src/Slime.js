@@ -3,6 +3,11 @@ import Entity from "./Entity.js";
 
 const colors = [
     'blue',
+    'green',
+    'ghost',
+    'ice',
+    'honey',
+    'pink',
 ]
 
 export default class Slime extends Entity {
@@ -18,7 +23,7 @@ export default class Slime extends Entity {
         this.animation = new MobAnimation(this);
         this.animation.maxFrame = 7;
 
-        this.image = document.getElementById(`slime_${colors[0]}`);
+        this.image = document.getElementById(`slime_${colors[Math.floor(Math.random() * 6)]}`);
     }
 
     update(deltaTime) {

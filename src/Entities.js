@@ -4,13 +4,33 @@ import Rock from "./Rock.js";
 export const Entities = [
     {
         "class": "Slime",
-        "worldX": 2,
-        "worldY": 2,
+        "worldX": Math.floor(Math.random() * 10),
+        "worldY": Math.floor(Math.random() * 10),
     },
     {
         "class": "Slime",
-        "worldX": 4,
-        "worldY": 5,
+        "worldX": Math.floor(Math.random() * 10),
+        "worldY": Math.floor(Math.random() * 10),
+    },
+    {
+        "class": "Slime",
+        "worldX": Math.floor(Math.random() * 10),
+        "worldY": Math.floor(Math.random() * 10),
+    },
+    {
+        "class": "Slime",
+        "worldX": Math.floor(Math.random() * 10),
+        "worldY": Math.floor(Math.random() * 10),
+    },
+    {
+        "class": "Slime",
+        "worldX": Math.floor(Math.random() * 10),
+        "worldY": Math.floor(Math.random() * 10),
+    },
+    {
+        "class": "Slime",
+        "worldX": Math.floor(Math.random() * 10),
+        "worldY": Math.floor(Math.random() * 10),
     },
 ]
 
