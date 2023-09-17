@@ -15,7 +15,7 @@ export default class Tile extends Entity {
     constructor(game, worldX, worldY, spriteId = 'land') {
         super(game, worldX, worldY);
 
-        this.isimpassable = this.getIsImpassanle(spriteId);
+        this.isImpassable = this.getIsImpassanle(spriteId);
 
         this.width = TILE_SIZE;
         this.height = TILE_SIZE;
