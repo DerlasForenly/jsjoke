@@ -17,13 +17,12 @@ export default class Game {
         this.width = width;
         this.height = height;
 
-        this.world = new World(this, 60, 60);
+        this.world = new World(this, Map);
         this.player = new Player(this, 6, 6);
         this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
 
         this.entities = this.loadEntities();
-        this.world.tiles = this.loadWorld(Map);
     }
 
     /**
@@ -53,18 +52,5 @@ export default class Game {
 
     loadEntities(entities) {
         return [new Rock(this, 7, 7), new Slime(this, 2, 2)];
-    }
-
-    loadWorld(tiles) {
-        const maxX = Math.max(...Map.map(item => item.worldX));
-        const maxY = Math.max(...Map.map(item => item.worldY));
-
-        let twoDimArray = new Array(maxX + 1).fill(null).map(() => new Array(maxY + 1).fill(null));
-
-        Map.forEach(item => {
-            twoDimArray[item.worldX][item.worldY] = new Tile(this.world.game, item.worldX, item.worldY, item.spriteId);
-        });
-
-        return twoDimArray;
     }
 }
