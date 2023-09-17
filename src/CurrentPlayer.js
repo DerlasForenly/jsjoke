@@ -5,9 +5,7 @@ export default class CurrentPlayer extends Player {
     constructor(game, worldX, worldY) {
         super(game, worldX, worldY);
 
-        this.image = document.getElementById('player');
         this.animation = new PlayerAnimation(this);
-
         //this.alingCamera();
     }
 

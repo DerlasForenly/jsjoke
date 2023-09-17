@@ -1,6 +1,6 @@
 import { DIRECTIONS } from "./consts.js";
 import Entity from "./Entity.js";
-import { PlayerAnimation } from "./Animation.js";
+import { MobAnimation } from "./Animation.js";
 
 export default class Player extends Entity {
     constructor(game, worldX, worldY) {
@@ -21,7 +21,7 @@ export default class Player extends Entity {
         this.movePlayerY = false;
 
         this.image = document.getElementById('player');
-        this.animation = new PlayerAnimation(this);
+        this.animation = new MobAnimation(this);
     }
 
     update(deltaTime) {
