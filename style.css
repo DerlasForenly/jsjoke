@@ -14,12 +14,12 @@
     max-height: 100%;
 }
 
-#player, #land, #rock, #spark, #slime, #rockTile, #land_s {
+img {
     display: none;
 }
 
 body {
-    background-image: url('Assets/0eEi69.png'); /* Replace 'background.jpg' with your image file path */
+    background-image: url('Assets/background.png'); /* Replace 'background.jpg' with your image file path */
     background-size: cover; /* This ensures the image covers the entire viewport */
     background-repeat: no-repeat; /* Prevents the image from repeating */
     background-attachment: fixed; /* Fixes the background position */

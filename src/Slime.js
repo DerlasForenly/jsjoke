@@ -1,6 +1,9 @@
 import { MobAnimation } from "./Animation.js";
 import Entity from "./Entity.js";
-import Tile from "./Tile.js";
+
+const colors = [
+    'blue',
+]
 
 export default class Slime extends Entity {
     constructor(game, worldX, worldY) {
@@ -15,7 +18,7 @@ export default class Slime extends Entity {
         this.animation = new MobAnimation(this);
         this.animation.maxFrame = 7;
 
-        this.image = document.getElementById('slime');
+        this.image = document.getElementById(`slime_${colors[0]}`);
     }
 
     update(deltaTime) {
