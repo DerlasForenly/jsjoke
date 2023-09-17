@@ -1,6 +1,6 @@
 import { DIRECTIONS } from "./consts.js";
 import Entity from "./Entity.js";
-import { MobAnimation } from "./Animation.js";
+import { RemotePlayerAnimation } from "./Animation.js";
 
 export default class Player extends Entity {
     constructor(game, worldX, worldY) {
@@ -21,7 +21,7 @@ export default class Player extends Entity {
         this.movePlayerY = false;
 
         this.image = document.getElementById('player');
-        this.animation = new MobAnimation(this);
+        this.animation = new RemotePlayerAnimation(this);
     }
 
     update(deltaTime) {

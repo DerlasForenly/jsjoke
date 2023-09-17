@@ -137,8 +137,6 @@ export class PlayerAnimation extends Animation {
      */
     constructor(entity) {
         super(entity);
-
-        
     }
 
     /**
@@ -175,6 +173,57 @@ export class PlayerAnimation extends Animation {
             this.entity.height, 
             this.entity.x, 
             this.entity.y, 
+            this.entity.width, 
+            this.entity.height
+        );
+    }
+}
+
+export class RemotePlayerAnimation extends Animation {
+    /**
+     * 
+     * @param {Player} entity 
+     */
+    constructor(entity) {
+        super(entity);
+    }
+
+    /**
+     * 
+     * @param {CanvasRenderingContext2D} context 
+     */
+    draw(context) {
+        this.entity.updateDirection();
+
+        switch (this.entity.direction) {
+            case DIRECTIONS.W:
+                this.frameY = 2;
+                break;
+            case DIRECTIONS.E:
+                this.frameY = 1;
+                break;
+            case DIRECTIONS.S:
+                this.frameY = 3;
+                break;
+            case DIRECTIONS.N:
+                this.frameY = 0;
+                break;
+        }
+
+        if (this.entity.currentState instanceof Standing) {
+            this.frameY = 5;
+        }
+
+        const referenceTile = this.entity.game.world.tiles[0][0];
+
+        context.drawImage(
+            this.entity.image,
+            this.frameX * this.entity.width, 
+            this.frameY * this.entity.height, 
+            this.entity.width, 
+            this.entity.height, 
+            this.entity.x + referenceTile.x, 
+            this.entity.y + referenceTile.y, 
             this.entity.width, 
             this.entity.height
         );
