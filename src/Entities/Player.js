@@ -3,8 +3,10 @@ import Entity from "./Entity.js";
 import { RemotePlayerAnimation } from "../Animation.js";
 
 export default class Player extends Entity {
-    constructor(game, worldX, worldY) {
+    constructor(game, worldX, worldY, name) {
         super(game, worldX, worldY);
+
+        this.name = name;
 
         this.direction = DIRECTIONS.S;
 

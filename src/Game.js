@@ -6,33 +6,18 @@ import MapEditor from "./MapEditor.js";
 import { Entities, classMapping } from "./Entities.js";
 import CurrentPlayer from "./Entities/CurrentPlayer.js";
 
-const players = {
-    "player0": {
-        "worldX": 4,
-        "worldY": 4,
-    },
-    "player1": {
-        "worldX": 5,
-        "worldY": 4,
-    },
-    "player2": {
-        "worldX": 4,
-        "worldY": 5,
-    },
-};
-
 export default class Game {
     /**
      * 
      * @param {Number} width 
      * @param {Number} height 
      */
-    constructor(width, height, map, playerData) {
+    constructor(width, height, map, playerData, players) {
         this.width = width;
         this.height = height;
 
         this.world = new World(this, map);
-        this.player = new CurrentPlayer(this, playerData.worldX, playerData.worldY);
+        this.player = new CurrentPlayer(this, playerData.worldX, playerData.worldY, "Hrysha");
         
         this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
@@ -96,8 +81,7 @@ export default class Game {
         for (const key in players) {
             if (players.hasOwnProperty(key)) {
                 const value = players[key];
-                console.log(key, value);
-                data[key] = new Player(this, value.worldX, value.worldY);
+                data[key] = new Player(this, value.worldX, value.worldY, key);
             }
         }
  

@@ -23,6 +23,21 @@ function sendMessage() {
     socket.send('Hello');
 }
 
+const players = {
+    "player0": {
+        "worldX": 4,
+        "worldY": 4,
+    },
+    "player1": {
+        "worldX": 5,
+        "worldY": 4,
+    },
+    "player2": {
+        "worldX": 4,
+        "worldY": 5,
+    },
+};
+
 const playerData = {
     "worldX": 6,
     "worldY": 6,
@@ -35,7 +50,7 @@ window.addEventListener('load', function () {
     canvas.height = 624;
     canvas.width = 624;
 
-    const game = new Game(canvas.width, canvas.height, Map, playerData);
+    const game = new Game(canvas.width, canvas.height, Map, playerData, players);
     let lastTime = 0;
 
     function animate(timeStamt = 0) {

@@ -2,8 +2,8 @@ import Player from "./Player.js";
 import { PlayerAnimation } from "../Animation.js";
 
 export default class CurrentPlayer extends Player {
-    constructor(game, worldX, worldY) {
-        super(game, worldX, worldY);
+    constructor(game, worldX, worldY, name) {
+        super(game, worldX, worldY, name);
 
         this.animation = new PlayerAnimation(this);
         //this.alingCamera();
@@ -76,17 +76,30 @@ export default class CurrentPlayer extends Player {
         this.game.world.tiles.forEach(row => {
             row.forEach(tile => {
                 if (tile.x <= this.getCenterX() && tile.x + tile.width >= this.getCenterX() && tile.y <= this.getCenterY() && tile.y + tile.width >= this.getCenterY()) {
-                    tile.setSprite('land_s');
+                    //tile.setSprite('land_s');
                 } else if (tile.spriteId === 'land_s') {
-                    tile.setSprite('land');
+                    //tile.setSprite('land');
                 }
             })
         });
     }
 
+    getWorldXPixel() {
+        const referenceTile = this.game.world.tiles[0][0];
+
+        return this.x + referenceTile.x;
+    }
+
+    getWorldYPixel() {
+        const referenceTile = this.game.world.tiles[0][0];
+
+        return this.y + referenceTile.y;
+    }
+
     moveCamera() {
         this.handlePlayScreenBorders();
         this.handleObstacle();
+        this.getWorldXPixel();
 
         this.game.world.tiles.forEach(row => {
             row.forEach(tile => {
