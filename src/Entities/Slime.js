@@ -11,11 +11,14 @@ const colors = [
 ]
 
 export default class Slime extends Entity {
+    static width = 36;
+    static height = 22;
+    
     constructor(game, name, x, y) {
         super(game, name);
 
-        this.width = 36;
-        this.height = 22;
+        this.width = Slime.width;
+        this.height = Slime.height;
 
         const point = this.getCanvasPositionFromWorldPixelPosition(x, y);
 

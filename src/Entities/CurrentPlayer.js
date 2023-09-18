@@ -72,15 +72,7 @@ export default class CurrentPlayer extends Player {
     }
 
     handleObstacle() {
-        this.game.world.tiles.forEach(row => {
-            row.forEach(tile => {
-                if (tile.x <= this.getCenterX() && tile.x + tile.width >= this.getCenterX() && tile.y <= this.getCenterY() && tile.y + tile.width >= this.getCenterY()) {
-                    tile.setSprite('land_s');
-                } else if (tile.spriteId === 'land_s') {
-                    tile.setSprite('land');
-                }
-            })
-        });
+        this.getCenterTile().setSprite('land_s');
     }
 
     moveCamera() {
@@ -88,7 +80,7 @@ export default class CurrentPlayer extends Player {
         this.handleObstacle();
 
         const upperLeft = this.game.world.referenceTile;
-        const lowerRight = this.game.world.tiles[60][60];
+        const lowerRight = this.game.world.tiles[this.game.world.worldXSize][this.game.world.worldYSize];
 
         if (upperLeft.x === 0 && this.xSpeed > 0) {
             this.movePlayerX = true;
