@@ -80,29 +80,25 @@ export default class Entity {
     }
 
     getWorldXPixel() {
-        const referenceTile = this.game.world.tiles[0][0];
+        const referenceTile = this.game.world.referenceTile;
         
         return Math.abs(referenceTile.x) + this.x;
     }
 
     getWorldYPixel() {
-        const referenceTile = this.game.world.tiles[0][0];
+        const referenceTile = this.game.world.referenceTile;
 
         return Math.abs(referenceTile.y) + this.y;
     }
 
     getCenterTile() {
-        let centerTile = null;
+        const centerX = this.getWorldXPixel() + this.width / 2;
+        const centerY = this.getWorldYPixel() + this.height / 2;
 
-        this.game.world.tiles.forEach(row => {
-            row.forEach(tile => {
-                if (tile.x <= this.getCenterX() && tile.x + tile.width >= this.getCenterX() && tile.y <= this.getCenterY() && tile.y + tile.width >= this.getCenterY()) {
-                    centerTile = tile;
-                }
-            })
-        });
+        const tileIndexX = (centerX - (centerX % 48)) / 48;
+        const tileIndexY = (centerY - (centerY % 48)) / 48;
 
-        return centerTile;
+        return this.game.world.tiles[tileIndexX][tileIndexY]
     }
 
     /**
@@ -110,7 +106,7 @@ export default class Entity {
      * @param {Number} x 
      */
     getCanvasPositionFromWorldPixelPosition(x, y) {
-        const referenceTile = this.game.world.tiles[0][0];
+        const referenceTile = this.game.world.referenceTile;
 
         const offsetX = x % referenceTile.width;
         const tileWorldX = (x - offsetX) / referenceTile.width;
@@ -121,5 +117,14 @@ export default class Entity {
         const tile = this.game.world.tiles[tileWorldX][tileWorldY];
 
         return [tile.x + offsetX, tile.y + offsetY];
+    }
+
+    convertWorldXToCanvasX(x) {
+        const referenceTile = this.game.world.referenceTile;
+
+        const offsetX = x % referenceTile.width;
+        const tileWorldX = (x - offsetX);
+
+        console.log(tileWorldX);
     }
 }

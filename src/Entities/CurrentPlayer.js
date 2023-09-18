@@ -87,23 +87,21 @@ export default class CurrentPlayer extends Player {
         this.handlePlayScreenBorders();
         this.handleObstacle();
 
-        this.game.world.tiles.forEach(row => {
-            row.forEach(tile => {
-                if (tile.spawnWorldX === 0 && tile.x >= 0 && this.xSpeed > 0) {
-                    this.movePlayerX = true;
-                }
-                if (tile.spawnWorldX === this.game.world.worldXSize && tile.x <= this.game.width && this.xSpeed < 0) {
-                    this.movePlayerX = true;
-                }
+        const upperLeft = this.game.world.referenceTile;
+        const lowerRight = this.game.world.tiles[60][60];
 
-                if (tile.spawnWorldY === 0 && tile.y >= 0 && this.ySpeed > 0) {
-                    this.movePlayerY = true;
-                }
-                if (tile.spawnWorldY === this.game.world.worldYSize && tile.y <= this.game.height && this.ySpeed < 0) {
-                    this.movePlayerY = true;
-                }
-            });
-        });
+        if (upperLeft.x === 0 && this.xSpeed > 0) {
+            this.movePlayerX = true;
+        }
+        if (lowerRight.x === this.game.width && this.xSpeed < 0) {
+            this.movePlayerX = true;
+        }
+        if (upperLeft.y === 0 && this.ySpeed > 0) {
+            this.movePlayerY = true;
+        }
+        if (lowerRight.y === this.game.height && this.ySpeed < 0) {
+            this.movePlayerY = true;
+        }
 
         if (this.movePlayerX) {
             this.x += -this.xSpeed;

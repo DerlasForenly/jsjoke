@@ -15,6 +15,8 @@ export default class World {
         tiles.forEach(item => {
             this.tiles[item.worldX][item.worldY] = new Tile(this.game, item.spriteId, item.worldX, item.worldY);
         });
+
+        this.referenceTile = this.tiles[0][0];
     }
 
     draw(context) {
