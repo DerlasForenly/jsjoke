@@ -211,10 +211,6 @@ export default class Entity {
         const upperLeft = this.getUpperLeftTile();
         const upperRight = this.getUpperRightTile();
 
-        if (this.indexY - 1 < 0) {
-            return [];
-        }
-
         const nextUpperLeft = this.game.world.tiles[upperLeft.indexX][upperLeft.indexY - 1];
         const nextUpperRight = this.game.world.tiles[upperRight.indexX][upperRight.indexY - 1];
         
@@ -225,10 +221,6 @@ export default class Entity {
         //create logic for many tiles between left and right
         const lowerLeft = this.getLowerLeftTile();
         const lowerRight = this.getLowerRightTile();
-
-        if (this.indexY + 1 >= this.game.world.worldYSize) {
-            return [];
-        }
 
         const nextLowerLeft = this.game.world.tiles[lowerLeft.indexX][lowerLeft.indexY + 1];
         const nextLowerRight = this.game.world.tiles[lowerRight.indexX][lowerRight.indexY + 1];
@@ -241,8 +233,8 @@ export default class Entity {
         const upperLeft = this.getUpperLeftTile();
         const lowerLeft = this.getLowerLeftTile();
 
-        if (this.indexX - 1 < 0) {
-            return [];
+        if (upperLeft.indexX < 0 || lowerLeft.indexY < 0) {
+            console.log('man');
         }
 
         const nextUpperLeft = this.game.world.tiles[upperLeft.indexX - 1][upperLeft.indexY];
@@ -255,10 +247,6 @@ export default class Entity {
         //create logic for many tiles between left and right
         const upperRight = this.getUpperRightTile();
         const lowerRight = this.getLowerRightTile();
-
-        if (this.indexX + 1 >= this.game.world.worldXSize) {
-            return [];
-        }
 
         const nextUpperRight = this.game.world.tiles[upperRight.indexX + 1][upperRight.indexY];
         const nextLowerRight = this.game.world.tiles[lowerRight.indexX + 1][lowerRight.indexY];
