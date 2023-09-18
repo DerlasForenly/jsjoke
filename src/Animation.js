@@ -148,16 +148,16 @@ export class PlayerAnimation extends Animation {
 
         switch (this.entity.direction) {
             case DIRECTIONS.W:
-                this.frameY = 2;
-                break;
-            case DIRECTIONS.E:
                 this.frameY = 1;
                 break;
+            case DIRECTIONS.E:
+                this.frameY = 2;
+                break;
             case DIRECTIONS.S:
-                this.frameY = 3;
+                this.frameY = 0;
                 break;
             case DIRECTIONS.N:
-                this.frameY = 0;
+                this.frameY = 3;
                 break;
         }
 
@@ -197,16 +197,16 @@ export class RemotePlayerAnimation extends Animation {
 
         switch (this.entity.direction) {
             case DIRECTIONS.W:
-                this.frameY = 2;
-                break;
-            case DIRECTIONS.E:
                 this.frameY = 1;
                 break;
+            case DIRECTIONS.E:
+                this.frameY = 2;
+                break;
             case DIRECTIONS.S:
-                this.frameY = 3;
+                this.frameY = 0;
                 break;
             case DIRECTIONS.N:
-                this.frameY = 0;
+                this.frameY = 3;
                 break;
         }
 

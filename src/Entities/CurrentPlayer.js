@@ -1,11 +1,14 @@
 import Player from "./Player.js";
 import { PlayerAnimation } from "../Animation.js";
+import { DIRECTIONS } from "../consts.js";
 
 export default class CurrentPlayer extends Player {
-    constructor(game, name, x, y) {
-        super(game, name, x, y);
+    constructor(game, name, worldX, worldY) {
+        super(game, name, worldX, worldY);
 
         this.animation = new PlayerAnimation(this);
+
+        //this.alingCamera();
     }
 
     update(input, deltaTime) {
@@ -72,7 +75,40 @@ export default class CurrentPlayer extends Player {
     }
 
     handleObstacle() {
-        this.getCenterTile().setSprite('land_s');
+        if (this.xSpeed > 0) {
+            const leftTiles = this.getLeftTiles();
+            leftTiles.forEach(tile => {
+                if (tile.isImpassable && tile.getWorldXPixel() + tile.width === this.getWorldXPixel()) {
+                    this.xSpeed = 0;
+                }
+            });
+
+        }
+        if (this.xSpeed < 0) {
+            const rightTiles = this.getRightTiles();
+            rightTiles.forEach(tile => {
+                if (tile.isImpassable && tile.getWorldXPixel() === this.getWorldXPixel() + this.width) {
+                    this.xSpeed = 0;
+                }
+            });
+        }
+
+        if (this.ySpeed < 0) {
+            const lowerTiles = this.getLowerTiles();
+            lowerTiles.forEach(tile => {
+                if (tile.isImpassable && tile.getWorldYPixel() === this.getWorldYPixel() + this.height) {
+                    this.ySpeed = 0;
+                }
+            });
+        }
+        if (this.ySpeed > 0) {
+            const upperTiles = this.getUpperTiles();
+            upperTiles.forEach(tile => {
+                if (tile.isImpassable && tile.getWorldYPixel() + tile.height === this.getWorldYPixel()) {
+                    this.ySpeed = 0;
+                }
+            });
+        }
     }
 
     moveCamera() {
