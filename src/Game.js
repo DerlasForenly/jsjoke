@@ -8,17 +8,17 @@ import CurrentPlayer from "./Entities/CurrentPlayer.js";
 
 export default class Game {
     /**
-     * 
-     * @param {Number} width 
-     * @param {Number} height 
+     *
+     * @param {Number} width
+     * @param {Number} height
      */
     constructor(width, height, map, playerData, players) {
         this.width = width;
         this.height = height;
 
         this.world = new World(this, map);
-        this.player = new CurrentPlayer(this, "Hrysha", playerData.worldX, playerData.worldY);
-        
+        this.player = new CurrentPlayer(this, playerData.name, playerData.worldX, playerData.worldY);
+
         this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
 
@@ -28,8 +28,8 @@ export default class Game {
 
     /**
      * Draw all game elements
-     * 
-     * @param {CanvasRenderingContext2D} context 
+     *
+     * @param {CanvasRenderingContext2D} context
      */
     draw(context) {
         this.world.draw(context);
@@ -47,8 +47,8 @@ export default class Game {
 
     /**
      * Update game elements before render
-     * 
-     * @param {Number} deltaTime 
+     *
+     * @param {Number} deltaTime
      */
     update(deltaTime) {
         this.player.update(this.inputHandler.keys, deltaTime);
@@ -71,7 +71,7 @@ export default class Game {
 
             data.push(new classConstructor(this, 'Some', entity.worldX, entity.worldY));
         });
- 
+
         return data;
     }
 
@@ -84,7 +84,7 @@ export default class Game {
                 data[key] = new Player(this, key, value.worldX, value.worldY);
             }
         }
- 
+
         return data;
     }
 
