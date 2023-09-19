@@ -29,4 +29,19 @@ export default class Player extends Entity {
     update(deltaTime) {
         this.animation.animate(deltaTime);
     }
+
+    draw(context) {
+        this.animation.draw(context)
+
+        context.font = '11px Arial';
+        context.fillStyle = 'white';
+
+        const nameWidth = context.measureText(this.name).width;
+        const offsetX = (nameWidth - this.width) / 2
+
+        context.fillText(this.name, this.x - offsetX, this.y - 3);
+
+        context.font = '10px Arial';
+        context.fillStyle = 'black';
+    }
 }

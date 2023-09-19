@@ -17,7 +17,7 @@ window.addEventListener('load', async function () {
 
     const socket = io(SERVER_URL);
 
-    const playerName = Math.random().toString(16).slice(2, 8);
+    const playerName = Math.random().toString(16).slice(2, 10);
     let { player, players, world } = await socket.emitWithAck('init', {
         playerName,
     });
@@ -47,7 +47,6 @@ window.addEventListener('load', async function () {
     }
 
     setInterval(() => {
-        console.log(game.player.currentState.state);
         socket.emit('client-tick', {
             worldX: game.player.getWorldXPixel(),
             worldY: game.player.getWorldYPixel(),

@@ -22,6 +22,7 @@ export default class Game {
         this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
 
+        this.players = {};
         this.players = this.loadPlayers(players);
         this.entities = this.loadEntities(Entities);
     }
@@ -81,7 +82,10 @@ export default class Game {
         for (const key in players) {
             if (players.hasOwnProperty(key)) {
                 const value = players[key];
-                data[key] = new Player(this, key, value.worldX, value.worldY);
+
+                data[key] = !this.players.key ? new Player(this, key, value.worldX, value.worldY) : this.players.key;
+                data[key].worldX = value.worldX;
+                data[key].worldY = value.worldY;
                 data[key].animation.frameX = value.frameX;
                 data[key].direction = value.direction;
                 data[key].setStateWithId(value.currentState);
