@@ -1,12 +1,16 @@
 import Player from "./Player.js";
 import { PlayerAnimation } from "../Animation.js";
 import { DIRECTIONS } from "../consts.js";
+import { Standing } from "../playerStates.js";
 
 export default class CurrentPlayer extends Player {
     constructor(game, name, worldX, worldY) {
         super(game, name, worldX, worldY);
 
         this.animation = new PlayerAnimation(this);
+
+        this.currentState = new Standing(this);
+        this.currentState.enter();
 
         //this.alingCamera();
     }

@@ -47,12 +47,15 @@ window.addEventListener('load', async function () {
     }
 
     setInterval(() => {
+        console.log(game.player.currentState.state);
         socket.emit('client-tick', {
             worldX: game.player.getWorldXPixel(),
             worldY: game.player.getWorldYPixel(),
             direction: game.player.direction,
+            frameX: game.player.animation.frameX,
+            currentState: game.player.currentState.state,
         });
-    }, 1000 / 30);
+    }, 3);
 
     animate();
 });

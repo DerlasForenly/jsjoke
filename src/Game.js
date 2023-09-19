@@ -55,12 +55,12 @@ export default class Game {
         this.entities.forEach(entity => {
             entity.update(deltaTime);
         });
-        for (const key in this.players) {
-            if (this.players.hasOwnProperty(key)) {
-                const value = this.players[key];
-                value.update(deltaTime);
-            }
-        }
+        // for (const key in this.players) {
+        //     if (this.players.hasOwnProperty(key)) {
+        //         const value = this.players[key];
+        //         value.update(deltaTime);
+        //     }
+        // }
     }
 
     loadEntities(entities) {
@@ -82,6 +82,9 @@ export default class Game {
             if (players.hasOwnProperty(key)) {
                 const value = players[key];
                 data[key] = new Player(this, key, value.worldX, value.worldY);
+                data[key].animation.frameX = value.frameX;
+                data[key].direction = value.direction;
+                data[key].setStateWithId(value.currentState);
             }
         }
 

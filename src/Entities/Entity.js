@@ -1,5 +1,5 @@
-import { Standing } from "../playerStates.js";
-import { DIRECTIONS } from "../consts.js";
+import { DIRECTIONS, PLAYER_STATES } from "../consts.js";
+import { Moving, Standing } from "../playerStates.js";
 
 export default class Entity {
     constructor(game, name) {
@@ -14,8 +14,7 @@ export default class Entity {
         this.maxXSpeed = 0;
         this.maxYSpeed = 0;
 
-        this.currentState = new Standing(this);
-        this.currentState.enter();
+        this.currentState = null;
     }
 
     draw(context) {;
@@ -57,26 +56,28 @@ export default class Entity {
         this.currentState.enter();
     }
 
+    setStateWithId(stateId) {
+        switch (stateId) {
+            case PLAYER_STATES.STANDING: 
+                this.currentState = new Standing(this);
+                break;
+            case PLAYER_STATES.MOVING: 
+                this.currentState = new Moving(this);
+                break;
+            default:
+                this.currentState = new Standing(this);
+                break;
+        }
+
+        this.currentState.enter();
+    }
+
     getCenterX() {
         return this.x + (this.width / 2);
     }
 
     getCenterY() {
         return this.y + (this.height / 2);
-    }
-
-    getWorldXFloat() {
-        const tile = this.getCenterTile();
-        const offset = (tile.x - this.x) * -1;
-
-        return tile.spawnWorldX + offset / tile.width;
-    }
-
-    getWorldYFloat() {
-        const tile = this.getCenterTile();
-        const offset = (tile.y - this.y) * -1;
-
-        return tile.spawnWorldY + offset / tile.height;
     }
 
     getWorldXPixel() {
