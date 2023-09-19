@@ -78,7 +78,7 @@ export default class CurrentPlayer extends Player {
         if (this.xSpeed > 0) {
             const leftTiles = this.getLeftTiles();
             leftTiles.forEach(tile => {
-                if (tile.isImpassable && tile.getWorldXPixel() + tile.width === this.getWorldXPixel()) {
+                if (tile?.isImpassable && tile.getWorldXPixel() + tile.width === this.getWorldXPixel()) {
                     this.xSpeed = 0;
                 }
             });
@@ -87,7 +87,7 @@ export default class CurrentPlayer extends Player {
         if (this.xSpeed < 0) {
             const rightTiles = this.getRightTiles();
             rightTiles.forEach(tile => {
-                if (tile.isImpassable && tile.getWorldXPixel() === this.getWorldXPixel() + this.width) {
+                if (tile?.isImpassable && tile.getWorldXPixel() === this.getWorldXPixel() + this.width) {
                     this.xSpeed = 0;
                 }
             });
@@ -96,7 +96,7 @@ export default class CurrentPlayer extends Player {
         if (this.ySpeed < 0) {
             const lowerTiles = this.getLowerTiles();
             lowerTiles.forEach(tile => {
-                if (tile.isImpassable && tile.getWorldYPixel() === this.getWorldYPixel() + this.height) {
+                if (tile?.isImpassable && tile.getWorldYPixel() === this.getWorldYPixel() + this.height) {
                     this.ySpeed = 0;
                 }
             });
@@ -104,7 +104,7 @@ export default class CurrentPlayer extends Player {
         if (this.ySpeed > 0) {
             const upperTiles = this.getUpperTiles();
             upperTiles.forEach(tile => {
-                if (tile.isImpassable && tile.getWorldYPixel() + tile.height === this.getWorldYPixel()) {
+                if (tile?.isImpassable && tile.getWorldYPixel() + tile.height === this.getWorldYPixel()) {
                     this.ySpeed = 0;
                 }
             });

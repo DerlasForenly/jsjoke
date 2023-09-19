@@ -25,7 +25,7 @@ export default class MapEditor {
                 data = JSON.parse(fileContent);
 
                 data.forEach(item => {
-                    world.tiles[item.worldX][item.worldY] = new Tile(world.game, item.worldX, item.worldY, item.spriteId);
+                    world.tiles[item.indexX][item.indexY] = new Tile(world.game, item.indexX, item.indexY, item.spriteId);
                 });
             };
 
@@ -48,10 +48,9 @@ export default class MapEditor {
 
         this.world.tiles.forEach(row => {
             row.forEach(tile => {
-                console.log(tile);
                 data.push({
-                    worldX: tile.spawnWorldX,
-                    worldY: tile.spawnWorldY,
+                    indexX: tile.indexX,
+                    indexY: tile.indexY,
                     spriteId: tile.spriteId,
                     isImpassable: tile.isImpassable
                 })

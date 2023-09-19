@@ -1,22327 +1,22327 @@
 export const Map = [
   {
-    "worldX": 0,
-    "worldY": 0,
+    "indexX": 0,
+    "indexY": 0,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 0,
-    "worldY": 1,
+    "indexX": 0,
+    "indexY": 1,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 0,
-    "worldY": 2,
+    "indexX": 0,
+    "indexY": 2,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 0,
-    "worldY": 3,
+    "indexX": 0,
+    "indexY": 3,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 0,
-    "worldY": 4,
+    "indexX": 0,
+    "indexY": 4,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 0,
-    "worldY": 5,
+    "indexX": 0,
+    "indexY": 5,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 0,
+    "indexY": 6,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 0,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 6,
+    "indexX": 0,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 7,
+    "indexX": 0,
+    "indexY": 9,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 0,
+    "indexY": 10,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 0,
+    "indexY": 11,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 0,
+    "indexY": 12,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 0,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 8,
+    "indexX": 0,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 9,
+    "indexX": 0,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 10,
+    "indexX": 0,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 11,
+    "indexX": 0,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 12,
+    "indexX": 0,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 13,
+    "indexX": 0,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 14,
+    "indexX": 0,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 15,
+    "indexX": 0,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 16,
+    "indexX": 0,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 17,
+    "indexX": 0,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 18,
+    "indexX": 0,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 19,
+    "indexX": 0,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 20,
+    "indexX": 0,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 21,
+    "indexX": 0,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 22,
+    "indexX": 0,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 23,
+    "indexX": 0,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 24,
+    "indexX": 0,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 25,
+    "indexX": 0,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 26,
+    "indexX": 0,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 27,
+    "indexX": 0,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 28,
+    "indexX": 0,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 29,
+    "indexX": 0,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 30,
+    "indexX": 0,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 31,
+    "indexX": 0,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 32,
+    "indexX": 0,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 33,
+    "indexX": 0,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 34,
+    "indexX": 0,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 35,
+    "indexX": 0,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 36,
+    "indexX": 0,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 37,
+    "indexX": 0,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 38,
+    "indexX": 0,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 39,
+    "indexX": 0,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 40,
+    "indexX": 0,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 41,
+    "indexX": 0,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 42,
+    "indexX": 0,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 43,
+    "indexX": 0,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 44,
+    "indexX": 0,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 45,
+    "indexX": 0,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 46,
+    "indexX": 0,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 47,
+    "indexX": 0,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 48,
+    "indexX": 0,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 49,
+    "indexX": 0,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 50,
+    "indexX": 0,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 51,
+    "indexX": 0,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 52,
+    "indexX": 0,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 53,
+    "indexX": 0,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 54,
+    "indexX": 0,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 0,
-    "worldY": 55,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 0,
-    "worldY": 56,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 0,
-    "worldY": 57,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 0,
-    "worldY": 58,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 0,
-    "worldY": 59,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 0,
-    "worldY": 60,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 1,
-    "worldY": 0,
+    "indexX": 1,
+    "indexY": 0,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 1,
-    "worldY": 1,
+    "indexX": 1,
+    "indexY": 1,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 1,
-    "worldY": 2,
+    "indexX": 1,
+    "indexY": 2,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 1,
-    "worldY": 3,
+    "indexX": 1,
+    "indexY": 3,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 1,
-    "worldY": 4,
+    "indexX": 1,
+    "indexY": 4,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 1,
+    "indexY": 5,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 1,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 5,
+    "indexX": 1,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 6,
+    "indexX": 1,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 7,
+    "indexX": 1,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 8,
+    "indexX": 1,
+    "indexY": 10,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 1,
+    "indexY": 11,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 1,
+    "indexY": 12,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 1,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 9,
+    "indexX": 1,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 10,
+    "indexX": 1,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 11,
+    "indexX": 1,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 12,
+    "indexX": 1,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 13,
+    "indexX": 1,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 14,
+    "indexX": 1,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 15,
+    "indexX": 1,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 16,
+    "indexX": 1,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 17,
+    "indexX": 1,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 18,
+    "indexX": 1,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 19,
+    "indexX": 1,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 20,
+    "indexX": 1,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 21,
+    "indexX": 1,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 22,
+    "indexX": 1,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 23,
+    "indexX": 1,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 24,
+    "indexX": 1,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 25,
+    "indexX": 1,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 26,
+    "indexX": 1,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 27,
+    "indexX": 1,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 28,
+    "indexX": 1,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 29,
+    "indexX": 1,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 30,
+    "indexX": 1,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 31,
+    "indexX": 1,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 32,
+    "indexX": 1,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 33,
+    "indexX": 1,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 34,
+    "indexX": 1,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 35,
+    "indexX": 1,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 36,
+    "indexX": 1,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 37,
+    "indexX": 1,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 38,
+    "indexX": 1,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 39,
+    "indexX": 1,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 40,
+    "indexX": 1,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 41,
+    "indexX": 1,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 42,
+    "indexX": 1,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 43,
+    "indexX": 1,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 44,
+    "indexX": 1,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 45,
+    "indexX": 1,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 46,
+    "indexX": 1,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 47,
+    "indexX": 1,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 48,
+    "indexX": 1,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 49,
+    "indexX": 1,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 50,
+    "indexX": 1,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 51,
+    "indexX": 1,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 52,
+    "indexX": 1,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 53,
+    "indexX": 1,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 54,
+    "indexX": 1,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 55,
+    "indexX": 1,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 1,
-    "worldY": 56,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 1,
-    "worldY": 57,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 1,
-    "worldY": 58,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 1,
-    "worldY": 59,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 1,
-    "worldY": 60,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 2,
-    "worldY": 0,
+    "indexX": 2,
+    "indexY": 0,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 2,
-    "worldY": 1,
+    "indexX": 2,
+    "indexY": 1,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 2,
-    "worldY": 2,
+    "indexX": 2,
+    "indexY": 2,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 2,
+    "indexY": 3,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 2,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 3,
+    "indexX": 2,
+    "indexY": 5,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 2,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 4,
+    "indexX": 2,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 5,
+    "indexX": 2,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 6,
+    "indexX": 2,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 7,
+    "indexX": 2,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 8,
+    "indexX": 2,
+    "indexY": 11,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 2,
+    "indexY": 12,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 2,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 9,
+    "indexX": 2,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 10,
+    "indexX": 2,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 11,
+    "indexX": 2,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 12,
+    "indexX": 2,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 13,
+    "indexX": 2,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 14,
+    "indexX": 2,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 15,
+    "indexX": 2,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 16,
+    "indexX": 2,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 17,
+    "indexX": 2,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 18,
+    "indexX": 2,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 19,
+    "indexX": 2,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 20,
+    "indexX": 2,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 21,
+    "indexX": 2,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 22,
+    "indexX": 2,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 23,
+    "indexX": 2,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 24,
+    "indexX": 2,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 25,
+    "indexX": 2,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 26,
+    "indexX": 2,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 27,
+    "indexX": 2,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 28,
+    "indexX": 2,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 29,
+    "indexX": 2,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 30,
+    "indexX": 2,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 31,
+    "indexX": 2,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 32,
+    "indexX": 2,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 33,
+    "indexX": 2,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 34,
+    "indexX": 2,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 35,
+    "indexX": 2,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 36,
+    "indexX": 2,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 37,
+    "indexX": 2,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 38,
+    "indexX": 2,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 39,
+    "indexX": 2,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 40,
+    "indexX": 2,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 41,
+    "indexX": 2,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 42,
+    "indexX": 2,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 43,
+    "indexX": 2,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 44,
+    "indexX": 2,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 45,
+    "indexX": 2,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 46,
+    "indexX": 2,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 47,
+    "indexX": 2,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 48,
+    "indexX": 2,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 49,
+    "indexX": 2,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 50,
+    "indexX": 2,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 51,
+    "indexX": 2,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 52,
+    "indexX": 2,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 53,
+    "indexX": 2,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 54,
+    "indexX": 2,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 55,
+    "indexX": 2,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 2,
-    "worldY": 56,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 2,
-    "worldY": 57,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 2,
-    "worldY": 58,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 2,
-    "worldY": 59,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 2,
-    "worldY": 60,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 3,
-    "worldY": 0,
+    "indexX": 3,
+    "indexY": 0,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 3,
-    "worldY": 1,
+    "indexX": 3,
+    "indexY": 1,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 3,
-    "worldY": 2,
+    "indexX": 3,
+    "indexY": 2,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 3,
-    "worldY": 3,
+    "indexX": 3,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 4,
+    "indexX": 3,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 5,
+    "indexX": 3,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 6,
+    "indexX": 3,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 7,
+    "indexX": 3,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 8,
+    "indexX": 3,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 9,
+    "indexX": 3,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 10,
+    "indexX": 3,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 11,
+    "indexX": 3,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 12,
+    "indexX": 3,
+    "indexY": 12,
+    "spriteId": "rockTile",
+    "isImpassable": false
+  },
+  {
+    "indexX": 3,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 13,
+    "indexX": 3,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 14,
+    "indexX": 3,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 15,
+    "indexX": 3,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 16,
+    "indexX": 3,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 17,
+    "indexX": 3,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 18,
+    "indexX": 3,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 19,
+    "indexX": 3,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 20,
+    "indexX": 3,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 21,
+    "indexX": 3,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 22,
+    "indexX": 3,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 23,
+    "indexX": 3,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 24,
+    "indexX": 3,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 25,
+    "indexX": 3,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 26,
+    "indexX": 3,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 27,
+    "indexX": 3,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 28,
+    "indexX": 3,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 29,
+    "indexX": 3,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 30,
+    "indexX": 3,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 31,
+    "indexX": 3,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 32,
+    "indexX": 3,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 33,
+    "indexX": 3,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 34,
+    "indexX": 3,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 35,
+    "indexX": 3,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 36,
+    "indexX": 3,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 37,
+    "indexX": 3,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 38,
+    "indexX": 3,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 39,
+    "indexX": 3,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 40,
+    "indexX": 3,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 41,
+    "indexX": 3,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 42,
+    "indexX": 3,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 43,
+    "indexX": 3,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 44,
+    "indexX": 3,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 45,
+    "indexX": 3,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 46,
+    "indexX": 3,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 47,
+    "indexX": 3,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 48,
+    "indexX": 3,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 49,
+    "indexX": 3,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 50,
+    "indexX": 3,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 51,
+    "indexX": 3,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 52,
+    "indexX": 3,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 53,
+    "indexX": 3,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 54,
+    "indexX": 3,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 55,
+    "indexX": 3,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 56,
+    "indexX": 3,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 57,
+    "indexX": 3,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 58,
+    "indexX": 3,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 59,
+    "indexX": 3,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 3,
-    "worldY": 60,
-    "spriteId": "land",
-    "isImpassable": false
-  },
-  {
-    "worldX": 4,
-    "worldY": 0,
+    "indexX": 4,
+    "indexY": 0,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 4,
-    "worldY": 1,
+    "indexX": 4,
+    "indexY": 1,
     "spriteId": "rockTile",
     "isImpassable": true
   },
   {
-    "worldX": 4,
-    "worldY": 2,
-    "spriteId": "land",
+    "indexX": 4,
+    "indexY": 2,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 3,
-    "spriteId": "land",
+    "indexX": 4,
+    "indexY": 3,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 4,
+    "indexX": 4,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 5,
+    "indexX": 4,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 6,
+    "indexX": 4,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 7,
+    "indexX": 4,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 8,
+    "indexX": 4,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 9,
+    "indexX": 4,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 10,
+    "indexX": 4,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 11,
+    "indexX": 4,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 12,
-    "spriteId": "land",
+    "indexX": 4,
+    "indexY": 12,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 13,
+    "indexX": 4,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 14,
+    "indexX": 4,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 15,
+    "indexX": 4,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 16,
+    "indexX": 4,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 17,
+    "indexX": 4,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 18,
+    "indexX": 4,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 19,
+    "indexX": 4,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 20,
+    "indexX": 4,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 21,
+    "indexX": 4,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 22,
+    "indexX": 4,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 23,
+    "indexX": 4,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 24,
+    "indexX": 4,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 25,
+    "indexX": 4,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 26,
+    "indexX": 4,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 27,
+    "indexX": 4,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 28,
+    "indexX": 4,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 29,
+    "indexX": 4,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 30,
+    "indexX": 4,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 31,
+    "indexX": 4,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 32,
+    "indexX": 4,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 33,
+    "indexX": 4,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 34,
+    "indexX": 4,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 35,
+    "indexX": 4,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 36,
+    "indexX": 4,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 37,
+    "indexX": 4,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 38,
+    "indexX": 4,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 39,
+    "indexX": 4,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 40,
+    "indexX": 4,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 41,
+    "indexX": 4,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 42,
+    "indexX": 4,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 43,
+    "indexX": 4,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 44,
+    "indexX": 4,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 45,
+    "indexX": 4,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 46,
+    "indexX": 4,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 47,
+    "indexX": 4,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 48,
+    "indexX": 4,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 49,
+    "indexX": 4,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 50,
+    "indexX": 4,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 51,
+    "indexX": 4,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 52,
+    "indexX": 4,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 53,
+    "indexX": 4,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 54,
+    "indexX": 4,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 55,
+    "indexX": 4,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 56,
+    "indexX": 4,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 57,
+    "indexX": 4,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 58,
+    "indexX": 4,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 59,
+    "indexX": 4,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 4,
-    "worldY": 60,
+    "indexX": 4,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 0,
-    "spriteId": "land",
+    "indexX": 5,
+    "indexY": 0,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 1,
-    "spriteId": "land",
+    "indexX": 5,
+    "indexY": 1,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 2,
+    "indexX": 5,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 3,
+    "indexX": 5,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 4,
+    "indexX": 5,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 5,
+    "indexX": 5,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 6,
+    "indexX": 5,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 7,
+    "indexX": 5,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 8,
+    "indexX": 5,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 9,
+    "indexX": 5,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 10,
+    "indexX": 5,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 11,
-    "spriteId": "land",
+    "indexX": 5,
+    "indexY": 11,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 12,
-    "spriteId": "land",
+    "indexX": 5,
+    "indexY": 12,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 13,
+    "indexX": 5,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 14,
+    "indexX": 5,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 15,
+    "indexX": 5,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 16,
+    "indexX": 5,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 17,
+    "indexX": 5,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 18,
+    "indexX": 5,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 19,
+    "indexX": 5,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 20,
+    "indexX": 5,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 21,
+    "indexX": 5,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 22,
+    "indexX": 5,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 23,
+    "indexX": 5,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 24,
+    "indexX": 5,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 25,
+    "indexX": 5,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 26,
+    "indexX": 5,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 27,
+    "indexX": 5,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 28,
+    "indexX": 5,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 29,
+    "indexX": 5,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 30,
+    "indexX": 5,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 31,
+    "indexX": 5,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 32,
+    "indexX": 5,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 33,
+    "indexX": 5,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 34,
+    "indexX": 5,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 35,
+    "indexX": 5,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 36,
+    "indexX": 5,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 37,
+    "indexX": 5,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 38,
+    "indexX": 5,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 39,
+    "indexX": 5,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 40,
+    "indexX": 5,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 41,
+    "indexX": 5,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 42,
+    "indexX": 5,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 43,
+    "indexX": 5,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 44,
+    "indexX": 5,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 45,
+    "indexX": 5,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 46,
+    "indexX": 5,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 47,
+    "indexX": 5,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 48,
+    "indexX": 5,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 49,
+    "indexX": 5,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 50,
+    "indexX": 5,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 51,
+    "indexX": 5,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 52,
+    "indexX": 5,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 53,
+    "indexX": 5,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 54,
+    "indexX": 5,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 55,
+    "indexX": 5,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 56,
+    "indexX": 5,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 57,
+    "indexX": 5,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 58,
+    "indexX": 5,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 59,
+    "indexX": 5,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 5,
-    "worldY": 60,
+    "indexX": 5,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 0,
-    "spriteId": "land",
+    "indexX": 6,
+    "indexY": 0,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 1,
-    "spriteId": "land",
+    "indexX": 6,
+    "indexY": 1,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 2,
+    "indexX": 6,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 3,
+    "indexX": 6,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 4,
+    "indexX": 6,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 5,
+    "indexX": 6,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 6,
+    "indexX": 6,
+    "indexY": 6,
     "spriteId": "land_s",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 7,
+    "indexX": 6,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 8,
+    "indexX": 6,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 9,
+    "indexX": 6,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 10,
-    "spriteId": "land",
+    "indexX": 6,
+    "indexY": 10,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 11,
-    "spriteId": "land",
+    "indexX": 6,
+    "indexY": 11,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 12,
-    "spriteId": "land",
+    "indexX": 6,
+    "indexY": 12,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 13,
+    "indexX": 6,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 14,
+    "indexX": 6,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 15,
+    "indexX": 6,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 16,
+    "indexX": 6,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 17,
+    "indexX": 6,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 18,
+    "indexX": 6,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 19,
+    "indexX": 6,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 20,
+    "indexX": 6,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 21,
+    "indexX": 6,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 22,
+    "indexX": 6,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 23,
+    "indexX": 6,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 24,
+    "indexX": 6,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 25,
+    "indexX": 6,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 26,
+    "indexX": 6,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 27,
+    "indexX": 6,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 28,
+    "indexX": 6,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 29,
+    "indexX": 6,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 30,
+    "indexX": 6,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 31,
+    "indexX": 6,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 32,
+    "indexX": 6,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 33,
+    "indexX": 6,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 34,
+    "indexX": 6,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 35,
+    "indexX": 6,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 36,
+    "indexX": 6,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 37,
+    "indexX": 6,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 38,
+    "indexX": 6,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 39,
+    "indexX": 6,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 40,
+    "indexX": 6,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 41,
+    "indexX": 6,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 42,
+    "indexX": 6,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 43,
+    "indexX": 6,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 44,
+    "indexX": 6,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 45,
+    "indexX": 6,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 46,
+    "indexX": 6,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 47,
+    "indexX": 6,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 48,
+    "indexX": 6,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 49,
+    "indexX": 6,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 50,
+    "indexX": 6,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 51,
+    "indexX": 6,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 52,
+    "indexX": 6,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 53,
+    "indexX": 6,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 54,
+    "indexX": 6,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 55,
+    "indexX": 6,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 56,
+    "indexX": 6,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 57,
+    "indexX": 6,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 58,
+    "indexX": 6,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 59,
+    "indexX": 6,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 6,
-    "worldY": 60,
+    "indexX": 6,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 0,
+    "indexX": 7,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 1,
+    "indexX": 7,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 2,
+    "indexX": 7,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 3,
+    "indexX": 7,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 4,
+    "indexX": 7,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 5,
+    "indexX": 7,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 6,
+    "indexX": 7,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 7,
+    "indexX": 7,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 8,
+    "indexX": 7,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 9,
+    "indexX": 7,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 10,
+    "indexX": 7,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 11,
+    "indexX": 7,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 12,
-    "spriteId": "land",
+    "indexX": 7,
+    "indexY": 12,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 13,
+    "indexX": 7,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 14,
+    "indexX": 7,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 15,
+    "indexX": 7,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 16,
+    "indexX": 7,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 17,
+    "indexX": 7,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 18,
+    "indexX": 7,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 19,
+    "indexX": 7,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 20,
+    "indexX": 7,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 21,
+    "indexX": 7,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 22,
+    "indexX": 7,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 23,
+    "indexX": 7,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 24,
+    "indexX": 7,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 25,
+    "indexX": 7,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 26,
+    "indexX": 7,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 27,
+    "indexX": 7,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 28,
+    "indexX": 7,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 29,
+    "indexX": 7,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 30,
+    "indexX": 7,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 31,
+    "indexX": 7,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 32,
+    "indexX": 7,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 33,
+    "indexX": 7,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 34,
+    "indexX": 7,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 35,
+    "indexX": 7,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 36,
+    "indexX": 7,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 37,
+    "indexX": 7,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 38,
+    "indexX": 7,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 39,
+    "indexX": 7,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 40,
+    "indexX": 7,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 41,
+    "indexX": 7,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 42,
+    "indexX": 7,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 43,
+    "indexX": 7,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 44,
+    "indexX": 7,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 45,
+    "indexX": 7,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 46,
+    "indexX": 7,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 47,
+    "indexX": 7,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 48,
+    "indexX": 7,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 49,
+    "indexX": 7,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 50,
+    "indexX": 7,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 51,
+    "indexX": 7,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 52,
+    "indexX": 7,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 53,
+    "indexX": 7,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 54,
+    "indexX": 7,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 55,
+    "indexX": 7,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 56,
+    "indexX": 7,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 57,
+    "indexX": 7,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 58,
+    "indexX": 7,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 59,
+    "indexX": 7,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 7,
-    "worldY": 60,
+    "indexX": 7,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 0,
+    "indexX": 8,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 1,
+    "indexX": 8,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 2,
+    "indexX": 8,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 3,
+    "indexX": 8,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 4,
+    "indexX": 8,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 5,
-    "spriteId": "land",
+    "indexX": 8,
+    "indexY": 5,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 6,
-    "spriteId": "land",
+    "indexX": 8,
+    "indexY": 6,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 7,
-    "spriteId": "land",
+    "indexX": 8,
+    "indexY": 7,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 8,
+    "indexX": 8,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 9,
+    "indexX": 8,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 10,
+    "indexX": 8,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 11,
+    "indexX": 8,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 12,
+    "indexX": 8,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 13,
+    "indexX": 8,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 14,
+    "indexX": 8,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 15,
+    "indexX": 8,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 16,
+    "indexX": 8,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 17,
+    "indexX": 8,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 18,
+    "indexX": 8,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 19,
+    "indexX": 8,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 20,
+    "indexX": 8,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 21,
+    "indexX": 8,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 22,
+    "indexX": 8,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 23,
+    "indexX": 8,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 24,
+    "indexX": 8,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 25,
+    "indexX": 8,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 26,
+    "indexX": 8,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 27,
+    "indexX": 8,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 28,
+    "indexX": 8,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 29,
+    "indexX": 8,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 30,
+    "indexX": 8,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 31,
+    "indexX": 8,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 32,
+    "indexX": 8,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 33,
+    "indexX": 8,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 34,
+    "indexX": 8,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 35,
+    "indexX": 8,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 36,
+    "indexX": 8,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 37,
+    "indexX": 8,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 38,
+    "indexX": 8,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 39,
+    "indexX": 8,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 40,
+    "indexX": 8,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 41,
+    "indexX": 8,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 42,
+    "indexX": 8,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 43,
+    "indexX": 8,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 44,
+    "indexX": 8,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 45,
+    "indexX": 8,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 46,
+    "indexX": 8,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 47,
+    "indexX": 8,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 48,
+    "indexX": 8,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 49,
+    "indexX": 8,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 50,
+    "indexX": 8,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 51,
+    "indexX": 8,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 52,
+    "indexX": 8,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 53,
+    "indexX": 8,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 54,
+    "indexX": 8,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 55,
+    "indexX": 8,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 56,
+    "indexX": 8,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 57,
+    "indexX": 8,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 58,
+    "indexX": 8,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 59,
+    "indexX": 8,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 8,
-    "worldY": 60,
+    "indexX": 8,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 0,
+    "indexX": 9,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 1,
+    "indexX": 9,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 2,
+    "indexX": 9,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 3,
+    "indexX": 9,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 4,
+    "indexX": 9,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 5,
-    "spriteId": "land",
+    "indexX": 9,
+    "indexY": 5,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 6,
+    "indexX": 9,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 7,
+    "indexX": 9,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 8,
+    "indexX": 9,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 9,
+    "indexX": 9,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 10,
+    "indexX": 9,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 11,
+    "indexX": 9,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 12,
+    "indexX": 9,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 13,
+    "indexX": 9,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 14,
+    "indexX": 9,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 15,
+    "indexX": 9,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 16,
+    "indexX": 9,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 17,
+    "indexX": 9,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 18,
+    "indexX": 9,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 19,
+    "indexX": 9,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 20,
+    "indexX": 9,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 21,
+    "indexX": 9,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 22,
+    "indexX": 9,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 23,
+    "indexX": 9,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 24,
+    "indexX": 9,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 25,
+    "indexX": 9,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 26,
+    "indexX": 9,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 27,
+    "indexX": 9,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 28,
+    "indexX": 9,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 29,
+    "indexX": 9,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 30,
+    "indexX": 9,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 31,
+    "indexX": 9,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 32,
+    "indexX": 9,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 33,
+    "indexX": 9,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 34,
+    "indexX": 9,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 35,
+    "indexX": 9,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 36,
+    "indexX": 9,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 37,
+    "indexX": 9,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 38,
+    "indexX": 9,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 39,
+    "indexX": 9,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 40,
+    "indexX": 9,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 41,
+    "indexX": 9,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 42,
+    "indexX": 9,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 43,
+    "indexX": 9,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 44,
+    "indexX": 9,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 45,
+    "indexX": 9,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 46,
+    "indexX": 9,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 47,
+    "indexX": 9,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 48,
+    "indexX": 9,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 49,
+    "indexX": 9,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 50,
+    "indexX": 9,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 51,
+    "indexX": 9,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 52,
+    "indexX": 9,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 53,
+    "indexX": 9,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 54,
+    "indexX": 9,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 55,
+    "indexX": 9,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 56,
+    "indexX": 9,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 57,
+    "indexX": 9,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 58,
+    "indexX": 9,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 59,
+    "indexX": 9,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 9,
-    "worldY": 60,
+    "indexX": 9,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 0,
-    "spriteId": "land",
+    "indexX": 10,
+    "indexY": 0,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 1,
+    "indexX": 10,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 2,
+    "indexX": 10,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 3,
+    "indexX": 10,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 4,
+    "indexX": 10,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 5,
+    "indexX": 10,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 6,
+    "indexX": 10,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 7,
-    "spriteId": "land",
+    "indexX": 10,
+    "indexY": 7,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 8,
+    "indexX": 10,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 9,
+    "indexX": 10,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 10,
+    "indexX": 10,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 11,
+    "indexX": 10,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 12,
+    "indexX": 10,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 13,
+    "indexX": 10,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 14,
+    "indexX": 10,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 15,
+    "indexX": 10,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 16,
+    "indexX": 10,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 17,
+    "indexX": 10,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 18,
+    "indexX": 10,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 19,
+    "indexX": 10,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 20,
+    "indexX": 10,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 21,
+    "indexX": 10,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 22,
+    "indexX": 10,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 23,
+    "indexX": 10,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 24,
+    "indexX": 10,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 25,
+    "indexX": 10,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 26,
+    "indexX": 10,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 27,
+    "indexX": 10,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 28,
+    "indexX": 10,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 29,
+    "indexX": 10,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 30,
+    "indexX": 10,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 31,
+    "indexX": 10,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 32,
+    "indexX": 10,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 33,
+    "indexX": 10,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 34,
+    "indexX": 10,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 35,
+    "indexX": 10,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 36,
+    "indexX": 10,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 37,
+    "indexX": 10,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 38,
+    "indexX": 10,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 39,
+    "indexX": 10,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 40,
+    "indexX": 10,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 41,
+    "indexX": 10,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 42,
+    "indexX": 10,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 43,
+    "indexX": 10,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 44,
+    "indexX": 10,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 45,
+    "indexX": 10,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 46,
+    "indexX": 10,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 47,
+    "indexX": 10,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 48,
+    "indexX": 10,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 49,
+    "indexX": 10,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 50,
+    "indexX": 10,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 51,
+    "indexX": 10,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 52,
+    "indexX": 10,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 53,
+    "indexX": 10,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 54,
+    "indexX": 10,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 55,
+    "indexX": 10,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 56,
+    "indexX": 10,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 57,
+    "indexX": 10,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 58,
+    "indexX": 10,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 59,
+    "indexX": 10,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 10,
-    "worldY": 60,
+    "indexX": 10,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 0,
-    "spriteId": "land",
+    "indexX": 11,
+    "indexY": 0,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 1,
+    "indexX": 11,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 2,
+    "indexX": 11,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 3,
+    "indexX": 11,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 4,
+    "indexX": 11,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 5,
-    "spriteId": "land",
+    "indexX": 11,
+    "indexY": 5,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 6,
-    "spriteId": "land",
+    "indexX": 11,
+    "indexY": 6,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 7,
-    "spriteId": "land",
+    "indexX": 11,
+    "indexY": 7,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 8,
-    "spriteId": "land",
+    "indexX": 11,
+    "indexY": 8,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 9,
+    "indexX": 11,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 10,
+    "indexX": 11,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 11,
+    "indexX": 11,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 12,
+    "indexX": 11,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 13,
+    "indexX": 11,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 14,
+    "indexX": 11,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 15,
+    "indexX": 11,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 16,
+    "indexX": 11,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 17,
+    "indexX": 11,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 18,
+    "indexX": 11,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 19,
+    "indexX": 11,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 20,
+    "indexX": 11,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 21,
+    "indexX": 11,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 22,
+    "indexX": 11,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 23,
+    "indexX": 11,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 24,
+    "indexX": 11,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 25,
+    "indexX": 11,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 26,
+    "indexX": 11,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 27,
+    "indexX": 11,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 28,
+    "indexX": 11,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 29,
+    "indexX": 11,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 30,
+    "indexX": 11,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 31,
+    "indexX": 11,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 32,
+    "indexX": 11,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 33,
+    "indexX": 11,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 34,
+    "indexX": 11,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 35,
+    "indexX": 11,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 36,
+    "indexX": 11,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 37,
+    "indexX": 11,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 38,
+    "indexX": 11,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 39,
+    "indexX": 11,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 40,
+    "indexX": 11,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 41,
+    "indexX": 11,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 42,
+    "indexX": 11,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 43,
+    "indexX": 11,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 44,
+    "indexX": 11,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 45,
+    "indexX": 11,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 46,
+    "indexX": 11,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 47,
+    "indexX": 11,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 48,
+    "indexX": 11,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 49,
+    "indexX": 11,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 50,
+    "indexX": 11,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 51,
+    "indexX": 11,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 52,
+    "indexX": 11,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 53,
+    "indexX": 11,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 54,
+    "indexX": 11,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 55,
+    "indexX": 11,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 56,
+    "indexX": 11,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 57,
+    "indexX": 11,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 58,
+    "indexX": 11,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 59,
+    "indexX": 11,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 11,
-    "worldY": 60,
+    "indexX": 11,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 0,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 0,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 1,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 1,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 2,
+    "indexX": 12,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 3,
+    "indexX": 12,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 4,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 4,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 5,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 5,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 6,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 6,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 7,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 7,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 8,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 8,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 9,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 9,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 10,
-    "spriteId": "land",
+    "indexX": 12,
+    "indexY": 10,
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 11,
+    "indexX": 12,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 12,
+    "indexX": 12,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 13,
+    "indexX": 12,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 14,
+    "indexX": 12,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 15,
+    "indexX": 12,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 16,
+    "indexX": 12,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 17,
+    "indexX": 12,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 18,
+    "indexX": 12,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 19,
+    "indexX": 12,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 20,
+    "indexX": 12,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 21,
+    "indexX": 12,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 22,
+    "indexX": 12,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 23,
+    "indexX": 12,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 24,
+    "indexX": 12,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 25,
+    "indexX": 12,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 26,
+    "indexX": 12,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 27,
+    "indexX": 12,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 28,
+    "indexX": 12,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 29,
+    "indexX": 12,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 30,
+    "indexX": 12,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 31,
+    "indexX": 12,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 32,
+    "indexX": 12,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 33,
+    "indexX": 12,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 34,
+    "indexX": 12,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 35,
+    "indexX": 12,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 36,
+    "indexX": 12,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 37,
+    "indexX": 12,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 38,
+    "indexX": 12,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 39,
+    "indexX": 12,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 40,
+    "indexX": 12,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 41,
+    "indexX": 12,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 42,
+    "indexX": 12,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 43,
+    "indexX": 12,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 44,
+    "indexX": 12,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 45,
+    "indexX": 12,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 46,
+    "indexX": 12,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 47,
+    "indexX": 12,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 48,
+    "indexX": 12,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 49,
+    "indexX": 12,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 50,
+    "indexX": 12,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 51,
+    "indexX": 12,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 52,
+    "indexX": 12,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 53,
+    "indexX": 12,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 54,
+    "indexX": 12,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 55,
+    "indexX": 12,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 56,
+    "indexX": 12,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 57,
+    "indexX": 12,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 58,
+    "indexX": 12,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 59,
+    "indexX": 12,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 12,
-    "worldY": 60,
+    "indexX": 12,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 0,
+    "indexX": 13,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 1,
+    "indexX": 13,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 2,
+    "indexX": 13,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 3,
+    "indexX": 13,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 4,
+    "indexX": 13,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 5,
+    "indexX": 13,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 6,
+    "indexX": 13,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 7,
+    "indexX": 13,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 8,
+    "indexX": 13,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 9,
+    "indexX": 13,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 10,
+    "indexX": 13,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 11,
+    "indexX": 13,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 12,
+    "indexX": 13,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 13,
+    "indexX": 13,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 14,
+    "indexX": 13,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 15,
+    "indexX": 13,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 16,
+    "indexX": 13,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 17,
+    "indexX": 13,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 18,
+    "indexX": 13,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 19,
+    "indexX": 13,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 20,
+    "indexX": 13,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 21,
+    "indexX": 13,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 22,
+    "indexX": 13,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 23,
+    "indexX": 13,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 24,
+    "indexX": 13,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 25,
+    "indexX": 13,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 26,
+    "indexX": 13,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 27,
+    "indexX": 13,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 28,
+    "indexX": 13,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 29,
+    "indexX": 13,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 30,
+    "indexX": 13,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 31,
+    "indexX": 13,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 32,
+    "indexX": 13,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 33,
+    "indexX": 13,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 34,
+    "indexX": 13,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 35,
+    "indexX": 13,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 36,
+    "indexX": 13,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 37,
+    "indexX": 13,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 38,
+    "indexX": 13,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 39,
+    "indexX": 13,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 40,
+    "indexX": 13,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 41,
+    "indexX": 13,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 42,
+    "indexX": 13,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 43,
+    "indexX": 13,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 44,
+    "indexX": 13,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 45,
+    "indexX": 13,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 46,
+    "indexX": 13,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 47,
+    "indexX": 13,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 48,
+    "indexX": 13,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 49,
+    "indexX": 13,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 50,
+    "indexX": 13,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 51,
+    "indexX": 13,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 52,
+    "indexX": 13,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 53,
+    "indexX": 13,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 54,
+    "indexX": 13,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 55,
+    "indexX": 13,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 56,
+    "indexX": 13,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 57,
+    "indexX": 13,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 58,
+    "indexX": 13,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 59,
+    "indexX": 13,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 13,
-    "worldY": 60,
+    "indexX": 13,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 0,
+    "indexX": 14,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 1,
+    "indexX": 14,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 2,
+    "indexX": 14,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 3,
+    "indexX": 14,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 4,
+    "indexX": 14,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 5,
+    "indexX": 14,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 6,
+    "indexX": 14,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 7,
+    "indexX": 14,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 8,
+    "indexX": 14,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 9,
+    "indexX": 14,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 10,
+    "indexX": 14,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 11,
+    "indexX": 14,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 12,
+    "indexX": 14,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 13,
+    "indexX": 14,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 14,
+    "indexX": 14,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 15,
+    "indexX": 14,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 16,
+    "indexX": 14,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 17,
+    "indexX": 14,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 18,
+    "indexX": 14,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 19,
+    "indexX": 14,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 20,
+    "indexX": 14,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 21,
+    "indexX": 14,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 22,
+    "indexX": 14,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 23,
+    "indexX": 14,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 24,
+    "indexX": 14,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 25,
+    "indexX": 14,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 26,
+    "indexX": 14,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 27,
+    "indexX": 14,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 28,
+    "indexX": 14,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 29,
+    "indexX": 14,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 30,
+    "indexX": 14,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 31,
+    "indexX": 14,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 32,
+    "indexX": 14,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 33,
+    "indexX": 14,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 34,
+    "indexX": 14,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 35,
+    "indexX": 14,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 36,
+    "indexX": 14,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 37,
+    "indexX": 14,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 38,
+    "indexX": 14,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 39,
+    "indexX": 14,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 40,
+    "indexX": 14,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 41,
+    "indexX": 14,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 42,
+    "indexX": 14,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 43,
+    "indexX": 14,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 44,
+    "indexX": 14,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 45,
+    "indexX": 14,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 46,
+    "indexX": 14,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 47,
+    "indexX": 14,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 48,
+    "indexX": 14,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 49,
+    "indexX": 14,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 50,
+    "indexX": 14,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 51,
+    "indexX": 14,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 52,
+    "indexX": 14,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 53,
+    "indexX": 14,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 54,
+    "indexX": 14,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 55,
+    "indexX": 14,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 56,
+    "indexX": 14,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 57,
+    "indexX": 14,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 58,
+    "indexX": 14,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 59,
+    "indexX": 14,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 14,
-    "worldY": 60,
+    "indexX": 14,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 0,
+    "indexX": 15,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 1,
+    "indexX": 15,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 2,
+    "indexX": 15,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 3,
+    "indexX": 15,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 4,
+    "indexX": 15,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 5,
+    "indexX": 15,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 6,
+    "indexX": 15,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 7,
+    "indexX": 15,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 8,
+    "indexX": 15,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 9,
+    "indexX": 15,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 10,
+    "indexX": 15,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 11,
+    "indexX": 15,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 12,
+    "indexX": 15,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 13,
+    "indexX": 15,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 14,
+    "indexX": 15,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 15,
+    "indexX": 15,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 16,
+    "indexX": 15,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 17,
+    "indexX": 15,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 18,
+    "indexX": 15,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 19,
+    "indexX": 15,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 20,
+    "indexX": 15,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 21,
+    "indexX": 15,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 22,
+    "indexX": 15,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 23,
+    "indexX": 15,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 24,
+    "indexX": 15,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 25,
+    "indexX": 15,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 26,
+    "indexX": 15,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 27,
+    "indexX": 15,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 28,
+    "indexX": 15,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 29,
+    "indexX": 15,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 30,
+    "indexX": 15,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 31,
+    "indexX": 15,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 32,
+    "indexX": 15,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 33,
+    "indexX": 15,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 34,
+    "indexX": 15,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 35,
+    "indexX": 15,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 36,
+    "indexX": 15,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 37,
+    "indexX": 15,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 38,
+    "indexX": 15,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 39,
+    "indexX": 15,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 40,
+    "indexX": 15,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 41,
+    "indexX": 15,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 42,
+    "indexX": 15,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 43,
+    "indexX": 15,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 44,
+    "indexX": 15,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 45,
+    "indexX": 15,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 46,
+    "indexX": 15,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 47,
+    "indexX": 15,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 48,
+    "indexX": 15,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 49,
+    "indexX": 15,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 50,
+    "indexX": 15,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 51,
+    "indexX": 15,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 52,
+    "indexX": 15,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 53,
+    "indexX": 15,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 54,
+    "indexX": 15,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 55,
+    "indexX": 15,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 56,
+    "indexX": 15,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 57,
+    "indexX": 15,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 58,
+    "indexX": 15,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 59,
+    "indexX": 15,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 15,
-    "worldY": 60,
+    "indexX": 15,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 0,
+    "indexX": 16,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 1,
+    "indexX": 16,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 2,
+    "indexX": 16,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 3,
+    "indexX": 16,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 4,
+    "indexX": 16,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 5,
+    "indexX": 16,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 6,
+    "indexX": 16,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 7,
+    "indexX": 16,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 8,
+    "indexX": 16,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 9,
+    "indexX": 16,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 10,
+    "indexX": 16,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 11,
+    "indexX": 16,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 12,
+    "indexX": 16,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 13,
+    "indexX": 16,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 14,
+    "indexX": 16,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 15,
+    "indexX": 16,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 16,
+    "indexX": 16,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 17,
+    "indexX": 16,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 18,
+    "indexX": 16,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 19,
+    "indexX": 16,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 20,
+    "indexX": 16,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 21,
+    "indexX": 16,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 22,
+    "indexX": 16,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 23,
+    "indexX": 16,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 24,
+    "indexX": 16,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 25,
+    "indexX": 16,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 26,
+    "indexX": 16,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 27,
+    "indexX": 16,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 28,
+    "indexX": 16,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 29,
+    "indexX": 16,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 30,
+    "indexX": 16,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 31,
+    "indexX": 16,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 32,
+    "indexX": 16,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 33,
+    "indexX": 16,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 34,
+    "indexX": 16,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 35,
+    "indexX": 16,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 36,
+    "indexX": 16,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 37,
+    "indexX": 16,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 38,
+    "indexX": 16,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 39,
+    "indexX": 16,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 40,
+    "indexX": 16,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 41,
+    "indexX": 16,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 42,
+    "indexX": 16,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 43,
+    "indexX": 16,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 44,
+    "indexX": 16,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 45,
+    "indexX": 16,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 46,
+    "indexX": 16,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 47,
+    "indexX": 16,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 48,
+    "indexX": 16,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 49,
+    "indexX": 16,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 50,
+    "indexX": 16,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 51,
+    "indexX": 16,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 52,
+    "indexX": 16,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 53,
+    "indexX": 16,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 54,
+    "indexX": 16,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 55,
+    "indexX": 16,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 56,
+    "indexX": 16,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 57,
+    "indexX": 16,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 58,
+    "indexX": 16,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 59,
+    "indexX": 16,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 16,
-    "worldY": 60,
+    "indexX": 16,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 0,
+    "indexX": 17,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 1,
+    "indexX": 17,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 2,
+    "indexX": 17,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 3,
+    "indexX": 17,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 4,
+    "indexX": 17,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 5,
+    "indexX": 17,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 6,
+    "indexX": 17,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 7,
+    "indexX": 17,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 8,
+    "indexX": 17,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 9,
+    "indexX": 17,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 10,
+    "indexX": 17,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 11,
+    "indexX": 17,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 12,
+    "indexX": 17,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 13,
+    "indexX": 17,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 14,
+    "indexX": 17,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 15,
+    "indexX": 17,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 16,
+    "indexX": 17,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 17,
+    "indexX": 17,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 18,
+    "indexX": 17,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 19,
+    "indexX": 17,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 20,
+    "indexX": 17,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 21,
+    "indexX": 17,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 22,
+    "indexX": 17,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 23,
+    "indexX": 17,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 24,
+    "indexX": 17,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 25,
+    "indexX": 17,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 26,
+    "indexX": 17,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 27,
+    "indexX": 17,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 28,
+    "indexX": 17,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 29,
+    "indexX": 17,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 30,
+    "indexX": 17,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 31,
+    "indexX": 17,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 32,
+    "indexX": 17,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 33,
+    "indexX": 17,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 34,
+    "indexX": 17,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 35,
+    "indexX": 17,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 36,
+    "indexX": 17,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 37,
+    "indexX": 17,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 38,
+    "indexX": 17,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 39,
+    "indexX": 17,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 40,
+    "indexX": 17,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 41,
+    "indexX": 17,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 42,
+    "indexX": 17,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 43,
+    "indexX": 17,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 44,
+    "indexX": 17,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 45,
+    "indexX": 17,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 46,
+    "indexX": 17,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 47,
+    "indexX": 17,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 48,
+    "indexX": 17,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 49,
+    "indexX": 17,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 50,
+    "indexX": 17,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 51,
+    "indexX": 17,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 52,
+    "indexX": 17,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 53,
+    "indexX": 17,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 54,
+    "indexX": 17,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 55,
+    "indexX": 17,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 56,
+    "indexX": 17,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 57,
+    "indexX": 17,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 58,
+    "indexX": 17,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 59,
+    "indexX": 17,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 17,
-    "worldY": 60,
+    "indexX": 17,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 0,
+    "indexX": 18,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 1,
+    "indexX": 18,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 2,
+    "indexX": 18,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 3,
+    "indexX": 18,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 4,
+    "indexX": 18,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 5,
+    "indexX": 18,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 6,
+    "indexX": 18,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 7,
+    "indexX": 18,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 8,
+    "indexX": 18,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 9,
+    "indexX": 18,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 10,
+    "indexX": 18,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 11,
+    "indexX": 18,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 12,
+    "indexX": 18,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 13,
+    "indexX": 18,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 14,
+    "indexX": 18,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 15,
+    "indexX": 18,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 16,
+    "indexX": 18,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 17,
+    "indexX": 18,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 18,
+    "indexX": 18,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 19,
+    "indexX": 18,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 20,
+    "indexX": 18,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 21,
+    "indexX": 18,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 22,
+    "indexX": 18,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 23,
+    "indexX": 18,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 24,
+    "indexX": 18,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 25,
+    "indexX": 18,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 26,
+    "indexX": 18,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 27,
+    "indexX": 18,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 28,
+    "indexX": 18,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 29,
+    "indexX": 18,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 30,
+    "indexX": 18,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 31,
+    "indexX": 18,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 32,
+    "indexX": 18,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 33,
+    "indexX": 18,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 34,
+    "indexX": 18,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 35,
+    "indexX": 18,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 36,
+    "indexX": 18,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 37,
+    "indexX": 18,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 38,
+    "indexX": 18,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 39,
+    "indexX": 18,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 40,
+    "indexX": 18,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 41,
+    "indexX": 18,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 42,
+    "indexX": 18,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 43,
+    "indexX": 18,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 44,
+    "indexX": 18,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 45,
+    "indexX": 18,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 46,
+    "indexX": 18,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 47,
+    "indexX": 18,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 48,
+    "indexX": 18,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 49,
+    "indexX": 18,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 50,
+    "indexX": 18,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 51,
+    "indexX": 18,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 52,
+    "indexX": 18,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 53,
+    "indexX": 18,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 54,
+    "indexX": 18,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 55,
+    "indexX": 18,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 56,
+    "indexX": 18,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 57,
+    "indexX": 18,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 58,
+    "indexX": 18,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 59,
+    "indexX": 18,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 18,
-    "worldY": 60,
+    "indexX": 18,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 0,
+    "indexX": 19,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 1,
+    "indexX": 19,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 2,
+    "indexX": 19,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 3,
+    "indexX": 19,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 4,
+    "indexX": 19,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 5,
+    "indexX": 19,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 6,
+    "indexX": 19,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 7,
+    "indexX": 19,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 8,
+    "indexX": 19,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 9,
+    "indexX": 19,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 10,
+    "indexX": 19,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 11,
+    "indexX": 19,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 12,
+    "indexX": 19,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 13,
+    "indexX": 19,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 14,
+    "indexX": 19,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 15,
+    "indexX": 19,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 16,
+    "indexX": 19,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 17,
+    "indexX": 19,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 18,
+    "indexX": 19,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 19,
+    "indexX": 19,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 20,
+    "indexX": 19,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 21,
+    "indexX": 19,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 22,
+    "indexX": 19,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 23,
+    "indexX": 19,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 24,
+    "indexX": 19,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 25,
+    "indexX": 19,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 26,
+    "indexX": 19,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 27,
+    "indexX": 19,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 28,
+    "indexX": 19,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 29,
+    "indexX": 19,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 30,
+    "indexX": 19,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 31,
+    "indexX": 19,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 32,
+    "indexX": 19,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 33,
+    "indexX": 19,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 34,
+    "indexX": 19,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 35,
+    "indexX": 19,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 36,
+    "indexX": 19,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 37,
+    "indexX": 19,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 38,
+    "indexX": 19,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 39,
+    "indexX": 19,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 40,
+    "indexX": 19,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 41,
+    "indexX": 19,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 42,
+    "indexX": 19,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 43,
+    "indexX": 19,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 44,
+    "indexX": 19,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 45,
+    "indexX": 19,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 46,
+    "indexX": 19,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 47,
+    "indexX": 19,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 48,
+    "indexX": 19,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 49,
+    "indexX": 19,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 50,
+    "indexX": 19,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 51,
+    "indexX": 19,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 52,
+    "indexX": 19,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 53,
+    "indexX": 19,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 54,
+    "indexX": 19,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 55,
+    "indexX": 19,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 56,
+    "indexX": 19,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 57,
+    "indexX": 19,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 58,
+    "indexX": 19,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 59,
+    "indexX": 19,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 19,
-    "worldY": 60,
+    "indexX": 19,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 0,
+    "indexX": 20,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 1,
+    "indexX": 20,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 2,
+    "indexX": 20,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 3,
+    "indexX": 20,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 4,
+    "indexX": 20,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 5,
+    "indexX": 20,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 6,
+    "indexX": 20,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 7,
+    "indexX": 20,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 8,
+    "indexX": 20,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 9,
+    "indexX": 20,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 10,
+    "indexX": 20,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 11,
+    "indexX": 20,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 12,
+    "indexX": 20,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 13,
+    "indexX": 20,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 14,
+    "indexX": 20,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 15,
+    "indexX": 20,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 16,
+    "indexX": 20,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 17,
+    "indexX": 20,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 18,
+    "indexX": 20,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 19,
+    "indexX": 20,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 20,
+    "indexX": 20,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 21,
+    "indexX": 20,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 22,
+    "indexX": 20,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 23,
+    "indexX": 20,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 24,
+    "indexX": 20,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 25,
+    "indexX": 20,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 26,
+    "indexX": 20,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 27,
+    "indexX": 20,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 28,
+    "indexX": 20,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 29,
+    "indexX": 20,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 30,
+    "indexX": 20,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 31,
+    "indexX": 20,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 32,
+    "indexX": 20,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 33,
+    "indexX": 20,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 34,
+    "indexX": 20,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 35,
+    "indexX": 20,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 36,
+    "indexX": 20,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 37,
+    "indexX": 20,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 38,
+    "indexX": 20,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 39,
+    "indexX": 20,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 40,
+    "indexX": 20,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 41,
+    "indexX": 20,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 42,
+    "indexX": 20,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 43,
+    "indexX": 20,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 44,
+    "indexX": 20,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 45,
+    "indexX": 20,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 46,
+    "indexX": 20,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 47,
+    "indexX": 20,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 48,
+    "indexX": 20,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 49,
+    "indexX": 20,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 50,
+    "indexX": 20,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 51,
+    "indexX": 20,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 52,
+    "indexX": 20,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 53,
+    "indexX": 20,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 54,
+    "indexX": 20,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 55,
+    "indexX": 20,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 56,
+    "indexX": 20,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 57,
+    "indexX": 20,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 58,
+    "indexX": 20,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 59,
+    "indexX": 20,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 20,
-    "worldY": 60,
+    "indexX": 20,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 0,
+    "indexX": 21,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 1,
+    "indexX": 21,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 2,
+    "indexX": 21,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 3,
+    "indexX": 21,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 4,
+    "indexX": 21,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 5,
+    "indexX": 21,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 6,
+    "indexX": 21,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 7,
+    "indexX": 21,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 8,
+    "indexX": 21,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 9,
+    "indexX": 21,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 10,
+    "indexX": 21,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 11,
+    "indexX": 21,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 12,
+    "indexX": 21,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 13,
+    "indexX": 21,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 14,
+    "indexX": 21,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 15,
+    "indexX": 21,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 16,
+    "indexX": 21,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 17,
+    "indexX": 21,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 18,
+    "indexX": 21,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 19,
+    "indexX": 21,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 20,
+    "indexX": 21,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 21,
+    "indexX": 21,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 22,
+    "indexX": 21,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 23,
+    "indexX": 21,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 24,
+    "indexX": 21,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 25,
+    "indexX": 21,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 26,
+    "indexX": 21,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 27,
+    "indexX": 21,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 28,
+    "indexX": 21,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 29,
+    "indexX": 21,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 30,
+    "indexX": 21,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 31,
+    "indexX": 21,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 32,
+    "indexX": 21,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 33,
+    "indexX": 21,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 34,
+    "indexX": 21,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 35,
+    "indexX": 21,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 36,
+    "indexX": 21,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 37,
+    "indexX": 21,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 38,
+    "indexX": 21,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 39,
+    "indexX": 21,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 40,
+    "indexX": 21,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 41,
+    "indexX": 21,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 42,
+    "indexX": 21,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 43,
+    "indexX": 21,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 44,
+    "indexX": 21,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 45,
+    "indexX": 21,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 46,
+    "indexX": 21,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 47,
+    "indexX": 21,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 48,
+    "indexX": 21,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 49,
+    "indexX": 21,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 50,
+    "indexX": 21,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 51,
+    "indexX": 21,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 52,
+    "indexX": 21,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 53,
+    "indexX": 21,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 54,
+    "indexX": 21,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 55,
+    "indexX": 21,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 56,
+    "indexX": 21,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 57,
+    "indexX": 21,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 58,
+    "indexX": 21,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 59,
+    "indexX": 21,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 21,
-    "worldY": 60,
+    "indexX": 21,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 0,
+    "indexX": 22,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 1,
+    "indexX": 22,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 2,
+    "indexX": 22,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 3,
+    "indexX": 22,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 4,
+    "indexX": 22,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 5,
+    "indexX": 22,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 6,
+    "indexX": 22,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 7,
+    "indexX": 22,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 8,
+    "indexX": 22,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 9,
+    "indexX": 22,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 10,
+    "indexX": 22,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 11,
+    "indexX": 22,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 12,
+    "indexX": 22,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 13,
+    "indexX": 22,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 14,
+    "indexX": 22,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 15,
+    "indexX": 22,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 16,
+    "indexX": 22,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 17,
+    "indexX": 22,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 18,
+    "indexX": 22,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 19,
+    "indexX": 22,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 20,
+    "indexX": 22,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 21,
+    "indexX": 22,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 22,
+    "indexX": 22,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 23,
+    "indexX": 22,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 24,
+    "indexX": 22,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 25,
+    "indexX": 22,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 26,
+    "indexX": 22,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 27,
+    "indexX": 22,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 28,
+    "indexX": 22,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 29,
+    "indexX": 22,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 30,
+    "indexX": 22,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 31,
+    "indexX": 22,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 32,
+    "indexX": 22,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 33,
+    "indexX": 22,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 34,
+    "indexX": 22,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 35,
+    "indexX": 22,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 36,
+    "indexX": 22,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 37,
+    "indexX": 22,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 38,
+    "indexX": 22,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 39,
+    "indexX": 22,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 40,
+    "indexX": 22,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 41,
+    "indexX": 22,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 42,
+    "indexX": 22,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 43,
+    "indexX": 22,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 44,
+    "indexX": 22,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 45,
+    "indexX": 22,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 46,
+    "indexX": 22,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 47,
+    "indexX": 22,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 48,
+    "indexX": 22,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 49,
+    "indexX": 22,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 50,
+    "indexX": 22,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 51,
+    "indexX": 22,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 52,
+    "indexX": 22,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 53,
+    "indexX": 22,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 54,
+    "indexX": 22,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 55,
+    "indexX": 22,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 56,
+    "indexX": 22,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 57,
+    "indexX": 22,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 58,
+    "indexX": 22,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 59,
+    "indexX": 22,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 22,
-    "worldY": 60,
+    "indexX": 22,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 0,
+    "indexX": 23,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 1,
+    "indexX": 23,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 2,
+    "indexX": 23,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 3,
+    "indexX": 23,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 4,
+    "indexX": 23,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 5,
+    "indexX": 23,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 6,
+    "indexX": 23,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 7,
+    "indexX": 23,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 8,
+    "indexX": 23,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 9,
+    "indexX": 23,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 10,
+    "indexX": 23,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 11,
+    "indexX": 23,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 12,
+    "indexX": 23,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 13,
+    "indexX": 23,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 14,
+    "indexX": 23,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 15,
+    "indexX": 23,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 16,
+    "indexX": 23,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 17,
+    "indexX": 23,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 18,
+    "indexX": 23,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 19,
+    "indexX": 23,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 20,
+    "indexX": 23,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 21,
+    "indexX": 23,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 22,
+    "indexX": 23,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 23,
+    "indexX": 23,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 24,
+    "indexX": 23,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 25,
+    "indexX": 23,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 26,
+    "indexX": 23,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 27,
+    "indexX": 23,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 28,
+    "indexX": 23,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 29,
+    "indexX": 23,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 30,
+    "indexX": 23,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 31,
+    "indexX": 23,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 32,
+    "indexX": 23,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 33,
+    "indexX": 23,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 34,
+    "indexX": 23,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 35,
+    "indexX": 23,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 36,
+    "indexX": 23,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 37,
+    "indexX": 23,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 38,
+    "indexX": 23,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 39,
+    "indexX": 23,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 40,
+    "indexX": 23,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 41,
+    "indexX": 23,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 42,
+    "indexX": 23,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 43,
+    "indexX": 23,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 44,
+    "indexX": 23,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 45,
+    "indexX": 23,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 46,
+    "indexX": 23,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 47,
+    "indexX": 23,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 48,
+    "indexX": 23,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 49,
+    "indexX": 23,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 50,
+    "indexX": 23,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 51,
+    "indexX": 23,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 52,
+    "indexX": 23,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 53,
+    "indexX": 23,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 54,
+    "indexX": 23,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 55,
+    "indexX": 23,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 56,
+    "indexX": 23,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 57,
+    "indexX": 23,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 58,
+    "indexX": 23,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 59,
+    "indexX": 23,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 23,
-    "worldY": 60,
+    "indexX": 23,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 0,
+    "indexX": 24,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 1,
+    "indexX": 24,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 2,
+    "indexX": 24,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 3,
+    "indexX": 24,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 4,
+    "indexX": 24,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 5,
+    "indexX": 24,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 6,
+    "indexX": 24,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 7,
+    "indexX": 24,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 8,
+    "indexX": 24,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 9,
+    "indexX": 24,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 10,
+    "indexX": 24,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 11,
+    "indexX": 24,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 12,
+    "indexX": 24,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 13,
+    "indexX": 24,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 14,
+    "indexX": 24,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 15,
+    "indexX": 24,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 16,
+    "indexX": 24,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 17,
+    "indexX": 24,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 18,
+    "indexX": 24,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 19,
+    "indexX": 24,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 20,
+    "indexX": 24,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 21,
+    "indexX": 24,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 22,
+    "indexX": 24,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 23,
+    "indexX": 24,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 24,
+    "indexX": 24,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 25,
+    "indexX": 24,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 26,
+    "indexX": 24,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 27,
+    "indexX": 24,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 28,
+    "indexX": 24,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 29,
+    "indexX": 24,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 30,
+    "indexX": 24,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 31,
+    "indexX": 24,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 32,
+    "indexX": 24,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 33,
+    "indexX": 24,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 34,
+    "indexX": 24,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 35,
+    "indexX": 24,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 36,
+    "indexX": 24,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 37,
+    "indexX": 24,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 38,
+    "indexX": 24,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 39,
+    "indexX": 24,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 40,
+    "indexX": 24,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 41,
+    "indexX": 24,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 42,
+    "indexX": 24,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 43,
+    "indexX": 24,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 44,
+    "indexX": 24,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 45,
+    "indexX": 24,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 46,
+    "indexX": 24,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 47,
+    "indexX": 24,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 48,
+    "indexX": 24,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 49,
+    "indexX": 24,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 50,
+    "indexX": 24,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 51,
+    "indexX": 24,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 52,
+    "indexX": 24,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 53,
+    "indexX": 24,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 54,
+    "indexX": 24,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 55,
+    "indexX": 24,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 56,
+    "indexX": 24,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 57,
+    "indexX": 24,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 58,
+    "indexX": 24,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 59,
+    "indexX": 24,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 24,
-    "worldY": 60,
+    "indexX": 24,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 0,
+    "indexX": 25,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 1,
+    "indexX": 25,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 2,
+    "indexX": 25,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 3,
+    "indexX": 25,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 4,
+    "indexX": 25,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 5,
+    "indexX": 25,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 6,
+    "indexX": 25,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 7,
+    "indexX": 25,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 8,
+    "indexX": 25,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 9,
+    "indexX": 25,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 10,
+    "indexX": 25,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 11,
+    "indexX": 25,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 12,
+    "indexX": 25,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 13,
+    "indexX": 25,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 14,
+    "indexX": 25,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 15,
+    "indexX": 25,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 16,
+    "indexX": 25,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 17,
+    "indexX": 25,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 18,
+    "indexX": 25,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 19,
+    "indexX": 25,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 20,
+    "indexX": 25,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 21,
+    "indexX": 25,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 22,
+    "indexX": 25,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 23,
+    "indexX": 25,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 24,
+    "indexX": 25,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 25,
+    "indexX": 25,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 26,
+    "indexX": 25,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 27,
+    "indexX": 25,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 28,
+    "indexX": 25,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 29,
+    "indexX": 25,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 30,
+    "indexX": 25,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 31,
+    "indexX": 25,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 32,
+    "indexX": 25,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 33,
+    "indexX": 25,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 34,
+    "indexX": 25,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 35,
+    "indexX": 25,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 36,
+    "indexX": 25,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 37,
+    "indexX": 25,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 38,
+    "indexX": 25,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 39,
+    "indexX": 25,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 40,
+    "indexX": 25,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 41,
+    "indexX": 25,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 42,
+    "indexX": 25,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 43,
+    "indexX": 25,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 44,
+    "indexX": 25,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 45,
+    "indexX": 25,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 46,
+    "indexX": 25,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 47,
+    "indexX": 25,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 48,
+    "indexX": 25,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 49,
+    "indexX": 25,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 50,
+    "indexX": 25,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 51,
+    "indexX": 25,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 52,
+    "indexX": 25,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 53,
+    "indexX": 25,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 54,
+    "indexX": 25,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 55,
+    "indexX": 25,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 56,
+    "indexX": 25,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 57,
+    "indexX": 25,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 58,
+    "indexX": 25,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 59,
+    "indexX": 25,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 25,
-    "worldY": 60,
+    "indexX": 25,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 0,
+    "indexX": 26,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 1,
+    "indexX": 26,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 2,
+    "indexX": 26,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 3,
+    "indexX": 26,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 4,
+    "indexX": 26,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 5,
+    "indexX": 26,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 6,
+    "indexX": 26,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 7,
+    "indexX": 26,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 8,
+    "indexX": 26,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 9,
+    "indexX": 26,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 10,
+    "indexX": 26,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 11,
+    "indexX": 26,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 12,
+    "indexX": 26,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 13,
+    "indexX": 26,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 14,
+    "indexX": 26,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 15,
+    "indexX": 26,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 16,
+    "indexX": 26,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 17,
+    "indexX": 26,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 18,
+    "indexX": 26,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 19,
+    "indexX": 26,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 20,
+    "indexX": 26,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 21,
+    "indexX": 26,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 22,
+    "indexX": 26,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 23,
+    "indexX": 26,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 24,
+    "indexX": 26,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 25,
+    "indexX": 26,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 26,
+    "indexX": 26,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 27,
+    "indexX": 26,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 28,
+    "indexX": 26,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 29,
+    "indexX": 26,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 30,
+    "indexX": 26,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 31,
+    "indexX": 26,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 32,
+    "indexX": 26,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 33,
+    "indexX": 26,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 34,
+    "indexX": 26,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 35,
+    "indexX": 26,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 36,
+    "indexX": 26,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 37,
+    "indexX": 26,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 38,
+    "indexX": 26,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 39,
+    "indexX": 26,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 40,
+    "indexX": 26,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 41,
+    "indexX": 26,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 42,
+    "indexX": 26,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 43,
+    "indexX": 26,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 44,
+    "indexX": 26,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 45,
+    "indexX": 26,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 46,
+    "indexX": 26,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 47,
+    "indexX": 26,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 48,
+    "indexX": 26,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 49,
+    "indexX": 26,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 50,
+    "indexX": 26,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 51,
+    "indexX": 26,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 52,
+    "indexX": 26,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 53,
+    "indexX": 26,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 54,
+    "indexX": 26,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 55,
+    "indexX": 26,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 56,
+    "indexX": 26,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 57,
+    "indexX": 26,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 58,
+    "indexX": 26,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 59,
+    "indexX": 26,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 26,
-    "worldY": 60,
+    "indexX": 26,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 0,
+    "indexX": 27,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 1,
+    "indexX": 27,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 2,
+    "indexX": 27,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 3,
+    "indexX": 27,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 4,
+    "indexX": 27,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 5,
+    "indexX": 27,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 6,
+    "indexX": 27,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 7,
+    "indexX": 27,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 8,
+    "indexX": 27,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 9,
+    "indexX": 27,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 10,
+    "indexX": 27,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 11,
+    "indexX": 27,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 12,
+    "indexX": 27,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 13,
+    "indexX": 27,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 14,
+    "indexX": 27,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 15,
+    "indexX": 27,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 16,
+    "indexX": 27,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 17,
+    "indexX": 27,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 18,
+    "indexX": 27,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 19,
+    "indexX": 27,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 20,
+    "indexX": 27,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 21,
+    "indexX": 27,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 22,
+    "indexX": 27,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 23,
+    "indexX": 27,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 24,
+    "indexX": 27,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 25,
+    "indexX": 27,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 26,
+    "indexX": 27,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 27,
+    "indexX": 27,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 28,
+    "indexX": 27,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 29,
+    "indexX": 27,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 30,
+    "indexX": 27,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 31,
+    "indexX": 27,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 32,
+    "indexX": 27,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 33,
+    "indexX": 27,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 34,
+    "indexX": 27,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 35,
+    "indexX": 27,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 36,
+    "indexX": 27,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 37,
+    "indexX": 27,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 38,
+    "indexX": 27,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 39,
+    "indexX": 27,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 40,
+    "indexX": 27,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 41,
+    "indexX": 27,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 42,
+    "indexX": 27,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 43,
+    "indexX": 27,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 44,
+    "indexX": 27,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 45,
+    "indexX": 27,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 46,
+    "indexX": 27,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 47,
+    "indexX": 27,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 48,
+    "indexX": 27,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 49,
+    "indexX": 27,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 50,
+    "indexX": 27,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 51,
+    "indexX": 27,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 52,
+    "indexX": 27,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 53,
+    "indexX": 27,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 54,
+    "indexX": 27,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 55,
+    "indexX": 27,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 56,
+    "indexX": 27,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 57,
+    "indexX": 27,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 58,
+    "indexX": 27,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 59,
+    "indexX": 27,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 27,
-    "worldY": 60,
+    "indexX": 27,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 0,
+    "indexX": 28,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 1,
+    "indexX": 28,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 2,
+    "indexX": 28,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 3,
+    "indexX": 28,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 4,
+    "indexX": 28,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 5,
+    "indexX": 28,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 6,
+    "indexX": 28,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 7,
+    "indexX": 28,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 8,
+    "indexX": 28,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 9,
+    "indexX": 28,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 10,
+    "indexX": 28,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 11,
+    "indexX": 28,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 12,
+    "indexX": 28,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 13,
+    "indexX": 28,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 14,
+    "indexX": 28,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 15,
+    "indexX": 28,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 16,
+    "indexX": 28,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 17,
+    "indexX": 28,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 18,
+    "indexX": 28,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 19,
+    "indexX": 28,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 20,
+    "indexX": 28,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 21,
+    "indexX": 28,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 22,
+    "indexX": 28,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 23,
+    "indexX": 28,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 24,
+    "indexX": 28,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 25,
+    "indexX": 28,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 26,
+    "indexX": 28,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 27,
+    "indexX": 28,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 28,
+    "indexX": 28,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 29,
+    "indexX": 28,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 30,
+    "indexX": 28,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 31,
+    "indexX": 28,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 32,
+    "indexX": 28,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 33,
+    "indexX": 28,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 34,
+    "indexX": 28,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 35,
+    "indexX": 28,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 36,
+    "indexX": 28,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 37,
+    "indexX": 28,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 38,
+    "indexX": 28,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 39,
+    "indexX": 28,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 40,
+    "indexX": 28,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 41,
+    "indexX": 28,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 42,
+    "indexX": 28,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 43,
+    "indexX": 28,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 44,
+    "indexX": 28,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 45,
+    "indexX": 28,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 46,
+    "indexX": 28,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 47,
+    "indexX": 28,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 48,
+    "indexX": 28,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 49,
+    "indexX": 28,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 50,
+    "indexX": 28,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 51,
+    "indexX": 28,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 52,
+    "indexX": 28,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 53,
+    "indexX": 28,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 54,
+    "indexX": 28,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 55,
+    "indexX": 28,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 56,
+    "indexX": 28,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 57,
+    "indexX": 28,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 58,
+    "indexX": 28,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 59,
+    "indexX": 28,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 28,
-    "worldY": 60,
+    "indexX": 28,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 0,
+    "indexX": 29,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 1,
+    "indexX": 29,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 2,
+    "indexX": 29,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 3,
+    "indexX": 29,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 4,
+    "indexX": 29,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 5,
+    "indexX": 29,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 6,
+    "indexX": 29,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 7,
+    "indexX": 29,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 8,
+    "indexX": 29,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 9,
+    "indexX": 29,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 10,
+    "indexX": 29,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 11,
+    "indexX": 29,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 12,
+    "indexX": 29,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 13,
+    "indexX": 29,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 14,
+    "indexX": 29,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 15,
+    "indexX": 29,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 16,
+    "indexX": 29,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 17,
+    "indexX": 29,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 18,
+    "indexX": 29,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 19,
+    "indexX": 29,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 20,
+    "indexX": 29,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 21,
+    "indexX": 29,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 22,
+    "indexX": 29,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 23,
+    "indexX": 29,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 24,
+    "indexX": 29,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 25,
+    "indexX": 29,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 26,
+    "indexX": 29,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 27,
+    "indexX": 29,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 28,
+    "indexX": 29,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 29,
+    "indexX": 29,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 30,
+    "indexX": 29,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 31,
+    "indexX": 29,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 32,
+    "indexX": 29,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 33,
+    "indexX": 29,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 34,
+    "indexX": 29,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 35,
+    "indexX": 29,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 36,
+    "indexX": 29,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 37,
+    "indexX": 29,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 38,
+    "indexX": 29,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 39,
+    "indexX": 29,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 40,
+    "indexX": 29,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 41,
+    "indexX": 29,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 42,
+    "indexX": 29,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 43,
+    "indexX": 29,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 44,
+    "indexX": 29,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 45,
+    "indexX": 29,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 46,
+    "indexX": 29,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 47,
+    "indexX": 29,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 48,
+    "indexX": 29,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 49,
+    "indexX": 29,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 50,
+    "indexX": 29,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 51,
+    "indexX": 29,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 52,
+    "indexX": 29,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 53,
+    "indexX": 29,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 54,
+    "indexX": 29,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 55,
+    "indexX": 29,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 56,
+    "indexX": 29,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 57,
+    "indexX": 29,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 58,
+    "indexX": 29,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 59,
+    "indexX": 29,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 29,
-    "worldY": 60,
+    "indexX": 29,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 0,
+    "indexX": 30,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 1,
+    "indexX": 30,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 2,
+    "indexX": 30,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 3,
+    "indexX": 30,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 4,
+    "indexX": 30,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 5,
+    "indexX": 30,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 6,
+    "indexX": 30,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 7,
+    "indexX": 30,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 8,
+    "indexX": 30,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 9,
+    "indexX": 30,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 10,
+    "indexX": 30,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 11,
+    "indexX": 30,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 12,
+    "indexX": 30,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 13,
+    "indexX": 30,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 14,
+    "indexX": 30,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 15,
+    "indexX": 30,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 16,
+    "indexX": 30,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 17,
+    "indexX": 30,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 18,
+    "indexX": 30,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 19,
+    "indexX": 30,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 20,
+    "indexX": 30,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 21,
+    "indexX": 30,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 22,
+    "indexX": 30,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 23,
+    "indexX": 30,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 24,
+    "indexX": 30,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 25,
+    "indexX": 30,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 26,
+    "indexX": 30,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 27,
+    "indexX": 30,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 28,
+    "indexX": 30,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 29,
+    "indexX": 30,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 30,
+    "indexX": 30,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 31,
+    "indexX": 30,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 32,
+    "indexX": 30,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 33,
+    "indexX": 30,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 34,
+    "indexX": 30,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 35,
+    "indexX": 30,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 36,
+    "indexX": 30,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 37,
+    "indexX": 30,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 38,
+    "indexX": 30,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 39,
+    "indexX": 30,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 40,
+    "indexX": 30,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 41,
+    "indexX": 30,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 42,
+    "indexX": 30,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 43,
+    "indexX": 30,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 44,
+    "indexX": 30,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 45,
+    "indexX": 30,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 46,
+    "indexX": 30,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 47,
+    "indexX": 30,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 48,
+    "indexX": 30,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 49,
+    "indexX": 30,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 50,
+    "indexX": 30,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 51,
+    "indexX": 30,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 52,
+    "indexX": 30,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 53,
+    "indexX": 30,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 54,
+    "indexX": 30,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 55,
+    "indexX": 30,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 56,
+    "indexX": 30,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 57,
+    "indexX": 30,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 58,
+    "indexX": 30,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 59,
+    "indexX": 30,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 30,
-    "worldY": 60,
+    "indexX": 30,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 0,
+    "indexX": 31,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 1,
+    "indexX": 31,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 2,
+    "indexX": 31,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 3,
+    "indexX": 31,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 4,
+    "indexX": 31,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 5,
+    "indexX": 31,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 6,
+    "indexX": 31,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 7,
+    "indexX": 31,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 8,
+    "indexX": 31,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 9,
+    "indexX": 31,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 10,
+    "indexX": 31,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 11,
+    "indexX": 31,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 12,
+    "indexX": 31,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 13,
+    "indexX": 31,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 14,
+    "indexX": 31,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 15,
+    "indexX": 31,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 16,
+    "indexX": 31,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 17,
+    "indexX": 31,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 18,
+    "indexX": 31,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 19,
+    "indexX": 31,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 20,
+    "indexX": 31,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 21,
+    "indexX": 31,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 22,
+    "indexX": 31,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 23,
+    "indexX": 31,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 24,
+    "indexX": 31,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 25,
+    "indexX": 31,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 26,
+    "indexX": 31,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 27,
+    "indexX": 31,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 28,
+    "indexX": 31,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 29,
+    "indexX": 31,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 30,
+    "indexX": 31,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 31,
+    "indexX": 31,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 32,
+    "indexX": 31,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 33,
+    "indexX": 31,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 34,
+    "indexX": 31,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 35,
+    "indexX": 31,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 36,
+    "indexX": 31,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 37,
+    "indexX": 31,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 38,
+    "indexX": 31,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 39,
+    "indexX": 31,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 40,
+    "indexX": 31,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 41,
+    "indexX": 31,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 42,
+    "indexX": 31,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 43,
+    "indexX": 31,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 44,
+    "indexX": 31,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 45,
+    "indexX": 31,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 46,
+    "indexX": 31,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 47,
+    "indexX": 31,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 48,
+    "indexX": 31,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 49,
+    "indexX": 31,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 50,
+    "indexX": 31,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 51,
+    "indexX": 31,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 52,
+    "indexX": 31,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 53,
+    "indexX": 31,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 54,
+    "indexX": 31,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 55,
+    "indexX": 31,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 56,
+    "indexX": 31,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 57,
+    "indexX": 31,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 58,
+    "indexX": 31,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 59,
+    "indexX": 31,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 31,
-    "worldY": 60,
+    "indexX": 31,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 0,
+    "indexX": 32,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 1,
+    "indexX": 32,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 2,
+    "indexX": 32,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 3,
+    "indexX": 32,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 4,
+    "indexX": 32,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 5,
+    "indexX": 32,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 6,
+    "indexX": 32,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 7,
+    "indexX": 32,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 8,
+    "indexX": 32,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 9,
+    "indexX": 32,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 10,
+    "indexX": 32,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 11,
+    "indexX": 32,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 12,
+    "indexX": 32,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 13,
+    "indexX": 32,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 14,
+    "indexX": 32,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 15,
+    "indexX": 32,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 16,
+    "indexX": 32,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 17,
+    "indexX": 32,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 18,
+    "indexX": 32,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 19,
+    "indexX": 32,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 20,
+    "indexX": 32,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 21,
+    "indexX": 32,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 22,
+    "indexX": 32,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 23,
+    "indexX": 32,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 24,
+    "indexX": 32,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 25,
+    "indexX": 32,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 26,
+    "indexX": 32,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 27,
+    "indexX": 32,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 28,
+    "indexX": 32,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 29,
+    "indexX": 32,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 30,
+    "indexX": 32,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 31,
+    "indexX": 32,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 32,
+    "indexX": 32,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 33,
+    "indexX": 32,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 34,
+    "indexX": 32,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 35,
+    "indexX": 32,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 36,
+    "indexX": 32,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 37,
+    "indexX": 32,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 38,
+    "indexX": 32,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 39,
+    "indexX": 32,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 40,
+    "indexX": 32,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 41,
+    "indexX": 32,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 42,
+    "indexX": 32,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 43,
+    "indexX": 32,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 44,
+    "indexX": 32,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 45,
+    "indexX": 32,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 46,
+    "indexX": 32,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 47,
+    "indexX": 32,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 48,
+    "indexX": 32,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 49,
+    "indexX": 32,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 50,
+    "indexX": 32,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 51,
+    "indexX": 32,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 52,
+    "indexX": 32,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 53,
+    "indexX": 32,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 54,
+    "indexX": 32,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 55,
+    "indexX": 32,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 56,
+    "indexX": 32,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 57,
+    "indexX": 32,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 58,
+    "indexX": 32,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 59,
+    "indexX": 32,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 32,
-    "worldY": 60,
+    "indexX": 32,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 0,
+    "indexX": 33,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 1,
+    "indexX": 33,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 2,
+    "indexX": 33,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 3,
+    "indexX": 33,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 4,
+    "indexX": 33,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 5,
+    "indexX": 33,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 6,
+    "indexX": 33,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 7,
+    "indexX": 33,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 8,
+    "indexX": 33,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 9,
+    "indexX": 33,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 10,
+    "indexX": 33,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 11,
+    "indexX": 33,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 12,
+    "indexX": 33,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 13,
+    "indexX": 33,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 14,
+    "indexX": 33,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 15,
+    "indexX": 33,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 16,
+    "indexX": 33,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 17,
+    "indexX": 33,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 18,
+    "indexX": 33,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 19,
+    "indexX": 33,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 20,
+    "indexX": 33,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 21,
+    "indexX": 33,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 22,
+    "indexX": 33,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 23,
+    "indexX": 33,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 24,
+    "indexX": 33,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 25,
+    "indexX": 33,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 26,
+    "indexX": 33,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 27,
+    "indexX": 33,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 28,
+    "indexX": 33,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 29,
+    "indexX": 33,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 30,
+    "indexX": 33,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 31,
+    "indexX": 33,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 32,
+    "indexX": 33,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 33,
+    "indexX": 33,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 34,
+    "indexX": 33,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 35,
+    "indexX": 33,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 36,
+    "indexX": 33,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 37,
+    "indexX": 33,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 38,
+    "indexX": 33,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 39,
+    "indexX": 33,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 40,
+    "indexX": 33,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 41,
+    "indexX": 33,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 42,
+    "indexX": 33,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 43,
+    "indexX": 33,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 44,
+    "indexX": 33,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 45,
+    "indexX": 33,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 46,
+    "indexX": 33,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 47,
+    "indexX": 33,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 48,
+    "indexX": 33,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 49,
+    "indexX": 33,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 50,
+    "indexX": 33,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 51,
+    "indexX": 33,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 52,
+    "indexX": 33,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 53,
+    "indexX": 33,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 54,
+    "indexX": 33,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 55,
+    "indexX": 33,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 56,
+    "indexX": 33,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 57,
+    "indexX": 33,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 58,
+    "indexX": 33,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 59,
+    "indexX": 33,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 33,
-    "worldY": 60,
+    "indexX": 33,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 0,
+    "indexX": 34,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 1,
+    "indexX": 34,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 2,
+    "indexX": 34,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 3,
+    "indexX": 34,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 4,
+    "indexX": 34,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 5,
+    "indexX": 34,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 6,
+    "indexX": 34,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 7,
+    "indexX": 34,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 8,
+    "indexX": 34,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 9,
+    "indexX": 34,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 10,
+    "indexX": 34,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 11,
+    "indexX": 34,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 12,
+    "indexX": 34,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 13,
+    "indexX": 34,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 14,
+    "indexX": 34,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 15,
+    "indexX": 34,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 16,
+    "indexX": 34,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 17,
+    "indexX": 34,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 18,
+    "indexX": 34,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 19,
+    "indexX": 34,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 20,
+    "indexX": 34,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 21,
+    "indexX": 34,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 22,
+    "indexX": 34,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 23,
+    "indexX": 34,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 24,
+    "indexX": 34,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 25,
+    "indexX": 34,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 26,
+    "indexX": 34,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 27,
+    "indexX": 34,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 28,
+    "indexX": 34,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 29,
+    "indexX": 34,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 30,
+    "indexX": 34,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 31,
+    "indexX": 34,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 32,
+    "indexX": 34,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 33,
+    "indexX": 34,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 34,
+    "indexX": 34,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 35,
+    "indexX": 34,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 36,
+    "indexX": 34,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 37,
+    "indexX": 34,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 38,
+    "indexX": 34,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 39,
+    "indexX": 34,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 40,
+    "indexX": 34,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 41,
+    "indexX": 34,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 42,
+    "indexX": 34,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 43,
+    "indexX": 34,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 44,
+    "indexX": 34,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 45,
+    "indexX": 34,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 46,
+    "indexX": 34,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 47,
+    "indexX": 34,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 48,
+    "indexX": 34,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 49,
+    "indexX": 34,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 50,
+    "indexX": 34,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 51,
+    "indexX": 34,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 52,
+    "indexX": 34,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 53,
+    "indexX": 34,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 54,
+    "indexX": 34,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 55,
+    "indexX": 34,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 56,
+    "indexX": 34,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 57,
+    "indexX": 34,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 58,
+    "indexX": 34,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 59,
+    "indexX": 34,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 34,
-    "worldY": 60,
+    "indexX": 34,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 0,
+    "indexX": 35,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 1,
+    "indexX": 35,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 2,
+    "indexX": 35,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 3,
+    "indexX": 35,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 4,
+    "indexX": 35,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 5,
+    "indexX": 35,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 6,
+    "indexX": 35,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 7,
+    "indexX": 35,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 8,
+    "indexX": 35,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 9,
+    "indexX": 35,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 10,
+    "indexX": 35,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 11,
+    "indexX": 35,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 12,
+    "indexX": 35,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 13,
+    "indexX": 35,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 14,
+    "indexX": 35,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 15,
+    "indexX": 35,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 16,
+    "indexX": 35,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 17,
+    "indexX": 35,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 18,
+    "indexX": 35,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 19,
+    "indexX": 35,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 20,
+    "indexX": 35,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 21,
+    "indexX": 35,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 22,
+    "indexX": 35,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 23,
+    "indexX": 35,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 24,
+    "indexX": 35,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 25,
+    "indexX": 35,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 26,
+    "indexX": 35,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 27,
+    "indexX": 35,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 28,
+    "indexX": 35,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 29,
+    "indexX": 35,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 30,
+    "indexX": 35,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 31,
+    "indexX": 35,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 32,
+    "indexX": 35,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 33,
+    "indexX": 35,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 34,
+    "indexX": 35,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 35,
+    "indexX": 35,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 36,
+    "indexX": 35,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 37,
+    "indexX": 35,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 38,
+    "indexX": 35,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 39,
+    "indexX": 35,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 40,
+    "indexX": 35,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 41,
+    "indexX": 35,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 42,
+    "indexX": 35,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 43,
+    "indexX": 35,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 44,
+    "indexX": 35,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 45,
+    "indexX": 35,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 46,
+    "indexX": 35,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 47,
+    "indexX": 35,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 48,
+    "indexX": 35,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 49,
+    "indexX": 35,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 50,
+    "indexX": 35,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 51,
+    "indexX": 35,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 52,
+    "indexX": 35,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 53,
+    "indexX": 35,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 54,
+    "indexX": 35,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 55,
+    "indexX": 35,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 56,
+    "indexX": 35,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 57,
+    "indexX": 35,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 58,
+    "indexX": 35,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 59,
+    "indexX": 35,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 35,
-    "worldY": 60,
+    "indexX": 35,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 0,
+    "indexX": 36,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 1,
+    "indexX": 36,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 2,
+    "indexX": 36,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 3,
+    "indexX": 36,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 4,
+    "indexX": 36,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 5,
+    "indexX": 36,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 6,
+    "indexX": 36,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 7,
+    "indexX": 36,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 8,
+    "indexX": 36,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 9,
+    "indexX": 36,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 10,
+    "indexX": 36,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 11,
+    "indexX": 36,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 12,
+    "indexX": 36,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 13,
+    "indexX": 36,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 14,
+    "indexX": 36,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 15,
+    "indexX": 36,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 16,
+    "indexX": 36,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 17,
+    "indexX": 36,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 18,
+    "indexX": 36,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 19,
+    "indexX": 36,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 20,
+    "indexX": 36,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 21,
+    "indexX": 36,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 22,
+    "indexX": 36,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 23,
+    "indexX": 36,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 24,
+    "indexX": 36,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 25,
+    "indexX": 36,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 26,
+    "indexX": 36,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 27,
+    "indexX": 36,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 28,
+    "indexX": 36,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 29,
+    "indexX": 36,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 30,
+    "indexX": 36,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 31,
+    "indexX": 36,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 32,
+    "indexX": 36,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 33,
+    "indexX": 36,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 34,
+    "indexX": 36,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 35,
+    "indexX": 36,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 36,
+    "indexX": 36,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 37,
+    "indexX": 36,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 38,
+    "indexX": 36,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 39,
+    "indexX": 36,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 40,
+    "indexX": 36,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 41,
+    "indexX": 36,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 42,
+    "indexX": 36,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 43,
+    "indexX": 36,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 44,
+    "indexX": 36,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 45,
+    "indexX": 36,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 46,
+    "indexX": 36,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 47,
+    "indexX": 36,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 48,
+    "indexX": 36,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 49,
+    "indexX": 36,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 50,
+    "indexX": 36,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 51,
+    "indexX": 36,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 52,
+    "indexX": 36,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 53,
+    "indexX": 36,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 54,
+    "indexX": 36,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 55,
+    "indexX": 36,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 56,
+    "indexX": 36,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 57,
+    "indexX": 36,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 58,
+    "indexX": 36,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 59,
+    "indexX": 36,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 36,
-    "worldY": 60,
+    "indexX": 36,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 0,
+    "indexX": 37,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 1,
+    "indexX": 37,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 2,
+    "indexX": 37,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 3,
+    "indexX": 37,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 4,
+    "indexX": 37,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 5,
+    "indexX": 37,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 6,
+    "indexX": 37,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 7,
+    "indexX": 37,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 8,
+    "indexX": 37,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 9,
+    "indexX": 37,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 10,
+    "indexX": 37,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 11,
+    "indexX": 37,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 12,
+    "indexX": 37,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 13,
+    "indexX": 37,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 14,
+    "indexX": 37,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 15,
+    "indexX": 37,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 16,
+    "indexX": 37,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 17,
+    "indexX": 37,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 18,
+    "indexX": 37,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 19,
+    "indexX": 37,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 20,
+    "indexX": 37,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 21,
+    "indexX": 37,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 22,
+    "indexX": 37,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 23,
+    "indexX": 37,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 24,
+    "indexX": 37,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 25,
+    "indexX": 37,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 26,
+    "indexX": 37,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 27,
+    "indexX": 37,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 28,
+    "indexX": 37,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 29,
+    "indexX": 37,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 30,
+    "indexX": 37,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 31,
+    "indexX": 37,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 32,
+    "indexX": 37,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 33,
+    "indexX": 37,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 34,
+    "indexX": 37,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 35,
+    "indexX": 37,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 36,
+    "indexX": 37,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 37,
+    "indexX": 37,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 38,
+    "indexX": 37,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 39,
+    "indexX": 37,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 40,
+    "indexX": 37,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 41,
+    "indexX": 37,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 42,
+    "indexX": 37,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 43,
+    "indexX": 37,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 44,
+    "indexX": 37,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 45,
+    "indexX": 37,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 46,
+    "indexX": 37,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 47,
+    "indexX": 37,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 48,
+    "indexX": 37,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 49,
+    "indexX": 37,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 50,
+    "indexX": 37,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 51,
+    "indexX": 37,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 52,
+    "indexX": 37,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 53,
+    "indexX": 37,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 54,
+    "indexX": 37,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 55,
+    "indexX": 37,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 56,
+    "indexX": 37,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 57,
+    "indexX": 37,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 58,
+    "indexX": 37,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 59,
+    "indexX": 37,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 37,
-    "worldY": 60,
+    "indexX": 37,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 0,
+    "indexX": 38,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 1,
+    "indexX": 38,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 2,
+    "indexX": 38,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 3,
+    "indexX": 38,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 4,
+    "indexX": 38,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 5,
+    "indexX": 38,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 6,
+    "indexX": 38,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 7,
+    "indexX": 38,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 8,
+    "indexX": 38,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 9,
+    "indexX": 38,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 10,
+    "indexX": 38,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 11,
+    "indexX": 38,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 12,
+    "indexX": 38,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 13,
+    "indexX": 38,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 14,
+    "indexX": 38,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 15,
+    "indexX": 38,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 16,
+    "indexX": 38,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 17,
+    "indexX": 38,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 18,
+    "indexX": 38,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 19,
+    "indexX": 38,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 20,
+    "indexX": 38,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 21,
+    "indexX": 38,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 22,
+    "indexX": 38,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 23,
+    "indexX": 38,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 24,
+    "indexX": 38,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 25,
+    "indexX": 38,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 26,
+    "indexX": 38,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 27,
+    "indexX": 38,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 28,
+    "indexX": 38,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 29,
+    "indexX": 38,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 30,
+    "indexX": 38,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 31,
+    "indexX": 38,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 32,
+    "indexX": 38,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 33,
+    "indexX": 38,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 34,
+    "indexX": 38,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 35,
+    "indexX": 38,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 36,
+    "indexX": 38,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 37,
+    "indexX": 38,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 38,
+    "indexX": 38,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 39,
+    "indexX": 38,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 40,
+    "indexX": 38,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 41,
+    "indexX": 38,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 42,
+    "indexX": 38,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 43,
+    "indexX": 38,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 44,
+    "indexX": 38,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 45,
+    "indexX": 38,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 46,
+    "indexX": 38,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 47,
+    "indexX": 38,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 48,
+    "indexX": 38,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 49,
+    "indexX": 38,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 50,
+    "indexX": 38,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 51,
+    "indexX": 38,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 52,
+    "indexX": 38,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 53,
+    "indexX": 38,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 54,
+    "indexX": 38,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 55,
+    "indexX": 38,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 56,
+    "indexX": 38,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 57,
+    "indexX": 38,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 58,
+    "indexX": 38,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 59,
+    "indexX": 38,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 38,
-    "worldY": 60,
+    "indexX": 38,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 0,
+    "indexX": 39,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 1,
+    "indexX": 39,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 2,
+    "indexX": 39,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 3,
+    "indexX": 39,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 4,
+    "indexX": 39,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 5,
+    "indexX": 39,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 6,
+    "indexX": 39,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 7,
+    "indexX": 39,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 8,
+    "indexX": 39,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 9,
+    "indexX": 39,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 10,
+    "indexX": 39,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 11,
+    "indexX": 39,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 12,
+    "indexX": 39,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 13,
+    "indexX": 39,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 14,
+    "indexX": 39,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 15,
+    "indexX": 39,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 16,
+    "indexX": 39,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 17,
+    "indexX": 39,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 18,
+    "indexX": 39,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 19,
+    "indexX": 39,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 20,
+    "indexX": 39,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 21,
+    "indexX": 39,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 22,
+    "indexX": 39,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 23,
+    "indexX": 39,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 24,
+    "indexX": 39,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 25,
+    "indexX": 39,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 26,
+    "indexX": 39,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 27,
+    "indexX": 39,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 28,
+    "indexX": 39,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 29,
+    "indexX": 39,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 30,
+    "indexX": 39,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 31,
+    "indexX": 39,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 32,
+    "indexX": 39,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 33,
+    "indexX": 39,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 34,
+    "indexX": 39,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 35,
+    "indexX": 39,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 36,
+    "indexX": 39,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 37,
+    "indexX": 39,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 38,
+    "indexX": 39,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 39,
+    "indexX": 39,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 40,
+    "indexX": 39,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 41,
+    "indexX": 39,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 42,
+    "indexX": 39,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 43,
+    "indexX": 39,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 44,
+    "indexX": 39,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 45,
+    "indexX": 39,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 46,
+    "indexX": 39,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 47,
+    "indexX": 39,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 48,
+    "indexX": 39,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 49,
+    "indexX": 39,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 50,
+    "indexX": 39,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 51,
+    "indexX": 39,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 52,
+    "indexX": 39,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 53,
+    "indexX": 39,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 54,
+    "indexX": 39,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 55,
+    "indexX": 39,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 56,
+    "indexX": 39,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 57,
+    "indexX": 39,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 58,
+    "indexX": 39,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 59,
+    "indexX": 39,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 39,
-    "worldY": 60,
+    "indexX": 39,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 0,
+    "indexX": 40,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 1,
+    "indexX": 40,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 2,
+    "indexX": 40,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 3,
+    "indexX": 40,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 4,
+    "indexX": 40,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 5,
+    "indexX": 40,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 6,
+    "indexX": 40,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 7,
+    "indexX": 40,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 8,
+    "indexX": 40,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 9,
+    "indexX": 40,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 10,
+    "indexX": 40,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 11,
+    "indexX": 40,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 12,
+    "indexX": 40,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 13,
+    "indexX": 40,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 14,
+    "indexX": 40,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 15,
+    "indexX": 40,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 16,
+    "indexX": 40,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 17,
+    "indexX": 40,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 18,
+    "indexX": 40,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 19,
+    "indexX": 40,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 20,
+    "indexX": 40,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 21,
+    "indexX": 40,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 22,
+    "indexX": 40,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 23,
+    "indexX": 40,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 24,
+    "indexX": 40,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 25,
+    "indexX": 40,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 26,
+    "indexX": 40,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 27,
+    "indexX": 40,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 28,
+    "indexX": 40,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 29,
+    "indexX": 40,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 30,
+    "indexX": 40,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 31,
+    "indexX": 40,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 32,
+    "indexX": 40,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 33,
+    "indexX": 40,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 34,
+    "indexX": 40,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 35,
+    "indexX": 40,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 36,
+    "indexX": 40,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 37,
+    "indexX": 40,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 38,
+    "indexX": 40,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 39,
+    "indexX": 40,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 40,
+    "indexX": 40,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 41,
+    "indexX": 40,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 42,
+    "indexX": 40,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 43,
+    "indexX": 40,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 44,
+    "indexX": 40,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 45,
+    "indexX": 40,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 46,
+    "indexX": 40,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 47,
+    "indexX": 40,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 48,
+    "indexX": 40,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 49,
+    "indexX": 40,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 50,
+    "indexX": 40,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 51,
+    "indexX": 40,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 52,
+    "indexX": 40,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 53,
+    "indexX": 40,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 54,
+    "indexX": 40,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 55,
+    "indexX": 40,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 56,
+    "indexX": 40,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 57,
+    "indexX": 40,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 58,
+    "indexX": 40,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 59,
+    "indexX": 40,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 40,
-    "worldY": 60,
+    "indexX": 40,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 0,
+    "indexX": 41,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 1,
+    "indexX": 41,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 2,
+    "indexX": 41,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 3,
+    "indexX": 41,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 4,
+    "indexX": 41,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 5,
+    "indexX": 41,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 6,
+    "indexX": 41,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 7,
+    "indexX": 41,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 8,
+    "indexX": 41,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 9,
+    "indexX": 41,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 10,
+    "indexX": 41,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 11,
+    "indexX": 41,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 12,
+    "indexX": 41,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 13,
+    "indexX": 41,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 14,
+    "indexX": 41,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 15,
+    "indexX": 41,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 16,
+    "indexX": 41,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 17,
+    "indexX": 41,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 18,
+    "indexX": 41,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 19,
+    "indexX": 41,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 20,
+    "indexX": 41,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 21,
+    "indexX": 41,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 22,
+    "indexX": 41,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 23,
+    "indexX": 41,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 24,
+    "indexX": 41,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 25,
+    "indexX": 41,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 26,
+    "indexX": 41,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 27,
+    "indexX": 41,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 28,
+    "indexX": 41,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 29,
+    "indexX": 41,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 30,
+    "indexX": 41,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 31,
+    "indexX": 41,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 32,
+    "indexX": 41,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 33,
+    "indexX": 41,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 34,
+    "indexX": 41,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 35,
+    "indexX": 41,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 36,
+    "indexX": 41,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 37,
+    "indexX": 41,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 38,
+    "indexX": 41,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 39,
+    "indexX": 41,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 40,
+    "indexX": 41,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 41,
+    "indexX": 41,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 42,
+    "indexX": 41,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 43,
+    "indexX": 41,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 44,
+    "indexX": 41,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 45,
+    "indexX": 41,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 46,
+    "indexX": 41,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 47,
+    "indexX": 41,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 48,
+    "indexX": 41,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 49,
+    "indexX": 41,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 50,
+    "indexX": 41,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 51,
+    "indexX": 41,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 52,
+    "indexX": 41,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 53,
+    "indexX": 41,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 54,
+    "indexX": 41,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 55,
+    "indexX": 41,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 56,
+    "indexX": 41,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 57,
+    "indexX": 41,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 58,
+    "indexX": 41,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 59,
+    "indexX": 41,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 41,
-    "worldY": 60,
+    "indexX": 41,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 0,
+    "indexX": 42,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 1,
+    "indexX": 42,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 2,
+    "indexX": 42,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 3,
+    "indexX": 42,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 4,
+    "indexX": 42,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 5,
+    "indexX": 42,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 6,
+    "indexX": 42,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 7,
+    "indexX": 42,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 8,
+    "indexX": 42,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 9,
+    "indexX": 42,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 10,
+    "indexX": 42,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 11,
+    "indexX": 42,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 12,
+    "indexX": 42,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 13,
+    "indexX": 42,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 14,
+    "indexX": 42,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 15,
+    "indexX": 42,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 16,
+    "indexX": 42,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 17,
+    "indexX": 42,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 18,
+    "indexX": 42,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 19,
+    "indexX": 42,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 20,
+    "indexX": 42,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 21,
+    "indexX": 42,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 22,
+    "indexX": 42,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 23,
+    "indexX": 42,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 24,
+    "indexX": 42,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 25,
+    "indexX": 42,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 26,
+    "indexX": 42,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 27,
+    "indexX": 42,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 28,
+    "indexX": 42,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 29,
+    "indexX": 42,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 30,
+    "indexX": 42,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 31,
+    "indexX": 42,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 32,
+    "indexX": 42,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 33,
+    "indexX": 42,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 34,
+    "indexX": 42,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 35,
+    "indexX": 42,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 36,
+    "indexX": 42,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 37,
+    "indexX": 42,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 38,
+    "indexX": 42,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 39,
+    "indexX": 42,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 40,
+    "indexX": 42,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 41,
+    "indexX": 42,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 42,
+    "indexX": 42,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 43,
+    "indexX": 42,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 44,
+    "indexX": 42,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 45,
+    "indexX": 42,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 46,
+    "indexX": 42,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 47,
+    "indexX": 42,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 48,
+    "indexX": 42,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 49,
+    "indexX": 42,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 50,
+    "indexX": 42,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 51,
+    "indexX": 42,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 52,
+    "indexX": 42,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 53,
+    "indexX": 42,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 54,
+    "indexX": 42,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 55,
+    "indexX": 42,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 56,
+    "indexX": 42,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 57,
+    "indexX": 42,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 58,
+    "indexX": 42,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 59,
+    "indexX": 42,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 42,
-    "worldY": 60,
+    "indexX": 42,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 0,
+    "indexX": 43,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 1,
+    "indexX": 43,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 2,
+    "indexX": 43,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 3,
+    "indexX": 43,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 4,
+    "indexX": 43,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 5,
+    "indexX": 43,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 6,
+    "indexX": 43,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 7,
+    "indexX": 43,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 8,
+    "indexX": 43,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 9,
+    "indexX": 43,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 10,
+    "indexX": 43,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 11,
+    "indexX": 43,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 12,
+    "indexX": 43,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 13,
+    "indexX": 43,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 14,
+    "indexX": 43,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 15,
+    "indexX": 43,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 16,
+    "indexX": 43,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 17,
+    "indexX": 43,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 18,
+    "indexX": 43,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 19,
+    "indexX": 43,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 20,
+    "indexX": 43,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 21,
+    "indexX": 43,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 22,
+    "indexX": 43,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 23,
+    "indexX": 43,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 24,
+    "indexX": 43,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 25,
+    "indexX": 43,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 26,
+    "indexX": 43,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 27,
+    "indexX": 43,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 28,
+    "indexX": 43,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 29,
+    "indexX": 43,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 30,
+    "indexX": 43,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 31,
+    "indexX": 43,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 32,
+    "indexX": 43,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 33,
+    "indexX": 43,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 34,
+    "indexX": 43,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 35,
+    "indexX": 43,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 36,
+    "indexX": 43,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 37,
+    "indexX": 43,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 38,
+    "indexX": 43,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 39,
+    "indexX": 43,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 40,
+    "indexX": 43,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 41,
+    "indexX": 43,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 42,
+    "indexX": 43,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 43,
+    "indexX": 43,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 44,
+    "indexX": 43,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 45,
+    "indexX": 43,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 46,
+    "indexX": 43,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 47,
+    "indexX": 43,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 48,
+    "indexX": 43,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 49,
+    "indexX": 43,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 50,
+    "indexX": 43,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 51,
+    "indexX": 43,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 52,
+    "indexX": 43,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 53,
+    "indexX": 43,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 54,
+    "indexX": 43,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 55,
+    "indexX": 43,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 56,
+    "indexX": 43,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 57,
+    "indexX": 43,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 58,
+    "indexX": 43,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 59,
+    "indexX": 43,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 43,
-    "worldY": 60,
+    "indexX": 43,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 0,
+    "indexX": 44,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 1,
+    "indexX": 44,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 2,
+    "indexX": 44,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 3,
+    "indexX": 44,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 4,
+    "indexX": 44,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 5,
+    "indexX": 44,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 6,
+    "indexX": 44,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 7,
+    "indexX": 44,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 8,
+    "indexX": 44,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 9,
+    "indexX": 44,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 10,
+    "indexX": 44,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 11,
+    "indexX": 44,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 12,
+    "indexX": 44,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 13,
+    "indexX": 44,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 14,
+    "indexX": 44,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 15,
+    "indexX": 44,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 16,
+    "indexX": 44,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 17,
+    "indexX": 44,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 18,
+    "indexX": 44,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 19,
+    "indexX": 44,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 20,
+    "indexX": 44,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 21,
+    "indexX": 44,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 22,
+    "indexX": 44,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 23,
+    "indexX": 44,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 24,
+    "indexX": 44,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 25,
+    "indexX": 44,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 26,
+    "indexX": 44,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 27,
+    "indexX": 44,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 28,
+    "indexX": 44,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 29,
+    "indexX": 44,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 30,
+    "indexX": 44,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 31,
+    "indexX": 44,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 32,
+    "indexX": 44,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 33,
+    "indexX": 44,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 34,
+    "indexX": 44,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 35,
+    "indexX": 44,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 36,
+    "indexX": 44,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 37,
+    "indexX": 44,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 38,
+    "indexX": 44,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 39,
+    "indexX": 44,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 40,
+    "indexX": 44,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 41,
+    "indexX": 44,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 42,
+    "indexX": 44,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 43,
+    "indexX": 44,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 44,
+    "indexX": 44,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 45,
+    "indexX": 44,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 46,
+    "indexX": 44,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 47,
+    "indexX": 44,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 48,
+    "indexX": 44,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 49,
+    "indexX": 44,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 50,
+    "indexX": 44,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 51,
+    "indexX": 44,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 52,
+    "indexX": 44,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 53,
+    "indexX": 44,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 54,
+    "indexX": 44,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 55,
+    "indexX": 44,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 56,
+    "indexX": 44,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 57,
+    "indexX": 44,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 58,
+    "indexX": 44,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 59,
+    "indexX": 44,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 44,
-    "worldY": 60,
+    "indexX": 44,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 0,
+    "indexX": 45,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 1,
+    "indexX": 45,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 2,
+    "indexX": 45,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 3,
+    "indexX": 45,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 4,
+    "indexX": 45,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 5,
+    "indexX": 45,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 6,
+    "indexX": 45,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 7,
+    "indexX": 45,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 8,
+    "indexX": 45,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 9,
+    "indexX": 45,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 10,
+    "indexX": 45,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 11,
+    "indexX": 45,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 12,
+    "indexX": 45,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 13,
+    "indexX": 45,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 14,
+    "indexX": 45,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 15,
+    "indexX": 45,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 16,
+    "indexX": 45,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 17,
+    "indexX": 45,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 18,
+    "indexX": 45,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 19,
+    "indexX": 45,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 20,
+    "indexX": 45,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 21,
+    "indexX": 45,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 22,
+    "indexX": 45,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 23,
+    "indexX": 45,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 24,
+    "indexX": 45,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 25,
+    "indexX": 45,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 26,
+    "indexX": 45,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 27,
+    "indexX": 45,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 28,
+    "indexX": 45,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 29,
+    "indexX": 45,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 30,
+    "indexX": 45,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 31,
+    "indexX": 45,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 32,
+    "indexX": 45,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 33,
+    "indexX": 45,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 34,
+    "indexX": 45,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 35,
+    "indexX": 45,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 36,
+    "indexX": 45,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 37,
+    "indexX": 45,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 38,
+    "indexX": 45,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 39,
+    "indexX": 45,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 40,
+    "indexX": 45,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 41,
+    "indexX": 45,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 42,
+    "indexX": 45,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 43,
+    "indexX": 45,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 44,
+    "indexX": 45,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 45,
+    "indexX": 45,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 46,
+    "indexX": 45,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 47,
+    "indexX": 45,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 48,
+    "indexX": 45,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 49,
+    "indexX": 45,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 50,
+    "indexX": 45,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 51,
+    "indexX": 45,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 52,
+    "indexX": 45,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 53,
+    "indexX": 45,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 54,
+    "indexX": 45,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 55,
+    "indexX": 45,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 56,
+    "indexX": 45,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 57,
+    "indexX": 45,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 58,
+    "indexX": 45,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 59,
+    "indexX": 45,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 45,
-    "worldY": 60,
+    "indexX": 45,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 0,
+    "indexX": 46,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 1,
+    "indexX": 46,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 2,
+    "indexX": 46,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 3,
+    "indexX": 46,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 4,
+    "indexX": 46,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 5,
+    "indexX": 46,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 6,
+    "indexX": 46,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 7,
+    "indexX": 46,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 8,
+    "indexX": 46,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 9,
+    "indexX": 46,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 10,
+    "indexX": 46,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 11,
+    "indexX": 46,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 12,
+    "indexX": 46,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 13,
+    "indexX": 46,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 14,
+    "indexX": 46,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 15,
+    "indexX": 46,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 16,
+    "indexX": 46,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 17,
+    "indexX": 46,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 18,
+    "indexX": 46,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 19,
+    "indexX": 46,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 20,
+    "indexX": 46,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 21,
+    "indexX": 46,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 22,
+    "indexX": 46,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 23,
+    "indexX": 46,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 24,
+    "indexX": 46,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 25,
+    "indexX": 46,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 26,
+    "indexX": 46,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 27,
+    "indexX": 46,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 28,
+    "indexX": 46,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 29,
+    "indexX": 46,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 30,
+    "indexX": 46,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 31,
+    "indexX": 46,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 32,
+    "indexX": 46,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 33,
+    "indexX": 46,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 34,
+    "indexX": 46,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 35,
+    "indexX": 46,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 36,
+    "indexX": 46,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 37,
+    "indexX": 46,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 38,
+    "indexX": 46,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 39,
+    "indexX": 46,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 40,
+    "indexX": 46,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 41,
+    "indexX": 46,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 42,
+    "indexX": 46,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 43,
+    "indexX": 46,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 44,
+    "indexX": 46,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 45,
+    "indexX": 46,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 46,
+    "indexX": 46,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 47,
+    "indexX": 46,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 48,
+    "indexX": 46,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 49,
+    "indexX": 46,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 50,
+    "indexX": 46,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 51,
+    "indexX": 46,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 52,
+    "indexX": 46,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 53,
+    "indexX": 46,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 54,
+    "indexX": 46,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 55,
+    "indexX": 46,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 56,
+    "indexX": 46,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 57,
+    "indexX": 46,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 58,
+    "indexX": 46,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 59,
+    "indexX": 46,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 46,
-    "worldY": 60,
+    "indexX": 46,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 0,
+    "indexX": 47,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 1,
+    "indexX": 47,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 2,
+    "indexX": 47,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 3,
+    "indexX": 47,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 4,
+    "indexX": 47,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 5,
+    "indexX": 47,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 6,
+    "indexX": 47,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 7,
+    "indexX": 47,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 8,
+    "indexX": 47,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 9,
+    "indexX": 47,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 10,
+    "indexX": 47,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 11,
+    "indexX": 47,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 12,
+    "indexX": 47,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 13,
+    "indexX": 47,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 14,
+    "indexX": 47,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 15,
+    "indexX": 47,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 16,
+    "indexX": 47,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 17,
+    "indexX": 47,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 18,
+    "indexX": 47,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 19,
+    "indexX": 47,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 20,
+    "indexX": 47,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 21,
+    "indexX": 47,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 22,
+    "indexX": 47,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 23,
+    "indexX": 47,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 24,
+    "indexX": 47,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 25,
+    "indexX": 47,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 26,
+    "indexX": 47,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 27,
+    "indexX": 47,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 28,
+    "indexX": 47,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 29,
+    "indexX": 47,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 30,
+    "indexX": 47,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 31,
+    "indexX": 47,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 32,
+    "indexX": 47,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 33,
+    "indexX": 47,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 34,
+    "indexX": 47,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 35,
+    "indexX": 47,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 36,
+    "indexX": 47,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 37,
+    "indexX": 47,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 38,
+    "indexX": 47,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 39,
+    "indexX": 47,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 40,
+    "indexX": 47,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 41,
+    "indexX": 47,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 42,
+    "indexX": 47,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 43,
+    "indexX": 47,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 44,
+    "indexX": 47,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 45,
+    "indexX": 47,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 46,
+    "indexX": 47,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 47,
+    "indexX": 47,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 48,
+    "indexX": 47,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 49,
+    "indexX": 47,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 50,
+    "indexX": 47,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 51,
+    "indexX": 47,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 52,
+    "indexX": 47,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 53,
+    "indexX": 47,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 54,
+    "indexX": 47,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 55,
+    "indexX": 47,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 56,
+    "indexX": 47,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 57,
+    "indexX": 47,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 58,
+    "indexX": 47,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 59,
+    "indexX": 47,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 47,
-    "worldY": 60,
+    "indexX": 47,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 0,
+    "indexX": 48,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 1,
+    "indexX": 48,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 2,
+    "indexX": 48,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 3,
+    "indexX": 48,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 4,
+    "indexX": 48,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 5,
+    "indexX": 48,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 6,
+    "indexX": 48,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 7,
+    "indexX": 48,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 8,
+    "indexX": 48,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 9,
+    "indexX": 48,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 10,
+    "indexX": 48,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 11,
+    "indexX": 48,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 12,
+    "indexX": 48,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 13,
+    "indexX": 48,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 14,
+    "indexX": 48,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 15,
+    "indexX": 48,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 16,
+    "indexX": 48,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 17,
+    "indexX": 48,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 18,
+    "indexX": 48,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 19,
+    "indexX": 48,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 20,
+    "indexX": 48,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 21,
+    "indexX": 48,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 22,
+    "indexX": 48,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 23,
+    "indexX": 48,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 24,
+    "indexX": 48,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 25,
+    "indexX": 48,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 26,
+    "indexX": 48,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 27,
+    "indexX": 48,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 28,
+    "indexX": 48,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 29,
+    "indexX": 48,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 30,
+    "indexX": 48,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 31,
+    "indexX": 48,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 32,
+    "indexX": 48,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 33,
+    "indexX": 48,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 34,
+    "indexX": 48,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 35,
+    "indexX": 48,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 36,
+    "indexX": 48,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 37,
+    "indexX": 48,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 38,
+    "indexX": 48,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 39,
+    "indexX": 48,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 40,
+    "indexX": 48,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 41,
+    "indexX": 48,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 42,
+    "indexX": 48,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 43,
+    "indexX": 48,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 44,
+    "indexX": 48,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 45,
+    "indexX": 48,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 46,
+    "indexX": 48,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 47,
+    "indexX": 48,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 48,
+    "indexX": 48,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 49,
+    "indexX": 48,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 50,
+    "indexX": 48,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 51,
+    "indexX": 48,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 52,
+    "indexX": 48,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 53,
+    "indexX": 48,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 54,
+    "indexX": 48,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 55,
+    "indexX": 48,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 56,
+    "indexX": 48,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 57,
+    "indexX": 48,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 58,
+    "indexX": 48,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 59,
+    "indexX": 48,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 48,
-    "worldY": 60,
+    "indexX": 48,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 0,
+    "indexX": 49,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 1,
+    "indexX": 49,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 2,
+    "indexX": 49,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 3,
+    "indexX": 49,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 4,
+    "indexX": 49,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 5,
+    "indexX": 49,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 6,
+    "indexX": 49,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 7,
+    "indexX": 49,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 8,
+    "indexX": 49,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 9,
+    "indexX": 49,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 10,
+    "indexX": 49,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 11,
+    "indexX": 49,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 12,
+    "indexX": 49,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 13,
+    "indexX": 49,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 14,
+    "indexX": 49,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 15,
+    "indexX": 49,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 16,
+    "indexX": 49,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 17,
+    "indexX": 49,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 18,
+    "indexX": 49,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 19,
+    "indexX": 49,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 20,
+    "indexX": 49,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 21,
+    "indexX": 49,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 22,
+    "indexX": 49,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 23,
+    "indexX": 49,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 24,
+    "indexX": 49,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 25,
+    "indexX": 49,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 26,
+    "indexX": 49,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 27,
+    "indexX": 49,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 28,
+    "indexX": 49,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 29,
+    "indexX": 49,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 30,
+    "indexX": 49,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 31,
+    "indexX": 49,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 32,
+    "indexX": 49,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 33,
+    "indexX": 49,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 34,
+    "indexX": 49,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 35,
+    "indexX": 49,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 36,
+    "indexX": 49,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 37,
+    "indexX": 49,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 38,
+    "indexX": 49,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 39,
+    "indexX": 49,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 40,
+    "indexX": 49,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 41,
+    "indexX": 49,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 42,
+    "indexX": 49,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 43,
+    "indexX": 49,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 44,
+    "indexX": 49,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 45,
+    "indexX": 49,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 46,
+    "indexX": 49,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 47,
+    "indexX": 49,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 48,
+    "indexX": 49,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 49,
+    "indexX": 49,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 50,
+    "indexX": 49,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 51,
+    "indexX": 49,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 52,
+    "indexX": 49,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 53,
+    "indexX": 49,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 54,
+    "indexX": 49,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 55,
+    "indexX": 49,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 56,
+    "indexX": 49,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 57,
+    "indexX": 49,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 58,
+    "indexX": 49,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 59,
+    "indexX": 49,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 49,
-    "worldY": 60,
+    "indexX": 49,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 0,
+    "indexX": 50,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 1,
+    "indexX": 50,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 2,
+    "indexX": 50,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 3,
+    "indexX": 50,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 4,
+    "indexX": 50,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 5,
+    "indexX": 50,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 6,
+    "indexX": 50,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 7,
+    "indexX": 50,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 8,
+    "indexX": 50,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 9,
+    "indexX": 50,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 10,
+    "indexX": 50,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 11,
+    "indexX": 50,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 12,
+    "indexX": 50,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 13,
+    "indexX": 50,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 14,
+    "indexX": 50,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 15,
+    "indexX": 50,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 16,
+    "indexX": 50,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 17,
+    "indexX": 50,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 18,
+    "indexX": 50,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 19,
+    "indexX": 50,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 20,
+    "indexX": 50,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 21,
+    "indexX": 50,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 22,
+    "indexX": 50,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 23,
+    "indexX": 50,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 24,
+    "indexX": 50,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 25,
+    "indexX": 50,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 26,
+    "indexX": 50,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 27,
+    "indexX": 50,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 28,
+    "indexX": 50,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 29,
+    "indexX": 50,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 30,
+    "indexX": 50,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 31,
+    "indexX": 50,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 32,
+    "indexX": 50,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 33,
+    "indexX": 50,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 34,
+    "indexX": 50,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 35,
+    "indexX": 50,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 36,
+    "indexX": 50,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 37,
+    "indexX": 50,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 38,
+    "indexX": 50,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 39,
+    "indexX": 50,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 40,
+    "indexX": 50,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 41,
+    "indexX": 50,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 42,
+    "indexX": 50,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 43,
+    "indexX": 50,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 44,
+    "indexX": 50,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 45,
+    "indexX": 50,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 46,
+    "indexX": 50,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 47,
+    "indexX": 50,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 48,
+    "indexX": 50,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 49,
+    "indexX": 50,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 50,
+    "indexX": 50,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 51,
+    "indexX": 50,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 52,
+    "indexX": 50,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 53,
+    "indexX": 50,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 54,
+    "indexX": 50,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 55,
+    "indexX": 50,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 56,
+    "indexX": 50,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 57,
+    "indexX": 50,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 58,
+    "indexX": 50,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 59,
+    "indexX": 50,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 50,
-    "worldY": 60,
+    "indexX": 50,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 0,
+    "indexX": 51,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 1,
+    "indexX": 51,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 2,
+    "indexX": 51,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 3,
+    "indexX": 51,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 4,
+    "indexX": 51,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 5,
+    "indexX": 51,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 6,
+    "indexX": 51,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 7,
+    "indexX": 51,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 8,
+    "indexX": 51,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 9,
+    "indexX": 51,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 10,
+    "indexX": 51,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 11,
+    "indexX": 51,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 12,
+    "indexX": 51,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 13,
+    "indexX": 51,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 14,
+    "indexX": 51,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 15,
+    "indexX": 51,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 16,
+    "indexX": 51,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 17,
+    "indexX": 51,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 18,
+    "indexX": 51,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 19,
+    "indexX": 51,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 20,
+    "indexX": 51,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 21,
+    "indexX": 51,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 22,
+    "indexX": 51,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 23,
+    "indexX": 51,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 24,
+    "indexX": 51,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 25,
+    "indexX": 51,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 26,
+    "indexX": 51,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 27,
+    "indexX": 51,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 28,
+    "indexX": 51,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 29,
+    "indexX": 51,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 30,
+    "indexX": 51,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 31,
+    "indexX": 51,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 32,
+    "indexX": 51,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 33,
+    "indexX": 51,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 34,
+    "indexX": 51,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 35,
+    "indexX": 51,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 36,
+    "indexX": 51,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 37,
+    "indexX": 51,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 38,
+    "indexX": 51,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 39,
+    "indexX": 51,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 40,
+    "indexX": 51,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 41,
+    "indexX": 51,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 42,
+    "indexX": 51,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 43,
+    "indexX": 51,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 44,
+    "indexX": 51,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 45,
+    "indexX": 51,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 46,
+    "indexX": 51,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 47,
+    "indexX": 51,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 48,
+    "indexX": 51,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 49,
+    "indexX": 51,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 50,
+    "indexX": 51,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 51,
+    "indexX": 51,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 52,
+    "indexX": 51,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 53,
+    "indexX": 51,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 54,
+    "indexX": 51,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 55,
+    "indexX": 51,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 56,
+    "indexX": 51,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 57,
+    "indexX": 51,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 58,
+    "indexX": 51,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 59,
+    "indexX": 51,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 51,
-    "worldY": 60,
+    "indexX": 51,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 0,
+    "indexX": 52,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 1,
+    "indexX": 52,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 2,
+    "indexX": 52,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 3,
+    "indexX": 52,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 4,
+    "indexX": 52,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 5,
+    "indexX": 52,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 6,
+    "indexX": 52,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 7,
+    "indexX": 52,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 8,
+    "indexX": 52,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 9,
+    "indexX": 52,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 10,
+    "indexX": 52,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 11,
+    "indexX": 52,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 12,
+    "indexX": 52,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 13,
+    "indexX": 52,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 14,
+    "indexX": 52,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 15,
+    "indexX": 52,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 16,
+    "indexX": 52,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 17,
+    "indexX": 52,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 18,
+    "indexX": 52,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 19,
+    "indexX": 52,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 20,
+    "indexX": 52,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 21,
+    "indexX": 52,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 22,
+    "indexX": 52,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 23,
+    "indexX": 52,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 24,
+    "indexX": 52,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 25,
+    "indexX": 52,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 26,
+    "indexX": 52,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 27,
+    "indexX": 52,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 28,
+    "indexX": 52,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 29,
+    "indexX": 52,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 30,
+    "indexX": 52,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 31,
+    "indexX": 52,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 32,
+    "indexX": 52,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 33,
+    "indexX": 52,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 34,
+    "indexX": 52,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 35,
+    "indexX": 52,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 36,
+    "indexX": 52,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 37,
+    "indexX": 52,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 38,
+    "indexX": 52,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 39,
+    "indexX": 52,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 40,
+    "indexX": 52,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 41,
+    "indexX": 52,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 42,
+    "indexX": 52,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 43,
+    "indexX": 52,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 44,
+    "indexX": 52,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 45,
+    "indexX": 52,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 46,
+    "indexX": 52,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 47,
+    "indexX": 52,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 48,
+    "indexX": 52,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 49,
+    "indexX": 52,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 50,
+    "indexX": 52,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 51,
+    "indexX": 52,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 52,
+    "indexX": 52,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 53,
+    "indexX": 52,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 54,
+    "indexX": 52,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 55,
+    "indexX": 52,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 56,
+    "indexX": 52,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 57,
+    "indexX": 52,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 58,
+    "indexX": 52,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 59,
+    "indexX": 52,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 52,
-    "worldY": 60,
+    "indexX": 52,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 0,
+    "indexX": 53,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 1,
+    "indexX": 53,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 2,
+    "indexX": 53,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 3,
+    "indexX": 53,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 4,
+    "indexX": 53,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 5,
+    "indexX": 53,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 6,
+    "indexX": 53,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 7,
+    "indexX": 53,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 8,
+    "indexX": 53,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 9,
+    "indexX": 53,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 10,
+    "indexX": 53,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 11,
+    "indexX": 53,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 12,
+    "indexX": 53,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 13,
+    "indexX": 53,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 14,
+    "indexX": 53,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 15,
+    "indexX": 53,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 16,
+    "indexX": 53,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 17,
+    "indexX": 53,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 18,
+    "indexX": 53,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 19,
+    "indexX": 53,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 20,
+    "indexX": 53,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 21,
+    "indexX": 53,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 22,
+    "indexX": 53,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 23,
+    "indexX": 53,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 24,
+    "indexX": 53,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 25,
+    "indexX": 53,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 26,
+    "indexX": 53,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 27,
+    "indexX": 53,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 28,
+    "indexX": 53,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 29,
+    "indexX": 53,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 30,
+    "indexX": 53,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 31,
+    "indexX": 53,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 32,
+    "indexX": 53,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 33,
+    "indexX": 53,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 34,
+    "indexX": 53,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 35,
+    "indexX": 53,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 36,
+    "indexX": 53,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 37,
+    "indexX": 53,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 38,
+    "indexX": 53,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 39,
+    "indexX": 53,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 40,
+    "indexX": 53,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 41,
+    "indexX": 53,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 42,
+    "indexX": 53,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 43,
+    "indexX": 53,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 44,
+    "indexX": 53,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 45,
+    "indexX": 53,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 46,
+    "indexX": 53,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 47,
+    "indexX": 53,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 48,
+    "indexX": 53,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 49,
+    "indexX": 53,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 50,
+    "indexX": 53,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 51,
+    "indexX": 53,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 52,
+    "indexX": 53,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 53,
+    "indexX": 53,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 54,
+    "indexX": 53,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 55,
+    "indexX": 53,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 56,
+    "indexX": 53,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 57,
+    "indexX": 53,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 58,
+    "indexX": 53,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 59,
+    "indexX": 53,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 53,
-    "worldY": 60,
+    "indexX": 53,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 0,
+    "indexX": 54,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 1,
+    "indexX": 54,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 2,
+    "indexX": 54,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 3,
+    "indexX": 54,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 4,
+    "indexX": 54,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 5,
+    "indexX": 54,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 6,
+    "indexX": 54,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 7,
+    "indexX": 54,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 8,
+    "indexX": 54,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 9,
+    "indexX": 54,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 10,
+    "indexX": 54,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 11,
+    "indexX": 54,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 12,
+    "indexX": 54,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 13,
+    "indexX": 54,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 14,
+    "indexX": 54,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 15,
+    "indexX": 54,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 16,
+    "indexX": 54,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 17,
+    "indexX": 54,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 18,
+    "indexX": 54,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 19,
+    "indexX": 54,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 20,
+    "indexX": 54,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 21,
+    "indexX": 54,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 22,
+    "indexX": 54,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 23,
+    "indexX": 54,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 24,
+    "indexX": 54,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 25,
+    "indexX": 54,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 26,
+    "indexX": 54,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 27,
+    "indexX": 54,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 28,
+    "indexX": 54,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 29,
+    "indexX": 54,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 30,
+    "indexX": 54,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 31,
+    "indexX": 54,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 32,
+    "indexX": 54,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 33,
+    "indexX": 54,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 34,
+    "indexX": 54,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 35,
+    "indexX": 54,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 36,
+    "indexX": 54,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 37,
+    "indexX": 54,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 38,
+    "indexX": 54,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 39,
+    "indexX": 54,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 40,
+    "indexX": 54,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 41,
+    "indexX": 54,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 42,
+    "indexX": 54,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 43,
+    "indexX": 54,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 44,
+    "indexX": 54,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 45,
+    "indexX": 54,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 46,
+    "indexX": 54,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 47,
+    "indexX": 54,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 48,
+    "indexX": 54,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 49,
+    "indexX": 54,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 50,
+    "indexX": 54,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 51,
+    "indexX": 54,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 52,
+    "indexX": 54,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 53,
+    "indexX": 54,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 54,
+    "indexX": 54,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 55,
+    "indexX": 54,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 56,
+    "indexX": 54,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 57,
+    "indexX": 54,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 58,
+    "indexX": 54,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 59,
+    "indexX": 54,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 54,
-    "worldY": 60,
+    "indexX": 54,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 0,
+    "indexX": 55,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 1,
+    "indexX": 55,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 2,
+    "indexX": 55,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 3,
+    "indexX": 55,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 4,
+    "indexX": 55,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 5,
+    "indexX": 55,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 6,
+    "indexX": 55,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 7,
+    "indexX": 55,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 8,
+    "indexX": 55,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 9,
+    "indexX": 55,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 10,
+    "indexX": 55,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 11,
+    "indexX": 55,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 12,
+    "indexX": 55,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 13,
+    "indexX": 55,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 14,
+    "indexX": 55,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 15,
+    "indexX": 55,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 16,
+    "indexX": 55,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 17,
+    "indexX": 55,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 18,
+    "indexX": 55,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 19,
+    "indexX": 55,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 20,
+    "indexX": 55,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 21,
+    "indexX": 55,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 22,
+    "indexX": 55,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 23,
+    "indexX": 55,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 24,
+    "indexX": 55,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 25,
+    "indexX": 55,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 26,
+    "indexX": 55,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 27,
+    "indexX": 55,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 28,
+    "indexX": 55,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 29,
+    "indexX": 55,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 30,
+    "indexX": 55,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 31,
+    "indexX": 55,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 32,
+    "indexX": 55,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 33,
+    "indexX": 55,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 34,
+    "indexX": 55,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 35,
+    "indexX": 55,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 36,
+    "indexX": 55,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 37,
+    "indexX": 55,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 38,
+    "indexX": 55,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 39,
+    "indexX": 55,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 40,
+    "indexX": 55,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 41,
+    "indexX": 55,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 42,
+    "indexX": 55,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 43,
+    "indexX": 55,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 44,
+    "indexX": 55,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 45,
+    "indexX": 55,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 46,
+    "indexX": 55,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 47,
+    "indexX": 55,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 48,
+    "indexX": 55,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 49,
+    "indexX": 55,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 50,
+    "indexX": 55,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 51,
+    "indexX": 55,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 52,
+    "indexX": 55,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 53,
+    "indexX": 55,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 54,
+    "indexX": 55,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 55,
+    "indexX": 55,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 56,
+    "indexX": 55,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 57,
+    "indexX": 55,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 58,
+    "indexX": 55,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 59,
+    "indexX": 55,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 55,
-    "worldY": 60,
+    "indexX": 55,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 0,
+    "indexX": 56,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 1,
+    "indexX": 56,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 2,
+    "indexX": 56,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 3,
+    "indexX": 56,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 4,
+    "indexX": 56,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 5,
+    "indexX": 56,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 6,
+    "indexX": 56,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 7,
+    "indexX": 56,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 8,
+    "indexX": 56,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 9,
+    "indexX": 56,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 10,
+    "indexX": 56,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 11,
+    "indexX": 56,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 12,
+    "indexX": 56,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 13,
+    "indexX": 56,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 14,
+    "indexX": 56,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 15,
+    "indexX": 56,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 16,
+    "indexX": 56,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 17,
+    "indexX": 56,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 18,
+    "indexX": 56,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 19,
+    "indexX": 56,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 20,
+    "indexX": 56,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 21,
+    "indexX": 56,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 22,
+    "indexX": 56,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 23,
+    "indexX": 56,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 24,
+    "indexX": 56,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 25,
+    "indexX": 56,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 26,
+    "indexX": 56,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 27,
+    "indexX": 56,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 28,
+    "indexX": 56,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 29,
+    "indexX": 56,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 30,
+    "indexX": 56,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 31,
+    "indexX": 56,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 32,
+    "indexX": 56,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 33,
+    "indexX": 56,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 34,
+    "indexX": 56,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 35,
+    "indexX": 56,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 36,
+    "indexX": 56,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 37,
+    "indexX": 56,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 38,
+    "indexX": 56,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 39,
+    "indexX": 56,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 40,
+    "indexX": 56,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 41,
+    "indexX": 56,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 42,
+    "indexX": 56,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 43,
+    "indexX": 56,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 44,
+    "indexX": 56,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 45,
+    "indexX": 56,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 46,
+    "indexX": 56,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 47,
+    "indexX": 56,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 48,
+    "indexX": 56,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 49,
+    "indexX": 56,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 50,
+    "indexX": 56,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 51,
+    "indexX": 56,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 52,
+    "indexX": 56,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 53,
+    "indexX": 56,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 54,
+    "indexX": 56,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 55,
+    "indexX": 56,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 56,
+    "indexX": 56,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 57,
+    "indexX": 56,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 58,
+    "indexX": 56,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 59,
+    "indexX": 56,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 56,
-    "worldY": 60,
+    "indexX": 56,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 0,
+    "indexX": 57,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 1,
+    "indexX": 57,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 2,
+    "indexX": 57,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 3,
+    "indexX": 57,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 4,
+    "indexX": 57,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 5,
+    "indexX": 57,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 6,
+    "indexX": 57,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 7,
+    "indexX": 57,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 8,
+    "indexX": 57,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 9,
+    "indexX": 57,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 10,
+    "indexX": 57,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 11,
+    "indexX": 57,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 12,
+    "indexX": 57,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 13,
+    "indexX": 57,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 14,
+    "indexX": 57,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 15,
+    "indexX": 57,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 16,
+    "indexX": 57,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 17,
+    "indexX": 57,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 18,
+    "indexX": 57,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 19,
+    "indexX": 57,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 20,
+    "indexX": 57,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 21,
+    "indexX": 57,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 22,
+    "indexX": 57,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 23,
+    "indexX": 57,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 24,
+    "indexX": 57,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 25,
+    "indexX": 57,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 26,
+    "indexX": 57,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 27,
+    "indexX": 57,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 28,
+    "indexX": 57,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 29,
+    "indexX": 57,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 30,
+    "indexX": 57,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 31,
+    "indexX": 57,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 32,
+    "indexX": 57,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 33,
+    "indexX": 57,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 34,
+    "indexX": 57,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 35,
+    "indexX": 57,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 36,
+    "indexX": 57,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 37,
+    "indexX": 57,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 38,
+    "indexX": 57,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 39,
+    "indexX": 57,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 40,
+    "indexX": 57,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 41,
+    "indexX": 57,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 42,
+    "indexX": 57,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 43,
+    "indexX": 57,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 44,
+    "indexX": 57,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 45,
+    "indexX": 57,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 46,
+    "indexX": 57,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 47,
+    "indexX": 57,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 48,
+    "indexX": 57,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 49,
+    "indexX": 57,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 50,
+    "indexX": 57,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 51,
+    "indexX": 57,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 52,
+    "indexX": 57,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 53,
+    "indexX": 57,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 54,
+    "indexX": 57,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 55,
+    "indexX": 57,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 56,
+    "indexX": 57,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 57,
+    "indexX": 57,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 58,
+    "indexX": 57,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 59,
+    "indexX": 57,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 57,
-    "worldY": 60,
+    "indexX": 57,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 0,
+    "indexX": 58,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 1,
+    "indexX": 58,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 2,
+    "indexX": 58,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 3,
+    "indexX": 58,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 4,
+    "indexX": 58,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 5,
+    "indexX": 58,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 6,
+    "indexX": 58,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 7,
+    "indexX": 58,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 8,
+    "indexX": 58,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 9,
+    "indexX": 58,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 10,
+    "indexX": 58,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 11,
+    "indexX": 58,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 12,
+    "indexX": 58,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 13,
+    "indexX": 58,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 14,
+    "indexX": 58,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 15,
+    "indexX": 58,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 16,
+    "indexX": 58,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 17,
+    "indexX": 58,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 18,
+    "indexX": 58,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 19,
+    "indexX": 58,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 20,
+    "indexX": 58,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 21,
+    "indexX": 58,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 22,
+    "indexX": 58,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 23,
+    "indexX": 58,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 24,
+    "indexX": 58,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 25,
+    "indexX": 58,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 26,
+    "indexX": 58,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 27,
+    "indexX": 58,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 28,
+    "indexX": 58,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 29,
+    "indexX": 58,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 30,
+    "indexX": 58,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 31,
+    "indexX": 58,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 32,
+    "indexX": 58,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 33,
+    "indexX": 58,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 34,
+    "indexX": 58,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 35,
+    "indexX": 58,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 36,
+    "indexX": 58,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 37,
+    "indexX": 58,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 38,
+    "indexX": 58,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 39,
+    "indexX": 58,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 40,
+    "indexX": 58,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 41,
+    "indexX": 58,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 42,
+    "indexX": 58,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 43,
+    "indexX": 58,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 44,
+    "indexX": 58,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 45,
+    "indexX": 58,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 46,
+    "indexX": 58,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 47,
+    "indexX": 58,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 48,
+    "indexX": 58,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 49,
+    "indexX": 58,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 50,
+    "indexX": 58,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 51,
+    "indexX": 58,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 52,
+    "indexX": 58,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 53,
+    "indexX": 58,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 54,
+    "indexX": 58,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 55,
+    "indexX": 58,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 56,
+    "indexX": 58,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 57,
+    "indexX": 58,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 58,
+    "indexX": 58,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 59,
+    "indexX": 58,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 58,
-    "worldY": 60,
+    "indexX": 58,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 0,
+    "indexX": 59,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 1,
+    "indexX": 59,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 2,
+    "indexX": 59,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 3,
+    "indexX": 59,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 4,
+    "indexX": 59,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 5,
+    "indexX": 59,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 6,
+    "indexX": 59,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 7,
+    "indexX": 59,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 8,
+    "indexX": 59,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 9,
+    "indexX": 59,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 10,
+    "indexX": 59,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 11,
+    "indexX": 59,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 12,
+    "indexX": 59,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 13,
+    "indexX": 59,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 14,
+    "indexX": 59,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 15,
+    "indexX": 59,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 16,
+    "indexX": 59,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 17,
+    "indexX": 59,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 18,
+    "indexX": 59,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 19,
+    "indexX": 59,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 20,
+    "indexX": 59,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 21,
+    "indexX": 59,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 22,
+    "indexX": 59,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 23,
+    "indexX": 59,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 24,
+    "indexX": 59,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 25,
+    "indexX": 59,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 26,
+    "indexX": 59,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 27,
+    "indexX": 59,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 28,
+    "indexX": 59,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 29,
+    "indexX": 59,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 30,
+    "indexX": 59,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 31,
+    "indexX": 59,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 32,
+    "indexX": 59,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 33,
+    "indexX": 59,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 34,
+    "indexX": 59,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 35,
+    "indexX": 59,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 36,
+    "indexX": 59,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 37,
+    "indexX": 59,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 38,
+    "indexX": 59,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 39,
+    "indexX": 59,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 40,
+    "indexX": 59,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 41,
+    "indexX": 59,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 42,
+    "indexX": 59,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 43,
+    "indexX": 59,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 44,
+    "indexX": 59,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 45,
+    "indexX": 59,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 46,
+    "indexX": 59,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 47,
+    "indexX": 59,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 48,
+    "indexX": 59,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 49,
+    "indexX": 59,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 50,
+    "indexX": 59,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 51,
+    "indexX": 59,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 52,
+    "indexX": 59,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 53,
+    "indexX": 59,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 54,
+    "indexX": 59,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 55,
+    "indexX": 59,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 56,
+    "indexX": 59,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 57,
+    "indexX": 59,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 58,
+    "indexX": 59,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 59,
+    "indexX": 59,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 59,
-    "worldY": 60,
+    "indexX": 59,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 0,
+    "indexX": 60,
+    "indexY": 0,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 1,
+    "indexX": 60,
+    "indexY": 1,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 2,
+    "indexX": 60,
+    "indexY": 2,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 3,
+    "indexX": 60,
+    "indexY": 3,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 4,
+    "indexX": 60,
+    "indexY": 4,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 5,
+    "indexX": 60,
+    "indexY": 5,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 6,
+    "indexX": 60,
+    "indexY": 6,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 7,
+    "indexX": 60,
+    "indexY": 7,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 8,
+    "indexX": 60,
+    "indexY": 8,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 9,
+    "indexX": 60,
+    "indexY": 9,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 10,
+    "indexX": 60,
+    "indexY": 10,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 11,
+    "indexX": 60,
+    "indexY": 11,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 12,
+    "indexX": 60,
+    "indexY": 12,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 13,
+    "indexX": 60,
+    "indexY": 13,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 14,
+    "indexX": 60,
+    "indexY": 14,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 15,
+    "indexX": 60,
+    "indexY": 15,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 16,
+    "indexX": 60,
+    "indexY": 16,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 17,
+    "indexX": 60,
+    "indexY": 17,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 18,
+    "indexX": 60,
+    "indexY": 18,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 19,
+    "indexX": 60,
+    "indexY": 19,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 20,
+    "indexX": 60,
+    "indexY": 20,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 21,
+    "indexX": 60,
+    "indexY": 21,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 22,
+    "indexX": 60,
+    "indexY": 22,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 23,
+    "indexX": 60,
+    "indexY": 23,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 24,
+    "indexX": 60,
+    "indexY": 24,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 25,
+    "indexX": 60,
+    "indexY": 25,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 26,
+    "indexX": 60,
+    "indexY": 26,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 27,
+    "indexX": 60,
+    "indexY": 27,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 28,
+    "indexX": 60,
+    "indexY": 28,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 29,
+    "indexX": 60,
+    "indexY": 29,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 30,
+    "indexX": 60,
+    "indexY": 30,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 31,
+    "indexX": 60,
+    "indexY": 31,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 32,
+    "indexX": 60,
+    "indexY": 32,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 33,
+    "indexX": 60,
+    "indexY": 33,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 34,
+    "indexX": 60,
+    "indexY": 34,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 35,
+    "indexX": 60,
+    "indexY": 35,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 36,
+    "indexX": 60,
+    "indexY": 36,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 37,
+    "indexX": 60,
+    "indexY": 37,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 38,
+    "indexX": 60,
+    "indexY": 38,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 39,
+    "indexX": 60,
+    "indexY": 39,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 40,
+    "indexX": 60,
+    "indexY": 40,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 41,
+    "indexX": 60,
+    "indexY": 41,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 42,
+    "indexX": 60,
+    "indexY": 42,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 43,
+    "indexX": 60,
+    "indexY": 43,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 44,
+    "indexX": 60,
+    "indexY": 44,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 45,
+    "indexX": 60,
+    "indexY": 45,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 46,
+    "indexX": 60,
+    "indexY": 46,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 47,
+    "indexX": 60,
+    "indexY": 47,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 48,
+    "indexX": 60,
+    "indexY": 48,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 49,
+    "indexX": 60,
+    "indexY": 49,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 50,
+    "indexX": 60,
+    "indexY": 50,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 51,
+    "indexX": 60,
+    "indexY": 51,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 52,
+    "indexX": 60,
+    "indexY": 52,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 53,
+    "indexX": 60,
+    "indexY": 53,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 54,
+    "indexX": 60,
+    "indexY": 54,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 55,
+    "indexX": 60,
+    "indexY": 55,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 56,
+    "indexX": 60,
+    "indexY": 56,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 57,
+    "indexX": 60,
+    "indexY": 57,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 58,
+    "indexX": 60,
+    "indexY": 58,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 59,
+    "indexX": 60,
+    "indexY": 59,
     "spriteId": "land",
     "isImpassable": false
   },
   {
-    "worldX": 60,
-    "worldY": 60,
+    "indexX": 60,
+    "indexY": 60,
     "spriteId": "land",
     "isImpassable": false
   }
