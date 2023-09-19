@@ -75,39 +75,129 @@ export default class CurrentPlayer extends Player {
     }
 
     handleObstacle() {
+        this.game.world.tiles.forEach(row => {
+            row.forEach(tile => {
+                if (tile.spriteId === 'land_s') {
+                    tile.setSprite('land')
+                } else if (tile.spriteId === 'rock_s') {
+                    tile.setSprite('rockTile')
+                }
+            })
+        });
+
+        const nextUpperLeft = this.getNextUpperLeftTile();
+        const nextLowerLeft = this.getNextLowerLeftTile();
+        const nextUpperRight = this.getNextUpperRightTile();
+        const nextLowerRight = this.getNextLowerRightTile();
+
         if (this.xSpeed > 0) {
-            const leftTiles = this.getLeftTiles();
-            leftTiles.forEach(tile => {
+            this.getLeftTiles().forEach(tile => {
                 if (tile?.isImpassable && tile.getWorldXPixel() + tile.width === this.getWorldXPixel()) {
                     this.xSpeed = 0;
                 }
             });
 
+            if (nextUpperLeft.spriteId === 'land') {
+                nextUpperLeft.setSprite('land_s')
+            } else if (nextUpperLeft.spriteId === 'rockTile') {
+                nextUpperLeft.setSprite('rock_s')
+            }
+
+            if (nextLowerLeft.spriteId === 'land') {
+                nextLowerLeft.setSprite('land_s')
+            } else if (nextLowerLeft.spriteId === 'rockTile') {
+                nextLowerLeft.setSprite('rock_s')
+            }
+
+            this.getLeftTiles().forEach(tile => {
+                if (tile.spriteId === 'land') {
+                    tile.setSprite('land_s')
+                } else if (tile.spriteId === 'rockTile') {
+                    tile.setSprite('rock_s')
+                }
+            });
         }
         if (this.xSpeed < 0) {
-            const rightTiles = this.getRightTiles();
-            rightTiles.forEach(tile => {
+            this.getRightTiles().forEach(tile => {
                 if (tile?.isImpassable && tile.getWorldXPixel() === this.getWorldXPixel() + this.width) {
                     this.xSpeed = 0;
                 }
             });
+
+            this.getRightTiles().forEach(tile => {
+                if (tile.spriteId === 'land') {
+                    tile.setSprite('land_s')
+                } else if (tile.spriteId === 'rockTile') {
+                    tile.setSprite('rock_s')
+                }
+            });
+
+            if (nextUpperRight.spriteId === 'land') {
+                nextUpperRight.setSprite('land_s')
+            } else if (nextUpperRight.spriteId === 'rockTile') {
+                nextUpperRight.setSprite('rock_s')
+            }
+
+            if (nextLowerRight.spriteId === 'land') {
+                nextLowerRight.setSprite('land_s')
+            } else if (nextLowerRight.spriteId === 'rockTile') {
+                nextLowerRight.setSprite('rock_s')
+            }
         }
 
         if (this.ySpeed < 0) {
-            const lowerTiles = this.getLowerTiles();
-            lowerTiles.forEach(tile => {
+            this.getLowerTiles().forEach(tile => {
                 if (tile?.isImpassable && tile.getWorldYPixel() === this.getWorldYPixel() + this.height) {
                     this.ySpeed = 0;
                 }
             });
+
+            this.getLowerTiles().forEach(tile => {
+                if (tile.spriteId === 'land') {
+                    tile.setSprite('land_s')
+                } else if (tile.spriteId === 'rockTile') {
+                    tile.setSprite('rock_s')
+                }
+            });
+
+            if (nextLowerLeft.spriteId === 'land') {
+                nextLowerLeft.setSprite('land_s')
+            } else if (nextLowerLeft.spriteId === 'rockTile') {
+                nextLowerLeft.setSprite('rock_s')
+            }
+
+            if (nextLowerRight.spriteId === 'land') {
+                nextLowerRight.setSprite('land_s')
+            } else if (nextLowerRight.spriteId === 'rockTile') {
+                nextLowerRight.setSprite('rock_s')
+            }
         }
         if (this.ySpeed > 0) {
-            const upperTiles = this.getUpperTiles();
-            upperTiles.forEach(tile => {
+            this.getUpperTiles().forEach(tile => {
                 if (tile?.isImpassable && tile.getWorldYPixel() + tile.height === this.getWorldYPixel()) {
                     this.ySpeed = 0;
                 }
             });
+
+            this.getUpperTiles().forEach(tile => {
+                if (tile.spriteId === 'land') {
+                    tile.setSprite('land_s')
+                } else if (tile.spriteId === 'rockTile') {
+                    tile.setSprite('rock_s')
+                }
+            });
+
+            if (nextUpperLeft.spriteId === 'land') {
+                nextUpperLeft.setSprite('land_s')
+            } else if (nextUpperLeft.spriteId === 'rockTile') {
+                nextUpperLeft.setSprite('rock_s')
+            }
+
+            if (nextUpperRight.spriteId === 'land') {
+                nextUpperRight.setSprite('land_s')
+            } else if (nextUpperRight.spriteId === 'rockTile') {
+                nextUpperRight.setSprite('rock_s')
+            }
         }
     }
 

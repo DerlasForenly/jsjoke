@@ -33,13 +33,13 @@ export const Map = [
     "indexX": 0,
     "indexY": 5,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 0,
     "indexY": 6,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 0,
@@ -50,32 +50,32 @@ export const Map = [
   {
     "indexX": 0,
     "indexY": 8,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
     "indexX": 0,
     "indexY": 9,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 0,
     "indexY": 10,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 0,
     "indexY": 11,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 0,
     "indexY": 12,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 0,
@@ -393,13 +393,13 @@ export const Map = [
     "indexX": 1,
     "indexY": 4,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 1,
     "indexY": 5,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 1,
@@ -428,20 +428,20 @@ export const Map = [
   {
     "indexX": 1,
     "indexY": 10,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 1,
     "indexY": 11,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 1,
     "indexY": 12,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 1,
@@ -747,13 +747,13 @@ export const Map = [
     "indexX": 2,
     "indexY": 2,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 2,
     "indexY": 3,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 2,
@@ -765,7 +765,7 @@ export const Map = [
     "indexX": 2,
     "indexY": 5,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 2,
@@ -800,14 +800,14 @@ export const Map = [
   {
     "indexX": 2,
     "indexY": 11,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 2,
     "indexY": 12,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 2,
@@ -1148,13 +1148,13 @@ export const Map = [
   {
     "indexX": 3,
     "indexY": 8,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
     "indexX": 3,
     "indexY": 9,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
@@ -1166,14 +1166,14 @@ export const Map = [
   {
     "indexX": 3,
     "indexY": 11,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
     "indexX": 3,
     "indexY": 12,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 3,
@@ -1479,13 +1479,13 @@ export const Map = [
     "indexX": 4,
     "indexY": 2,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 4,
     "indexY": 3,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 4,
@@ -1538,8 +1538,8 @@ export const Map = [
   {
     "indexX": 4,
     "indexY": 12,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 4,
@@ -1833,13 +1833,13 @@ export const Map = [
     "indexX": 5,
     "indexY": 0,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 5,
     "indexY": 1,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 5,
@@ -1898,14 +1898,14 @@ export const Map = [
   {
     "indexX": 5,
     "indexY": 11,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 5,
     "indexY": 12,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 5,
@@ -1916,7 +1916,7 @@ export const Map = [
   {
     "indexX": 5,
     "indexY": 14,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
@@ -2199,13 +2199,13 @@ export const Map = [
     "indexX": 6,
     "indexY": 0,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 6,
     "indexY": 1,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 6,
@@ -2258,20 +2258,20 @@ export const Map = [
   {
     "indexX": 6,
     "indexY": 10,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 6,
     "indexY": 11,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 6,
     "indexY": 12,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 6,
@@ -2282,7 +2282,7 @@ export const Map = [
   {
     "indexX": 6,
     "indexY": 14,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
@@ -2636,8 +2636,8 @@ export const Map = [
   {
     "indexX": 7,
     "indexY": 12,
-    "spriteId": "rockTile",
-    "isImpassable": false
+    "spriteId": "land",
+    "isImpassable": true
   },
   {
     "indexX": 7,
@@ -2961,19 +2961,19 @@ export const Map = [
     "indexX": 8,
     "indexY": 5,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 8,
     "indexY": 6,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 8,
     "indexY": 7,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 8,
@@ -3002,7 +3002,7 @@ export const Map = [
   {
     "indexX": 8,
     "indexY": 12,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
@@ -3014,7 +3014,7 @@ export const Map = [
   {
     "indexX": 8,
     "indexY": 14,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
@@ -3327,7 +3327,7 @@ export const Map = [
     "indexX": 9,
     "indexY": 5,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 9,
@@ -3368,7 +3368,7 @@ export const Map = [
   {
     "indexX": 9,
     "indexY": 12,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
@@ -3380,7 +3380,7 @@ export const Map = [
   {
     "indexX": 9,
     "indexY": 14,
-    "spriteId": "land",
+    "spriteId": "rockTile",
     "isImpassable": false
   },
   {
@@ -3663,7 +3663,7 @@ export const Map = [
     "indexX": 10,
     "indexY": 0,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 10,
@@ -3705,7 +3705,7 @@ export const Map = [
     "indexX": 10,
     "indexY": 7,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 10,
@@ -4029,7 +4029,7 @@ export const Map = [
     "indexX": 11,
     "indexY": 0,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 11,
@@ -4059,25 +4059,25 @@ export const Map = [
     "indexX": 11,
     "indexY": 5,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 11,
     "indexY": 6,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 11,
     "indexY": 7,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 11,
     "indexY": 8,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 11,
@@ -4395,13 +4395,13 @@ export const Map = [
     "indexX": 12,
     "indexY": 0,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
     "indexY": 1,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
@@ -4419,43 +4419,43 @@ export const Map = [
     "indexX": 12,
     "indexY": 4,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
     "indexY": 5,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
     "indexY": 6,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
     "indexY": 7,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
     "indexY": 8,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
     "indexY": 9,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,
     "indexY": 10,
     "spriteId": "rockTile",
-    "isImpassable": false
+    "isImpassable": true
   },
   {
     "indexX": 12,

@@ -1,3 +1,4 @@
+import Entity from "./Entities/Entity.js";
 import Slime from "./Entities/Slime.js";
 
 export const Entities = [

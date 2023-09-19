@@ -115,6 +115,46 @@ export default class Entity {
         return this.game.world.tiles[tileIndexX][tileIndexY];
     }
 
+    getNextUpperLeftTile() {
+        const upperLeft = this.getUpperLeftTile();
+
+        if (upperLeft.indexX - 1 < 0 || upperLeft.indexY - 1 < 0) {
+            return null;
+        }
+
+        return this.game.world.tiles[upperLeft.indexX - 1][upperLeft.indexY - 1];
+    }
+
+    getNextLowerLeftTile() {
+        const upperLeft = this.getLowerLeftTile();
+
+        if (upperLeft.indexX - 1 < 0 || upperLeft.indexY + 1 >= this.game.worldYSize) {
+            return null;
+        }
+
+        return this.game.world.tiles[upperLeft.indexX - 1][upperLeft.indexY + 1];
+    }
+
+    getNextUpperRightTile() {
+        const upperRight = this.getUpperRightTile();
+
+        if (upperRight.indexX + 1 >= this.game.world.worldXSize || upperRight.indexY - 1 < 0) {
+            return null;
+        }
+
+        return this.game.world.tiles[upperRight.indexX + 1][upperRight.indexY - 1];
+    }
+
+    getNextLowerRightTile() {
+        const lowerRight = this.getLowerRightTile();
+
+        if (lowerRight.indexX + 1 >= this.game.world.worldXSize || lowerRight.indexY + 1 >= this.game.worldYSize) {
+            return null;
+        }
+
+        return this.game.world.tiles[lowerRight.indexX + 1][lowerRight.indexY + 1];
+    }
+
     getUpperRightTile() {
         const centerX = this.getWorldXPixel() + this.width - 1;
         const centerY = this.getWorldYPixel();
@@ -224,7 +264,7 @@ export default class Entity {
 
         const nextUpperLeft = this.game.world.tiles[upperLeft.indexX][upperLeft.indexY - 1];
         const nextUpperRight = this.game.world.tiles[upperRight.indexX][upperRight.indexY - 1];
-        
+
         return [nextUpperLeft, nextUpperRight];
     }
 
