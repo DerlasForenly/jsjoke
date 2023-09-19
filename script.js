@@ -26,7 +26,7 @@ window.addEventListener('load', async function () {
     delete players[playerName];
 
     socket.on('disconnect', () => { // Update page on disconnect
-        window.location.href = window.location.href + '/';
+        window.location.href = window.location.href;
     });
 
     const game = new Game(canvas.width, canvas.height, map, player, players);
