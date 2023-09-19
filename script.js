@@ -1,57 +1,40 @@
 import Game from "./src/Game.js";
-import { Map } from "./src/Map.js";
 
-const socket = new WebSocket('ws://localhost:8080');
-
-socket.addEventListener('open', (event) => {
-    console.log('Connected to the server');
-});
-
-socket.addEventListener('message', (event) => {
-    console.log(event.data);
-});
-
-socket.addEventListener('close', (event) => {
-    if (event.wasClean) {
-        console.log(`Closed cleanly, code=${event.code}, reason=${event.reason}`);
-    } else {
-        console.error('Connection died');
-    }
-});
-
-function sendMessage() {
-    socket.send('Hello');
-}
-
-const players = {
-    "player0": {
-        "worldX": 423,
-        "worldY": 56,
-    },
-    "player1": {
-        "worldX": 423+48,
-        "worldY": 56+58,
-    },
-    "player2": {
-        "worldX": 423+48,
-        "worldY": 56+98,
-    },
-};
-
-const playerData = {
-    "worldX": 6*48,
-    "worldY": 6*48,
-};
-
-window.addEventListener('load', function () {
+window.addEventListener('load', async function () {
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
 
     canvas.height = 624;
     canvas.width = 624;
 
-    const game = new Game(canvas.width, canvas.height, Map, playerData, players);
+    const SERVER_URL = await fetch(`${window.location.origin}/api/server-url`)
+    .then((res) => res.json())
+    .then((data) => data.SERVER_URL);
+
+    const map = await fetch(`${window.location.origin}/api/map`)
+    .then((res) => res.json())
+    .then((data) => data.map);
+
+    const socket = io(SERVER_URL);
+
+    const playerName = Math.random().toString(16).slice(2, 8);
+    let { player, players, world } = await socket.emitWithAck('init', {
+        playerName,
+    });
+
+    console.log('player', playerName);
+    delete players[playerName];
+
+    socket.on('disconnect', () => { // Update page on disconnect
+        window.location.href = window.location.href + '/';
+    });
+
+    const game = new Game(canvas.width, canvas.height, map, player, players);
     let lastTime = 0;
+
+    socket.on('tick', (newPlayers) => {
+        game.updatePlayers(newPlayers);
+    });
 
     function animate(timeStamt = 0) {
         const deltaTime = timeStamt - lastTime;
@@ -63,6 +46,13 @@ window.addEventListener('load', function () {
         requestAnimationFrame(animate);
     }
 
+    setInterval(() => {
+        socket.emit('client-tick', {
+            worldX: game.player.getWorldXPixel(),
+            worldY: game.player.getWorldYPixel(),
+            direction: game.player.direction,
+        });
+    }, 1000 / 30);
+
     animate();
 });
-
