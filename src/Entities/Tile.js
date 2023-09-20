@@ -2,7 +2,7 @@ import { TileAnimation } from "../Animation.js";
 import Entity from "./Entity.js";
 import { IMPASSABLE_TILES } from "../consts.js";
 
-const TILE_SIZE = 48;
+export const TILE_SIZE = 48;
 
 export default class Tile extends Entity {
     /**

@@ -26,4 +26,51 @@ export default class World {
             }
         }
     }
+
+    /**
+     * Safe way to get tile from array
+     * 
+     * @param {Number} indexX 
+     * @param {Number} indexY 
+     * @returns 
+     */
+    getTile(indexX, indexY) {
+        if (indexX < 0 || indexX >= this.worldXSize || indexY < 0 || indexY >= this.worldYSize) {
+            return null;
+        }
+
+        return this.tiles[indexX][indexY];
+    }
+
+    /**
+     * Safe way to set tile in array
+     * 
+     * @param {Tile} tile
+     * @param {Number} indexX 
+     * @param {Number} indexY 
+     * @returns 
+     */
+    setTile(tile, indexX, indexY) {
+        if (indexX < 0 || indexX >= this.worldXSize || indexY < 0 || indexY >= this.worldYSize) {
+            return null;
+        }
+
+        return this.tiles[indexX][indexY] = tile;
+    }
+
+    moveAllTilesX(offset) {
+        this.tiles.forEach(row => {
+            row.forEach(tile => {
+                tile.x = tile.x + offset;
+            })
+        })
+    }
+
+    moveAllTilesY(offset) {
+        this.tiles.forEach(row => {
+            row.forEach(tile => {
+                tile.y = tile.y + offset;
+            })
+        })
+    }
 }
