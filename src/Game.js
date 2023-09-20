@@ -18,14 +18,15 @@ export default class Game {
         this.height = height;
 
         this.world = new World(this, map);
-        this.player = new CurrentPlayer(this, playerData.name, playerData.worldX, playerData.worldY);
-
-        this.inputHandler = new InputHandler(this);
-        this.mapEditor = new MapEditor(this.world);
 
         this.players = {};
         this.players = this.loadPlayers(players);
         this.entities = this.loadEntities(Entities);
+
+        this.player = new CurrentPlayer(this, playerData.name, playerData.worldX, playerData.worldY);
+
+        this.inputHandler = new InputHandler(this);
+        this.mapEditor = new MapEditor(this.world);
     }
 
     /**
@@ -100,5 +101,33 @@ export default class Game {
         //console.log(newPlayers);
 
         this.players = this.loadPlayers(newPlayers)
+    }
+
+    moveAllEntitiesX(offset) {
+        this.entities.forEach(entity => {
+            entity.x = entity.x + offset;
+        })
+    }
+
+    moveAllEntitiesY(offset) {
+        this.entities.forEach(entity => {
+            entity.y = entity.y + offset;
+        })
+    }
+
+    moveAllPlayersX(offset) {
+        for (const key in this.game.players) {
+            if (this.game.players.hasOwnProperty(key)) {
+                this.game.players[key].x += offset;
+            }
+        }
+    }
+
+    moveAllPlayersY(offset) {
+        for (const key in this.game.players) {
+            if (this.game.players.hasOwnProperty(key)) {
+                this.game.players[key].y += offset;
+            }
+        }
     }
 }

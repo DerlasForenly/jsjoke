@@ -3,6 +3,7 @@ import { PlayerAnimation } from "../Animation.js";
 import { Standing } from "../playerStates.js";
 import { TILE_SIZE } from "./Tile.js";
 import { DIRECTIONS } from "../consts.js";
+import Tile from "./Tile.js";
 
 export default class CurrentPlayer extends Player {
     constructor(game, name, worldX, worldY) {
@@ -13,7 +14,10 @@ export default class CurrentPlayer extends Player {
         this.currentState = new Standing(this);
         this.currentState.enter();
 
-        //this.alingCamera();
+        this.movePlayerX = false;
+        this.movePlayerY = false;
+
+        this.alingCamera();
     }
 
     update(input, deltaTime) {
@@ -98,7 +102,7 @@ export default class CurrentPlayer extends Player {
                 
                 let leftTiles = [];
                 for (let i = minIndexY; i <= maxIndexY; i++) {
-                    console.log(leftIndexX, i);
+                    console.log(this.x, worldXPixel, this.y, worldYPixel, leftIndexX, i);
                     leftTiles.push(this.game.world.getTile(leftIndexX, i));
                 }
         
@@ -249,18 +253,58 @@ export default class CurrentPlayer extends Player {
     }
 
     alingCamera() {
-        const canvas = document.getElementById('canvas1');
-        const context = canvas.getContext('2d');
+        const centerX = 288;
+        const centerY = 288;
 
-        // Define the center point (where you want the view to be centered)
-        const centerX = this.getCenterX(); // Replace with your desired X-coordinate
-        const centerY = this.getCenterY(); // Replace with your desired Y-coordinate
+        const rightCenterX = this.game.world.worldXSize * 48 - 288 - 48;
+        const lowerCenterY = this.game.world.worldYSize * 48 - 288 - 48;
 
-        // Calculate the translation values to set the view center to the desired point
-        const translateX = canvas.width / 2 - centerX;
-        const translateY = canvas.height / 2 - centerY;
+        const playerWorldX = this.getWorldXPixel();
+        const playerWorldY = this.getWorldYPixel();
 
-        // Use the translate() method to set the canvas view center to the desired point
-        context.translate(translateX, translateY);
+        this.movePlayerX = playerWorldX <= centerX;
+        this.movePlayerY = playerWorldY <= centerY;
+
+        if (!this.movePlayerX) {
+            const offsetX = playerWorldX - centerX;
+
+            this.game.world.moveAllTilesX(-offsetX);
+            this.game.moveAllEntitiesX(-offsetX);
+            this.game.moveAllPlayersX(-offsetY);
+
+            this.x = centerX;
+        }
+
+        if (!this.movePlayerY) {
+            const offsetY = playerWorldY - centerY;
+
+            this.game.world.moveAllTilesY(-offsetY);
+            this.game.moveAllEntitiesY(-offsetY);
+            this.game.moveAllPlayersY(-offsetY);
+
+            this.y = centerY;
+        }
+
+        if (playerWorldX >= rightCenterX) {
+            const offsetX = playerWorldX - rightCenterX;
+            this.x += offsetX;
+            
+            this.game.world.moveAllTilesX(offsetX);
+            this.game.moveAllEntitiesX(offsetX);
+            this.game.moveAllPlayersX(offsetY);
+
+            this.movePlayerX = true;
+        }
+
+        if (playerWorldY >= lowerCenterY) {
+            const offsetY = playerWorldX - rightCenterX;
+            this.y += offsetY;
+            
+            this.game.world.moveAllTilesY(offsetY);
+            this.game.moveAllEntitiesY(offsetY);
+            this.game.moveAllPlayersY(offsetY);
+
+            this.movePlayerY = true;
+        }
     }
 }

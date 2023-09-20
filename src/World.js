@@ -57,4 +57,20 @@ export default class World {
 
         return this.tiles[indexX][indexY] = tile;
     }
+
+    moveAllTilesX(offset) {
+        this.tiles.forEach(row => {
+            row.forEach(tile => {
+                tile.x = tile.x + offset;
+            })
+        })
+    }
+
+    moveAllTilesY(offset) {
+        this.tiles.forEach(row => {
+            row.forEach(tile => {
+                tile.y = tile.y + offset;
+            })
+        })
+    }
 }
