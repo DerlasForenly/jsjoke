@@ -5,7 +5,6 @@ import MapEditor from "./MapEditor.js";
 
 import { Entities, classMapping } from "./Entities.js";
 import CurrentPlayer from "./Entities/CurrentPlayer.js";
-import Entity from "./Entities/Entity.js";
 
 export default class Game {
     /**
@@ -58,12 +57,6 @@ export default class Game {
         this.entities.forEach(entity => {
             entity.update(deltaTime);
         });
-        // for (const key in this.players) {
-        //     if (this.players.hasOwnProperty(key)) {
-        //         const value = this.players[key];
-        //         value.update(deltaTime);
-        //     }
-        // }
     }
 
     loadEntities(entities) {
@@ -97,9 +90,6 @@ export default class Game {
 
     updatePlayers(newPlayers) {
         delete newPlayers[this.player.name];
-
-        //console.log(newPlayers);
-
         this.players = this.loadPlayers(newPlayers)
     }
 

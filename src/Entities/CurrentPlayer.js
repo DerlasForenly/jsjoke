@@ -102,7 +102,6 @@ export default class CurrentPlayer extends Player {
                 
                 let leftTiles = [];
                 for (let i = minIndexY; i <= maxIndexY; i++) {
-                    console.log(this.x, worldXPixel, this.y, worldYPixel, leftIndexX, i);
                     leftTiles.push(this.game.world.getTile(leftIndexX, i));
                 }
         
