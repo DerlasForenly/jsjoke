@@ -26,6 +26,8 @@ export default class CurrentPlayer extends Player {
 
         this.currentState.handleInput(input);
         this.animation.animate(deltaTime);
+
+        console.log(this.direction);
     }
 
     handleOpositInputs(input) {

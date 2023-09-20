@@ -22,7 +22,55 @@ export default class Entity {
     }
 
     update(deltaTime) {
+        this.move();
         this.animation.animate(deltaTime);
+    }
+
+    move() {
+        this.x += -this.xSpeed;
+        this.y += -this.ySpeed;
+    }
+
+    setSpeedByDirection(direction) {
+        this.direction = direction;
+
+        if (this.currentState instanceof Moving) {
+            switch (direction) {
+                case DIRECTIONS.W:
+                    this.xSpeed = +1;
+                    this.ySpeed = 0;
+                    break;
+                case DIRECTIONS.E:
+                    this.xSpeed = -1;
+                    this.ySpeed = 0;
+                    break;
+                case DIRECTIONS.S:
+                    this.xSpeed = 0;
+                    this.ySpeed = -1;
+                    break;
+                case DIRECTIONS.N:
+                    this.xSpeed = 0;
+                    this.ySpeed = +1;
+                    break;
+
+                case DIRECTIONS.NE:
+                    this.xSpeed = -1;
+                    this.ySpeed = +1;
+                    break;
+                case DIRECTIONS.NW:
+                    this.xSpeed = +1;
+                    this.ySpeed = +1;
+                    break;
+                case DIRECTIONS.SE:
+                    this.xSpeed = -1;
+                    this.ySpeed = -1;
+                    break;
+                case DIRECTIONS.SW:
+                    this.xSpeed = +1;
+                    this.ySpeed = -1;
+                    break;
+            }
+        }
     }
 
     updateDirection() {

@@ -88,6 +88,7 @@ export default class Game {
                 data[nickname].animation.frameX = value.frameX;
                 data[nickname].direction = value.direction;
                 data[nickname].setStateWithId(value.currentState);
+                data[nickname].setSpeedByDirection(value.direction);
             }
         }
 

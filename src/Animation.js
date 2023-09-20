@@ -202,9 +202,13 @@ export class RemotePlayerAnimation extends Animation {
             case DIRECTIONS.E:
                 this.frameY = 2;
                 break;
+            case DIRECTIONS.SW:
+            case DIRECTIONS.SE:
             case DIRECTIONS.S:
                 this.frameY = 0;
                 break;
+            case DIRECTIONS.NE:
+            case DIRECTIONS.NW:
             case DIRECTIONS.N:
                 this.frameY = 3;
                 break;
