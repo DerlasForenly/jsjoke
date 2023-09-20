@@ -79,6 +79,9 @@ export default class CurrentPlayer extends Player {
         this.handleOpositInputs(input);
     }
 
+    /**
+     * Hard to understand shit
+     */
     handleObstacle() {
         const worldYPixel = this.getWorldYPixel();
         const worldXPixel = this.getWorldXPixel();
@@ -95,11 +98,12 @@ export default class CurrentPlayer extends Player {
                 
                 let leftTiles = [];
                 for (let i = minIndexY; i <= maxIndexY; i++) {
-                    leftTiles.push(this.game.world.tiles[leftIndexX][i]);
+                    console.log(leftIndexX, i);
+                    leftTiles.push(this.game.world.getTile(leftIndexX, i));
                 }
         
                 leftTiles.forEach(tile => {
-                    if (tile.isImpassable) {
+                    if (tile?.isImpassable) {
                         this.xSpeed = 0;
                     }
                 })
@@ -108,11 +112,11 @@ export default class CurrentPlayer extends Player {
 
                 let rightTiles = [];
                 for (let i = minIndexY; i <= maxIndexY; i++) {
-                    rightTiles.push(this.game.world.tiles[rightIndexX + 1][i]);
+                    rightTiles.push(this.game.world.getTile(rightIndexX + 1, i));
                 }
         
                 rightTiles.forEach(tile => {
-                    if (tile.isImpassable) {
+                    if (tile?.isImpassable) {
                         this.xSpeed = 0;
                     }
                 })
@@ -131,11 +135,11 @@ export default class CurrentPlayer extends Player {
                 
                 let upperTiles = [];
                 for (let i = minIndexX; i <= maxIndexX; i++) {
-                    upperTiles.push(this.game.world.tiles[i][upperIndexY]);
+                    upperTiles.push(this.game.world.getTile(i, upperIndexY));
                 }
         
                 upperTiles.forEach(tile => {
-                    if (tile.isImpassable) {
+                    if (tile?.isImpassable) {
                         this.ySpeed = 0;
                     }
                 })
@@ -144,11 +148,11 @@ export default class CurrentPlayer extends Player {
                 
                 let lowerTiles = [];
                 for (let i = minIndexX; i <= maxIndexX; i++) {
-                    lowerTiles.push(this.game.world.tiles[i][lowerIndexY + 1]);
+                    lowerTiles.push(this.game.world.getTile(i, lowerIndexY + 1));
                 }
         
                 lowerTiles.forEach(tile => {
-                    if (tile.isImpassable) {
+                    if (tile?.isImpassable) {
                         this.ySpeed = 0;
                     }
                 })
@@ -164,28 +168,28 @@ export default class CurrentPlayer extends Player {
                 indexX = worldXPixel / 48;
                 indexY = worldYPixel / 48;
 
-                tile = this.game.world.tiles[indexX - 1][indexY - 1];
+                tile = this.game.world.getTile(indexX - 1, indexY - 1);
             }
 
             if (this.xSpeed < 0 && this.ySpeed > 0) {
                 const indexX = (worldXPixel + this.width) / 48;
                 const indexY = worldYPixel / 48;
 
-                tile = this.game.world.tiles[indexX][indexY - 1];
+                tile = this.game.world.getTile(indexX, indexY - 1);
             }
 
             if (this.xSpeed < 0 && this.ySpeed < 0) {
                 indexX = (worldXPixel + this.width) / 48;
                 indexY = (worldYPixel + this.height) / 48;
 
-                tile = this.game.world.tiles[indexX + 1][indexY + 1];
+                tile = this.game.world.getTile(indexX + 1, indexY + 1);
             }
 
             if (this.xSpeed > 0 && this.ySpeed < 0) {
                 indexX = worldXPixel / 48;
                 indexY = (worldYPixel + this.height) / 48;
 
-                tile = this.game.world.tiles[indexX - 1][indexY];
+                tile = this.game.world.getTile(indexX - 1, indexY);
             }
 
             if (tile?.isImpassable) {
