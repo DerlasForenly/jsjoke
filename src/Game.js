@@ -57,6 +57,12 @@ export default class Game {
         this.entities.forEach(entity => {
             entity.update(deltaTime);
         });
+        for (const key in this.players) {
+            if (this.players.hasOwnProperty(key)) {
+                const value = this.players[key];
+                value.update(deltaTime);
+            }
+        }
     }
 
     loadEntities(entities) {
@@ -106,17 +112,17 @@ export default class Game {
     }
 
     moveAllPlayersX(offset) {
-        for (const key in this.game.players) {
-            if (this.game.players.hasOwnProperty(key)) {
-                this.game.players[key].x += offset;
+        for (const key in this.players) {
+            if (this.players.hasOwnProperty(key)) {
+                this.players[key].x += offset;
             }
         }
     }
 
     moveAllPlayersY(offset) {
-        for (const key in this.game.players) {
-            if (this.game.players.hasOwnProperty(key)) {
-                this.game.players[key].y += offset;
+        for (const key in this.players) {
+            if (this.players.hasOwnProperty(key)) {
+                this.players[key].y += offset;
             }
         }
     }

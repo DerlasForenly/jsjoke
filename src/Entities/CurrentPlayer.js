@@ -206,6 +206,7 @@ export default class CurrentPlayer extends Player {
         this.handlePlayScreenBorders();
         this.handleObstacle();
 
+        const center = 288;
         const upperLeft = this.game.world.referenceTile;
         const lowerRight = this.game.world.tiles[this.game.world.worldXSize][this.game.world.worldYSize];
 
@@ -225,29 +226,23 @@ export default class CurrentPlayer extends Player {
         if (this.movePlayerX) {
             this.x += -this.xSpeed;
 
-            if (this.x === 6 * this.width) {
+            if (this.x === center) {
                 this.movePlayerX = false;
             }
         } else {
-            this.game.world.tiles.forEach(row => {
-                row.forEach(tile => {
-                    tile.x += this.xSpeed;
-                });
-            });
+            this.game.world.moveAllTilesX(this.xSpeed);
+            this.game.moveAllPlayersX(this.xSpeed);
         }
 
         if (this.movePlayerY) {
             this.y += -this.ySpeed;
 
-            if (this.y === 6 * this.height) {
+            if (this.y === center) {
                 this.movePlayerY = false;
             }
         } else {
-            this.game.world.tiles.forEach(row => {
-                row.forEach(tile => {
-                    tile.y += this.ySpeed;
-                });
-            });
+            this.game.world.moveAllTilesY(this.ySpeed);
+            this.game.moveAllPlayersY(this.ySpeed);
         }
     }
 
@@ -269,7 +264,7 @@ export default class CurrentPlayer extends Player {
 
             this.game.world.moveAllTilesX(-offsetX);
             this.game.moveAllEntitiesX(-offsetX);
-            this.game.moveAllPlayersX(-offsetY);
+            this.game.moveAllPlayersX(-offsetX);
 
             this.x = centerX;
         }
@@ -290,7 +285,7 @@ export default class CurrentPlayer extends Player {
             
             this.game.world.moveAllTilesX(offsetX);
             this.game.moveAllEntitiesX(offsetX);
-            this.game.moveAllPlayersX(offsetY);
+            this.game.moveAllPlayersX(offsetX);
 
             this.movePlayerX = true;
         }
