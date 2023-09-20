@@ -1,7 +1,8 @@
 import Player from "./Player.js";
 import { PlayerAnimation } from "../Animation.js";
-import { DIRECTIONS } from "../consts.js";
 import { Standing } from "../playerStates.js";
+import { TILE_SIZE } from "./Tile.js";
+import { DIRECTIONS } from "../consts.js";
 
 export default class CurrentPlayer extends Player {
     constructor(game, name, worldX, worldY) {
@@ -79,128 +80,117 @@ export default class CurrentPlayer extends Player {
     }
 
     handleObstacle() {
-        this.game.world.tiles.forEach(row => {
-            row.forEach(tile => {
-                if (tile.spriteId === 'land_s') {
-                    tile.setSprite('land')
-                } else if (tile.spriteId === 'rock_s') {
-                    tile.setSprite('rockTile')
+        const worldYPixel = this.getWorldYPixel();
+        const worldXPixel = this.getWorldXPixel();
+
+        if (worldXPixel % TILE_SIZE === 0) {
+            const minIndexYOffset = worldYPixel % TILE_SIZE;
+            const maxIndexYOffset = (worldYPixel + this.height - 1) % TILE_SIZE
+
+            const minIndexY = (worldYPixel - minIndexYOffset) / TILE_SIZE;
+            const maxIndexY = (worldYPixel + this.height - 1 - maxIndexYOffset) / TILE_SIZE;
+
+            if (this.xSpeed > 0) {
+                const leftIndexX = (worldXPixel - TILE_SIZE) / TILE_SIZE;
+                
+                let leftTiles = [];
+                for (let i = minIndexY; i <= maxIndexY; i++) {
+                    leftTiles.push(this.game.world.tiles[leftIndexX][i]);
                 }
-            })
-        });
+        
+                leftTiles.forEach(tile => {
+                    if (tile.isImpassable) {
+                        this.xSpeed = 0;
+                    }
+                })
+            } else if (this.xSpeed < 0) {
+                const rightIndexX = (worldXPixel - TILE_SIZE + this.width) / TILE_SIZE;
 
-        const nextUpperLeft = this.getNextUpperLeftTile();
-        const nextLowerLeft = this.getNextLowerLeftTile();
-        const nextUpperRight = this.getNextUpperRightTile();
-        const nextLowerRight = this.getNextLowerRightTile();
-
-        if (this.xSpeed > 0) {
-            this.getLeftTiles().forEach(tile => {
-                if (tile?.isImpassable && tile.getWorldXPixel() + tile.width === this.getWorldXPixel()) {
-                    this.xSpeed = 0;
+                let rightTiles = [];
+                for (let i = minIndexY; i <= maxIndexY; i++) {
+                    rightTiles.push(this.game.world.tiles[rightIndexX + 1][i]);
                 }
-            });
-
-            if (nextUpperLeft.spriteId === 'land') {
-                nextUpperLeft.setSprite('land_s')
-            } else if (nextUpperLeft.spriteId === 'rockTile') {
-                nextUpperLeft.setSprite('rock_s')
-            }
-
-            if (nextLowerLeft.spriteId === 'land') {
-                nextLowerLeft.setSprite('land_s')
-            } else if (nextLowerLeft.spriteId === 'rockTile') {
-                nextLowerLeft.setSprite('rock_s')
-            }
-
-            this.getLeftTiles().forEach(tile => {
-                if (tile.spriteId === 'land') {
-                    tile.setSprite('land_s')
-                } else if (tile.spriteId === 'rockTile') {
-                    tile.setSprite('rock_s')
-                }
-            });
-        }
-        if (this.xSpeed < 0) {
-            this.getRightTiles().forEach(tile => {
-                if (tile?.isImpassable && tile.getWorldXPixel() === this.getWorldXPixel() + this.width) {
-                    this.xSpeed = 0;
-                }
-            });
-
-            this.getRightTiles().forEach(tile => {
-                if (tile.spriteId === 'land') {
-                    tile.setSprite('land_s')
-                } else if (tile.spriteId === 'rockTile') {
-                    tile.setSprite('rock_s')
-                }
-            });
-
-            if (nextUpperRight.spriteId === 'land') {
-                nextUpperRight.setSprite('land_s')
-            } else if (nextUpperRight.spriteId === 'rockTile') {
-                nextUpperRight.setSprite('rock_s')
-            }
-
-            if (nextLowerRight.spriteId === 'land') {
-                nextLowerRight.setSprite('land_s')
-            } else if (nextLowerRight.spriteId === 'rockTile') {
-                nextLowerRight.setSprite('rock_s')
+        
+                rightTiles.forEach(tile => {
+                    if (tile.isImpassable) {
+                        this.xSpeed = 0;
+                    }
+                })
             }
         }
 
-        if (this.ySpeed < 0) {
-            this.getLowerTiles().forEach(tile => {
-                if (tile?.isImpassable && tile.getWorldYPixel() === this.getWorldYPixel() + this.height) {
-                    this.ySpeed = 0;
+        if (worldYPixel % TILE_SIZE === 0) {
+            const minIndexXOffset = worldXPixel % TILE_SIZE;
+            const maxIndexXOffset = (worldXPixel + this.width - 1) % TILE_SIZE
+
+            const minIndexX = (worldXPixel - minIndexXOffset) / TILE_SIZE;
+            const maxIndexX = (worldXPixel + this.width - 1 - maxIndexXOffset) / TILE_SIZE;
+
+            if (this.ySpeed > 0) {
+                const upperIndexY = (worldYPixel - TILE_SIZE) / TILE_SIZE;
+                
+                let upperTiles = [];
+                for (let i = minIndexX; i <= maxIndexX; i++) {
+                    upperTiles.push(this.game.world.tiles[i][upperIndexY]);
                 }
-            });
-
-            this.getLowerTiles().forEach(tile => {
-                if (tile.spriteId === 'land') {
-                    tile.setSprite('land_s')
-                } else if (tile.spriteId === 'rockTile') {
-                    tile.setSprite('rock_s')
+        
+                upperTiles.forEach(tile => {
+                    if (tile.isImpassable) {
+                        this.ySpeed = 0;
+                    }
+                })
+            } else if (this.ySpeed < 0) {
+                const lowerIndexY = (worldYPixel + this.height - TILE_SIZE) / TILE_SIZE;
+                
+                let lowerTiles = [];
+                for (let i = minIndexX; i <= maxIndexX; i++) {
+                    lowerTiles.push(this.game.world.tiles[i][lowerIndexY + 1]);
                 }
-            });
-
-            if (nextLowerLeft.spriteId === 'land') {
-                nextLowerLeft.setSprite('land_s')
-            } else if (nextLowerLeft.spriteId === 'rockTile') {
-                nextLowerLeft.setSprite('rock_s')
-            }
-
-            if (nextLowerRight.spriteId === 'land') {
-                nextLowerRight.setSprite('land_s')
-            } else if (nextLowerRight.spriteId === 'rockTile') {
-                nextLowerRight.setSprite('rock_s')
+        
+                lowerTiles.forEach(tile => {
+                    if (tile.isImpassable) {
+                        this.ySpeed = 0;
+                    }
+                })
             }
         }
-        if (this.ySpeed > 0) {
-            this.getUpperTiles().forEach(tile => {
-                if (tile?.isImpassable && tile.getWorldYPixel() + tile.height === this.getWorldYPixel()) {
-                    this.ySpeed = 0;
-                }
-            });
 
-            this.getUpperTiles().forEach(tile => {
-                if (tile.spriteId === 'land') {
-                    tile.setSprite('land_s')
-                } else if (tile.spriteId === 'rockTile') {
-                    tile.setSprite('rock_s')
-                }
-            });
+        if (worldYPixel % TILE_SIZE === 0 && worldXPixel % TILE_SIZE === 0 && this.xSpeed !== 0 && this.ySpeed !== 0) {
+            let indexX = null;
+            let indexY = null;
+            let tile = null;
 
-            if (nextUpperLeft.spriteId === 'land') {
-                nextUpperLeft.setSprite('land_s')
-            } else if (nextUpperLeft.spriteId === 'rockTile') {
-                nextUpperLeft.setSprite('rock_s')
+            if (this.xSpeed > 0 && this.ySpeed > 0) {
+                indexX = worldXPixel / 48;
+                indexY = worldYPixel / 48;
+
+                tile = this.game.world.tiles[indexX - 1][indexY - 1];
             }
 
-            if (nextUpperRight.spriteId === 'land') {
-                nextUpperRight.setSprite('land_s')
-            } else if (nextUpperRight.spriteId === 'rockTile') {
-                nextUpperRight.setSprite('rock_s')
+            if (this.xSpeed < 0 && this.ySpeed > 0) {
+                const indexX = (worldXPixel + this.width) / 48;
+                const indexY = worldYPixel / 48;
+
+                tile = this.game.world.tiles[indexX][indexY - 1];
+            }
+
+            if (this.xSpeed < 0 && this.ySpeed < 0) {
+                indexX = (worldXPixel + this.width) / 48;
+                indexY = (worldYPixel + this.height) / 48;
+
+                tile = this.game.world.tiles[indexX + 1][indexY + 1];
+            }
+
+            if (this.xSpeed > 0 && this.ySpeed < 0) {
+                indexX = worldXPixel / 48;
+                indexY = (worldYPixel + this.height) / 48;
+
+                tile = this.game.world.tiles[indexX - 1][indexY];
+            }
+
+            if (tile?.isImpassable) {
+                this.xSpeed = 0;
+                this.ySpeed = 0;
             }
         }
     }
