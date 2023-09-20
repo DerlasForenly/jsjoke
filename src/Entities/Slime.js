@@ -14,16 +14,14 @@ export default class Slime extends Entity {
     static width = 36;
     static height = 22;
     
-    constructor(game, name, x, y) {
+    constructor(game, name, worldX, worldY) {
         super(game, name);
 
         this.width = Slime.width;
         this.height = Slime.height;
 
-        const point = this.getCanvasPositionFromWorldPixelPosition(x, y);
-
-        this.x = point[0];
-        this.y = point[1];
+        this.x = game.world.referenceTile.x + worldX;
+        this.y = game.world.referenceTile.y + worldY;
 
         this.animation = new MobAnimation(this);
         this.animation.maxFrame = 7;

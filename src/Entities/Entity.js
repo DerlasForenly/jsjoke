@@ -21,6 +21,10 @@ export default class Entity {
         this.animation.draw(context);
     }
 
+    update(deltaTime) {
+        this.animation.animate(deltaTime);
+    }
+
     updateDirection() {
         if (this.xSpeed < 0 && this.ySpeed === 0) {
             this.direction = DIRECTIONS.E;
@@ -81,15 +85,11 @@ export default class Entity {
     }
 
     getWorldXPixel() {
-        const referenceTile = this.game.world.referenceTile;
-        
-        return Math.abs(referenceTile.x) + this.x;
+        return Math.abs(this.game.world.referenceTile.x) + this.x;
     }
 
     getWorldYPixel() {
-        const referenceTile = this.game.world.referenceTile;
-
-        return Math.abs(referenceTile.y) + this.y;
+        return Math.abs(this.game.world.referenceTile.y) + this.y;
     }
 
     getCenterTile() {
@@ -243,15 +243,7 @@ export default class Entity {
     getCanvasPositionFromWorldPixelPosition(x, y) {
         const referenceTile = this.game.world.referenceTile;
 
-        const offsetX = x % referenceTile.width;
-        const tileWorldX = (x - offsetX) / referenceTile.width;
-
-        const offsetY = y % referenceTile.height;
-        const tileWorldY = (y - offsetY) / referenceTile.height;
-
-        const tile = this.game.world.tiles[tileWorldX][tileWorldY];
-
-        return [tile.x + offsetX, tile.y + offsetY];
+        return [referenceTile.x + x, referenceTile.y + y];
     }
 
     getUpperTiles() {

@@ -5,6 +5,7 @@ import MapEditor from "./MapEditor.js";
 
 import { Entities, classMapping } from "./Entities.js";
 import CurrentPlayer from "./Entities/CurrentPlayer.js";
+import Entity from "./Entities/Entity.js";
 
 export default class Game {
     /**
@@ -79,16 +80,14 @@ export default class Game {
     loadPlayers(players) {
         let data = {};
 
-        for (const key in players) {
-            if (players.hasOwnProperty(key)) {
-                const value = players[key];
-
-                data[key] = !this.players.key ? new Player(this, key, value.worldX, value.worldY) : this.players.key;
-                data[key].worldX = value.worldX;
-                data[key].worldY = value.worldY;
-                data[key].animation.frameX = value.frameX;
-                data[key].direction = value.direction;
-                data[key].setStateWithId(value.currentState);
+        for (const nickname in players) {
+            if (players.hasOwnProperty(nickname)) {
+                const value = players[nickname];
+                
+                data[nickname] = new Player(this, nickname, value.worldX, value.worldY);
+                data[nickname].animation.frameX = value.frameX;
+                data[nickname].direction = value.direction;
+                data[nickname].setStateWithId(value.currentState);
             }
         }
 
@@ -97,6 +96,8 @@ export default class Game {
 
     updatePlayers(newPlayers) {
         delete newPlayers[this.player.name];
+
+        //console.log(newPlayers);
 
         this.players = this.loadPlayers(newPlayers)
     }

@@ -14,20 +14,14 @@ export default class Player extends Entity {
         this.maxXSpeed = 1;
         this.maxYSpeed = 1;
 
-        const point = this.getCanvasPositionFromWorldPixelPosition(worldX, worldY);
-
-        this.x = point[0];
-        this.y = point[1];
+        this.x = game.world.referenceTile.x + worldX;
+        this.y = game.world.referenceTile.y + worldY;
 
         this.movePlayerX = false;
         this.movePlayerY = false;
 
         this.image = document.getElementById('player');
         this.animation = new RemotePlayerAnimation(this);
-    }
-
-    update(deltaTime) {
-        this.animation.animate(deltaTime);
     }
 
     draw(context) {
