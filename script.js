@@ -53,6 +53,7 @@ window.addEventListener('load', async function () {
             direction: game.player.direction,
             frameX: game.player.animation.frameX,
             currentState: game.player.currentState.state,
+            speed: game.player.getSpeed(),
         });
     }, 3);
 

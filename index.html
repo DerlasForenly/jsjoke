@@ -7,32 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <button>Land</button>
-        <button>Pumpkin</button>
-        <Button>Pugalo</Button>
-        <Button>Yellow Bush</Button>
-        <Button>Glowing Pumpkin</Button>
-        <Button>Glowing Pumpkin</Button>
-    </div>
+    <canvas id="canvas1"></canvas>
+
     <div>
         <button id="exportMap">Export</button>
         <input type="file" id="import" placeholder="import">
     </div>
+
+    <div class="tilesets">
+        <img id="player" src="assets/characters/Masha.png">
+        <img id="land_1" src="assets/tiles/land_1.jpg">
+        <img id="land_2" src="assets/tiles/land_2.png">
+        <img id="items_1" src="assets/tiles/items_1.png">
+        <img id="items_2" src="assets/tiles/items_2.png">
     
-    <canvas id="canvas1"></canvas>
-
-    <img id="player" src="assets/characters/Masha.png">
-    <img id="land" src="assets/tiles/land_48x48.jpg">
-    <img id="land_2" src="assets/tiles/land_2.jpg">
-    <img id="items_1" src="assets/tiles/items_48x48_1.png">
-
-    <img id="slime_blue" src="assets/enemies/slime_blue_idle.png">
-    <img id="slime_ghost" src="assets/enemies/slime_ghost_idle.png">
-    <img id="slime_ice" src="assets/enemies/slime_ice_idle.png">
-    <img id="slime_pink" src="assets/enemies/slime_pink_idle.png">
-    <img id="slime_green" src="assets/enemies/slime_green_idle.png">
-    <img id="slime_honey" src="assets/enemies/slime_honey_idle.png">
+        <img id="slime_blue" src="assets/enemies/slime_blue_idle.png">
+        <img id="slime_ghost" src="assets/enemies/slime_ghost_idle.png">
+        <img id="slime_ice" src="assets/enemies/slime_ice_idle.png">
+        <img id="slime_pink" src="assets/enemies/slime_pink_idle.png">
+        <img id="slime_green" src="assets/enemies/slime_green_idle.png">
+        <img id="slime_honey" src="assets/enemies/slime_honey_idle.png">
+    </div>
 
     <script src="/socket.io/socket.io.js"></script>
     <script type="module" src="script.js"></script>

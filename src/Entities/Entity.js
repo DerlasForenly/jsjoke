@@ -30,10 +30,10 @@ export default class Entity {
         this.y += -this.ySpeed;
     }
 
-    setSpeedByDirection(direction) {
+    setSpeedByDirection(direction, speed) {
         this.direction = direction;
 
-        if (this.currentState instanceof Moving) {
+        if (speed) {
             switch (direction) {
                 case DIRECTIONS.W:
                     this.xSpeed = +1;
@@ -149,102 +149,6 @@ export default class Entity {
         return this.game.world.tiles[tileIndexX][tileIndexY]
     }
 
-    getUpperLeftTile() {
-        const centerX = this.getWorldXPixel();
-        const centerY = this.getWorldYPixel();
-
-        const tileIndexX = (centerX - (centerX % 48)) / 48;
-        const tileIndexY = (centerY - (centerY % 48)) / 48;
-
-        if (tileIndexX < 0 || tileIndexX >= 60 || tileIndexY < 0 || tileIndexY >= 60) {
-            return null;
-        }
-
-        return this.game.world.tiles[tileIndexX][tileIndexY];
-    }
-
-    getNextUpperLeftTile() {
-        const upperLeft = this.getUpperLeftTile();
-
-        if (upperLeft.indexX - 1 < 0 || upperLeft.indexY - 1 < 0) {
-            return null;
-        }
-
-        return this.game.world.tiles[upperLeft.indexX - 1][upperLeft.indexY - 1];
-    }
-
-    getNextLowerLeftTile() {
-        const upperLeft = this.getLowerLeftTile();
-
-        if (upperLeft.indexX - 1 < 0 || upperLeft.indexY + 1 >= this.game.worldYSize) {
-            return null;
-        }
-
-        return this.game.world.tiles[upperLeft.indexX - 1][upperLeft.indexY + 1];
-    }
-
-    getNextUpperRightTile() {
-        const upperRight = this.getUpperRightTile();
-
-        if (upperRight.indexX + 1 >= this.game.world.worldXSize || upperRight.indexY - 1 < 0) {
-            return null;
-        }
-
-        return this.game.world.tiles[upperRight.indexX + 1][upperRight.indexY - 1];
-    }
-
-    getNextLowerRightTile() {
-        const lowerRight = this.getLowerRightTile();
-
-        if (lowerRight.indexX + 1 >= this.game.world.worldXSize || lowerRight.indexY + 1 >= this.game.worldYSize) {
-            return null;
-        }
-
-        return this.game.world.tiles[lowerRight.indexX + 1][lowerRight.indexY + 1];
-    }
-
-    getUpperRightTile() {
-        const centerX = this.getWorldXPixel() + this.width - 1;
-        const centerY = this.getWorldYPixel();
-
-        const tileIndexX = (centerX - (centerX % 48)) / 48;
-        const tileIndexY = (centerY - (centerY % 48)) / 48;
-
-        if (tileIndexX < 0 || tileIndexX >= 60 || tileIndexY < 0 || tileIndexY >= 60) {
-            return null;
-        }
-
-        return this.game.world.tiles[tileIndexX][tileIndexY]
-    }
-
-    getLowerRightTile() {
-        const centerX = this.getWorldXPixel() + this.width - 1;
-        const centerY = this.getWorldYPixel() + this.height - 1;
-
-        const tileIndexX = (centerX - (centerX % 48)) / 48;
-        const tileIndexY = (centerY - (centerY % 48)) / 48;
-
-        if (tileIndexX < 0 || tileIndexX >= 60 || tileIndexY < 0 || tileIndexY >= 60) {
-            return null;
-        }
-
-        return this.game.world.tiles[tileIndexX][tileIndexY]
-    }
-
-    getLowerLeftTile() {
-        const centerX = this.getWorldXPixel();
-        const centerY = this.getWorldYPixel() + this.height - 1;
-
-        const tileIndexX = (centerX - (centerX % 48)) / 48;
-        const tileIndexY = (centerY - (centerY % 48)) / 48;
-
-        if (tileIndexX < 0 || tileIndexX >= 60 || tileIndexY < 0 || tileIndexY >= 60) {
-            return null;
-        }
-
-        return this.game.world.tiles[tileIndexX][tileIndexY];
-    }
-
     getIntersectionTiles() {
         let tiles = [];
 
@@ -284,7 +188,6 @@ export default class Entity {
     }
 
     /**
-     * 
      * @param {Number} x 
      */
     getCanvasPositionFromWorldPixelPosition(x, y) {
@@ -293,63 +196,7 @@ export default class Entity {
         return [referenceTile.x + x, referenceTile.y + y];
     }
 
-    getUpperTiles() {
-        //create logic for many tiles between left and right
-        const upperLeft = this.getUpperLeftTile();
-        const upperRight = this.getUpperRightTile();
-
-        if (upperLeft.indexY - 1 < 0) {
-            return [null, null];
-        }
-
-        const nextUpperLeft = this.game.world.tiles[upperLeft.indexX][upperLeft.indexY - 1];
-        const nextUpperRight = this.game.world.tiles[upperRight.indexX][upperRight.indexY - 1];
-
-        return [nextUpperLeft, nextUpperRight];
-    }
-
-    getLowerTiles() {
-        //create logic for many tiles between left and right
-        const lowerLeft = this.getLowerLeftTile();
-        const lowerRight = this.getLowerRightTile();
-
-        if (lowerLeft.indexY + 1 >= this.game.world.worldYSize) {
-            return [null, null];
-        }
-
-        const nextLowerLeft = this.game.world.tiles[lowerLeft.indexX][lowerLeft.indexY + 1];
-        const nextLowerRight = this.game.world.tiles[lowerRight.indexX][lowerRight.indexY + 1];
-        
-        return [nextLowerLeft, nextLowerRight];
-    }
-
-    getLeftTiles() {
-        //create logic for many tiles between left and right
-        const upperLeft = this.getUpperLeftTile();
-        const lowerLeft = this.getLowerLeftTile();
-
-        if (upperLeft.indexX - 1 < 0) {
-            return [null, null];
-        }
-
-        const nextUpperLeft = this.game.world.tiles[upperLeft.indexX - 1][upperLeft.indexY];
-        const nextLowerLeft = this.game.world.tiles[lowerLeft.indexX - 1][lowerLeft.indexY];
-        
-        return [nextUpperLeft, nextLowerLeft];
-    }
-
-    getRightTiles() {
-        //create logic for many tiles between left and right
-        const upperRight = this.getUpperRightTile();
-        const lowerRight = this.getLowerRightTile();
-
-        if (upperRight.indexX + 1 >= this.game.world.worldXSize) {
-            return [null, null];
-        }
-
-        const nextUpperRight = this.game.world.tiles[upperRight.indexX + 1][upperRight.indexY];
-        const nextLowerRight = this.game.world.tiles[lowerRight.indexX + 1][lowerRight.indexY];
-        
-        return [nextUpperRight, nextLowerRight];
+    getSpeed() {
+        return this.xSpeed || this.ySpeed;
     }
 }

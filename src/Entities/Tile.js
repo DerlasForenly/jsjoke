@@ -31,14 +31,4 @@ export default class Tile extends Entity {
         this.animation.draw(context);
         //context.fillText(`${this.getWorldXPixel() / 48};${this.getWorldYPixel() / 48}`, this.x + 2, this.y + 11);
     }
-
-    getIsPassable(layers) {
-        let isPassable = false;
-
-        layers.forEach(element => {
-            
-        });
-
-        return isPassable;
-    }
 }

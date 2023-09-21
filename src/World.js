@@ -71,4 +71,38 @@ export default class World {
             })
         })
     }
+
+    getRandomAdditionalLayer(layers) {
+        const layer2 = [
+            'Зелене листя',
+            'Жовтувате листя',
+            'Жовте листя',
+        ];
+
+        const layer3 = [
+            'pumpkin',
+            'pumpkin_jack',
+            'glowing_pumpkin_jack',
+            'пугало',
+            'yellow_bush',
+            'sunflower_left',
+            'sunflower_right',
+            'pumpkin_with_grass',
+            'сніп',
+        ];
+
+        let randomItem = Math.floor(Math.random() * 10) - 1;
+        if (randomItem >= 0 && randomItem < layer2.length) {
+            layers.push(layer2[randomItem]);
+        }
+
+        randomItem = Math.floor(Math.random() * 100) - 1;
+        if (randomItem >= 0 && randomItem < layer3.length) {
+            layers.push(layer3[randomItem]);
+        }
+
+        console.log(layers, randomItem)
+
+        return layers;
+    }
 }

@@ -3,9 +3,11 @@ import Tile from "./Entities/Tile.js";
 export default class MapEditor {
     constructor(world) {
         this.world = world;
-        this.isActive = true;
+        this.isActive = false;
 
-        this.activeTile = null;
+        this.activeSprite = null;
+        this.activeLayer = 1;
+
         const exportButton = document.getElementById('exportMap');
         const importInput = document.getElementById('import');
 
@@ -17,8 +19,7 @@ export default class MapEditor {
                     data.push({
                         indexX: tile.indexX,
                         indexY: tile.indexY,
-                        spriteId: tile.spriteId,
-                        isPassable: tile.isPassable
+                        layers: tile.animation.getLayerIds(),
                     })
                 });
             });

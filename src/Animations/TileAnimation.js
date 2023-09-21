@@ -2,6 +2,7 @@
 import Animation from "./Animation.js";
 import Tile from "../Entities/Tile.js";
 import Layer from "./Layer.js";
+import { TileConfigs } from "../DTO/TileConfigs.js";
 
 export default class TileAnimation extends Animation {
     /**
@@ -16,7 +17,12 @@ export default class TileAnimation extends Animation {
         this.layers = [];
 
         layers.forEach(layer => {
-            this.layers.push(new Layer(this, layer))
+            if (TileConfigs.hasOwnProperty(layer)) {
+                this.layers.push(new Layer(this, layer))
+            } else {
+                console.error('There is no tile sprite: ' + layer);
+            }
+            
         })
     }
 
@@ -30,5 +36,24 @@ export default class TileAnimation extends Animation {
         }
     }
 
-    
+    setLayer(layerNumber, spriteId) {
+        if (layerNumber >= this.layers.length) {
+            console.error('Out of layers');
+            return;
+        }
+
+        delete this.layers[layerNumber];
+        
+        this.layers[layerNumber] = new Layer(this, spriteId);
+    }
+
+    getLayerIds() {
+        let ids = [];
+        
+        this.layers.forEach(layer => {
+            ids.push(layer.spriteId);
+        })
+
+        return ids;
+    }
 }

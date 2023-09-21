@@ -24,8 +24,8 @@ export default class Game {
 
         this.player = new CurrentPlayer(this, playerData.name, playerData.worldX, playerData.worldY);
 
-        this.inputHandler = new InputHandler(this);
         this.mapEditor = new MapEditor(this.world);
+        this.inputHandler = new InputHandler(this);
     }
 
     /**
@@ -88,7 +88,7 @@ export default class Game {
                 data[nickname].animation.frameX = value.frameX;
                 data[nickname].direction = value.direction;
                 data[nickname].setStateWithId(value.currentState);
-                data[nickname].setSpeedByDirection(value.direction);
+                data[nickname].setSpeedByDirection(value.direction, value.speed);
             }
         }
 

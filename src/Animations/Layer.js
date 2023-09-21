@@ -8,6 +8,7 @@ export default class Layer {
      */
     constructor(animation, spriteId) {
         this.animation = animation;
+        this.spriteId = spriteId;
 
         const config = TileConfigs[spriteId];
 
