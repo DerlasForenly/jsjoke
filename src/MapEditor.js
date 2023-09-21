@@ -5,12 +5,33 @@ export default class MapEditor {
         this.world = world;
         this.isActive = true;
 
-        this.activeTile = 'rockTile';
+        this.activeTile = null;
         const exportButton = document.getElementById('exportMap');
         const importInput = document.getElementById('import');
 
         exportButton.onclick = e => {
-            this.exportMap();
+            let data = [];
+
+            this.world.tiles.forEach(row => {
+                row.forEach(tile => {
+                    data.push({
+                        indexX: tile.indexX,
+                        indexY: tile.indexY,
+                        spriteId: tile.spriteId,
+                        isPassable: tile.isPassable
+                    })
+                });
+            });
+    
+            var jsonString = JSON.stringify(data);
+            var blob = new Blob([jsonString], { type: 'application/json' });
+            var url = URL.createObjectURL(blob);
+            var a = document.createElement('a');
+            a.href = url;
+            a.download = 'map.json';
+            a.textContent = 'Download map.json';
+    
+            document.body.appendChild(a);
         }
 
         importInput.onchange = e => {
@@ -31,40 +52,5 @@ export default class MapEditor {
 
             reader.readAsText(file);
         }
-
-        document.getElementById('rockButton').onclick = e => {
-            console.log('Activated rock tile');
-            this.activeTile = 'rockTile';
-        }
-
-        document.getElementById('landButton').onclick = e => {
-            console.log('Activated land tile');
-            this.activeTile = 'land';
-        }
-    }
-
-    exportMap() {
-        let data = [];
-
-        this.world.tiles.forEach(row => {
-            row.forEach(tile => {
-                data.push({
-                    indexX: tile.indexX,
-                    indexY: tile.indexY,
-                    spriteId: tile.spriteId,
-                    isImpassable: tile.isImpassable
-                })
-            });
-        });
-
-        var jsonString = JSON.stringify(data);
-        var blob = new Blob([jsonString], { type: 'application/json' });
-        var url = URL.createObjectURL(blob);
-        var a = document.createElement('a');
-        a.href = url;
-        a.download = 'map.json';
-        a.textContent = 'Download map.json';
-
-        document.body.appendChild(a);
     }
 }

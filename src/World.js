@@ -13,12 +13,16 @@ export default class World {
         this.tiles = new Array(this.worldXSize + 1).fill(null).map(() => new Array(this.worldYSize + 1).fill(null));
 
         tiles.forEach(item => {
-            this.tiles[item.indexX][item.indexY] = new Tile(this.game, item.spriteId, item.indexX, item.indexY);
+            this.tiles[item.indexX][item.indexY] = new Tile(this.game, item.layers, item.indexX, item.indexY);
         });
 
         this.referenceTile = this.tiles[0][0];
     }
 
+    /**
+     * 
+     * @param {*} context 
+     */
     draw(context) {
         for (let i = 0; i < this.worldXSize; i++) {
             for (let j = 0; j < this.worldXSize; j++) {
@@ -43,21 +47,10 @@ export default class World {
     }
 
     /**
-     * Safe way to set tile in array
+     * Move all tiles in X coordinates
      * 
-     * @param {Tile} tile
-     * @param {Number} indexX 
-     * @param {Number} indexY 
-     * @returns 
+     * @param {Number} offset 
      */
-    setTile(tile, indexX, indexY) {
-        if (indexX < 0 || indexX >= this.worldXSize || indexY < 0 || indexY >= this.worldYSize) {
-            return null;
-        }
-
-        return this.tiles[indexX][indexY] = tile;
-    }
-
     moveAllTilesX(offset) {
         this.tiles.forEach(row => {
             row.forEach(tile => {
@@ -66,6 +59,11 @@ export default class World {
         })
     }
 
+    /**
+     * Move all tiles in Y coordinates
+     * 
+     * @param {Number} offset 
+     */
     moveAllTilesY(offset) {
         this.tiles.forEach(row => {
             row.forEach(tile => {

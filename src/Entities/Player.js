@@ -1,10 +1,11 @@
 import { DIRECTIONS } from "../consts.js";
 import Entity from "./Entity.js";
-import { RemotePlayerAnimation } from "../Animation.js";
+import { PlayerAnimation } from "../Animations/PlayerAnimation.js";
 
 export default class Player extends Entity {
     constructor(game, name, worldX, worldY) {
-        super(game, name);
+        super(game);
+        this.name = name;
 
         this.direction = DIRECTIONS.S;
 
@@ -21,7 +22,7 @@ export default class Player extends Entity {
         this.movePlayerY = false;
 
         this.image = document.getElementById('player');
-        this.animation = new RemotePlayerAnimation(this);
+        this.animation = new PlayerAnimation(this);
     }
 
     draw(context) {

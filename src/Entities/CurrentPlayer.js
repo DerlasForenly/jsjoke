@@ -1,15 +1,13 @@
 import Player from "./Player.js";
-import { PlayerAnimation } from "../Animation.js";
+import CurrentPlayerAnimation from "../Animations/CurrentPlayerAnimation.js";
 import { Standing } from "../playerStates.js";
 import { TILE_SIZE } from "./Tile.js";
-import { DIRECTIONS } from "../consts.js";
-import Tile from "./Tile.js";
 
 export default class CurrentPlayer extends Player {
     constructor(game, name, worldX, worldY) {
         super(game, name, worldX, worldY);
 
-        this.animation = new PlayerAnimation(this);
+        this.animation = new CurrentPlayerAnimation(this);
 
         this.currentState = new Standing(this);
         this.currentState.enter();
@@ -26,8 +24,6 @@ export default class CurrentPlayer extends Player {
 
         this.currentState.handleInput(input);
         this.animation.animate(deltaTime);
-
-        console.log(this.direction);
     }
 
     handleOpositInputs(input) {
@@ -108,7 +104,7 @@ export default class CurrentPlayer extends Player {
                 }
         
                 leftTiles.forEach(tile => {
-                    if (tile?.isImpassable) {
+                    if (tile?.isPassable === false) {
                         this.xSpeed = 0;
                     }
                 })
@@ -121,7 +117,7 @@ export default class CurrentPlayer extends Player {
                 }
         
                 rightTiles.forEach(tile => {
-                    if (tile?.isImpassable) {
+                    if (tile?.isPassable === false) {
                         this.xSpeed = 0;
                     }
                 })
@@ -144,7 +140,7 @@ export default class CurrentPlayer extends Player {
                 }
         
                 upperTiles.forEach(tile => {
-                    if (tile?.isImpassable) {
+                    if (tile?.isPassable === false) {
                         this.ySpeed = 0;
                     }
                 })
@@ -157,7 +153,7 @@ export default class CurrentPlayer extends Player {
                 }
         
                 lowerTiles.forEach(tile => {
-                    if (tile?.isImpassable) {
+                    if (tile?.isPassable === false) {
                         this.ySpeed = 0;
                     }
                 })
@@ -197,7 +193,7 @@ export default class CurrentPlayer extends Player {
                 tile = this.game.world.getTile(indexX - 1, indexY);
             }
 
-            if (tile?.isImpassable) {
+            if (tile?.isPassable === false) {
                 this.xSpeed = 0;
                 this.ySpeed = 0;
             }

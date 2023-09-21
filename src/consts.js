@@ -1,9 +1,15 @@
+const ARROW_UP = 'ArrowUp';
+const ARROW_DOWN = 'ArrowDown';
+const ARROW_LEFT = 'ArrowLeft';
+const ARROW_RIGHT = 'ArrowRight';
+const ENTER = 'Enter';
+
 export const KEYS = [
-    'ArrowUp', 
-    'ArrowDown', 
-    'ArrowLeft', 
-    'ArrowRight',
-    'Enter',
+    ARROW_UP,
+    ARROW_DOWN,
+    ARROW_LEFT,
+    ARROW_RIGHT,
+    ENTER,
 ];
 
 export const DIRECTIONS = {
@@ -22,15 +28,3 @@ export const PLAYER_STATES = {
     CURSED_MOVING: 1,
     STANDING: 2,
 }
-
-export const TILES = [
-    'landTile',
-    'rockTile',
-    'waterTile',
-]
-
-export const IMPASSABLE_TILES = [
-    'rockTile',
-    'deepWaterTile',
-]
-

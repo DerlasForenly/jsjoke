@@ -2,9 +2,8 @@ import { DIRECTIONS, PLAYER_STATES } from "../consts.js";
 import { Moving, Standing } from "../playerStates.js";
 
 export default class Entity {
-    constructor(game, name) {
+    constructor(game) {
         this.game = game;
-        this.name = name;
 
         this.width = 0;
         this.height = 0;

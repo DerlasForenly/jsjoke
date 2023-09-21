@@ -1,6 +1,5 @@
-import { TileAnimation } from "../Animation.js";
+import TileAnimation from "../Animations/TileAnimation.js";
 import Entity from "./Entity.js";
-import { IMPASSABLE_TILES } from "../consts.js";
 
 export const TILE_SIZE = 48;
 
@@ -9,44 +8,37 @@ export default class Tile extends Entity {
      * @param {Game} game 
      * @param {Number} worldX 
      * @param {Number} worldY 
-     * @param {String} spriteId 
-     * @param {Boolean} isimpassable
+     * @param {Layer[]} layers 
      */
-    constructor(game, spriteId, indexX, indexY) {
-        super(game, spriteId);
+    constructor(game, layers, indexX, indexY) {
+        super(game);
 
-        this.isImpassable = this.getIsImpassanle(spriteId);
+        // Set during sprite loading inside animation
+        this.isPassable = true;
 
         this.width = TILE_SIZE;
         this.height = TILE_SIZE;
-
-        this.x = indexX * this.width;
-        this.y = indexY * this.height;
+        this.x = indexX * TILE_SIZE;
+        this.y = indexY * TILE_SIZE;
 
         this.indexX = indexX;
         this.indexY = indexY;
-
-        this.spriteId = spriteId;
         
-        this.animation = new TileAnimation(this);
-        this.image = document.getElementById(spriteId);
+        this.animation = new TileAnimation(this, layers);
     }
 
     draw(context) {
         this.animation.draw(context);
-        context.fillText(`${this.getWorldXPixel() / 48};${this.getWorldYPixel() / 48}`, this.x + 2, this.y + 11);
+        //context.fillText(`${this.getWorldXPixel() / 48};${this.getWorldYPixel() / 48}`, this.x + 2, this.y + 11);
     }
 
-    setSprite(spriteId) {
-        this.spriteId = spriteId;
-        this.image = document.getElementById(spriteId);
-    }
+    getIsPassable(layers) {
+        let isPassable = false;
 
-    getIsImpassanle(spriteId) {
-        if (IMPASSABLE_TILES.includes(spriteId)) {
-            return true;
-        }
+        layers.forEach(element => {
+            
+        });
 
-        return false;
+        return isPassable;
     }
 }

@@ -1,4 +1,4 @@
-import { MobAnimation } from "../Animation.js";
+import MobAnimation from "../Animations/MobAnimation.js";
 import Entity from "./Entity.js";
 
 const colors = [
@@ -15,7 +15,8 @@ export default class Slime extends Entity {
     static height = 22;
     
     constructor(game, name, worldX, worldY) {
-        super(game, name);
+        super(game);
+        this.name = name;
 
         this.width = Slime.width;
         this.height = Slime.height;
