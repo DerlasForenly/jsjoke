@@ -1,6 +1,15 @@
 import Entity from "../Entities/Entity.js";
 import Animation from "./Animation.js";
 
+const colors = [
+    'blue',
+    'green',
+    'ghost',
+    'ice',
+    'honey',
+    'pink',
+];
+
 export default class MobAnimation extends Animation {
     /**
      * 
@@ -8,6 +17,8 @@ export default class MobAnimation extends Animation {
      */
     constructor(entity) {
         super(entity);
+
+        this.image = document.getElementById(`slime_${colors[Math.floor(Math.random() * 6)]}`);
     }
 
     /**
@@ -18,7 +29,7 @@ export default class MobAnimation extends Animation {
         const referenceTile = this.entity.game.world.tiles[0][0];
 
         context.drawImage(
-            this.entity.image,
+            this.image,
             this.frameX * this.entity.width, 
             this.frameY * this.entity.height, 
             this.entity.width, 

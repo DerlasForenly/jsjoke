@@ -13,7 +13,7 @@ export default class World {
         this.tiles = new Array(this.worldXSize + 1).fill(null).map(() => new Array(this.worldYSize + 1).fill(null));
 
         tiles.forEach(item => {
-            this.tiles[item.indexX][item.indexY] = new Tile(this.game, item.layers, item.indexX, item.indexY);
+            this.tiles[item.indexX][item.indexY] = new Tile(this.game, item);;
         });
 
         this.referenceTile = this.tiles[0][0];
@@ -29,21 +29,6 @@ export default class World {
                 this.tiles[i][j].draw(context);
             }
         }
-    }
-
-    /**
-     * Safe way to get tile from array
-     * 
-     * @param {Number} indexX 
-     * @param {Number} indexY 
-     * @returns 
-     */
-    getTile(indexX, indexY) {
-        if (indexX < 0 || indexX >= this.worldXSize || indexY < 0 || indexY >= this.worldYSize) {
-            return null;
-        }
-
-        return this.tiles[indexX][indexY];
     }
 
     /**

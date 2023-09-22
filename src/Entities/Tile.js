@@ -1,7 +1,5 @@
 import TileAnimation from "../Animations/TileAnimation.js";
 import Entity from "./Entity.js";
-import Spawner from "./Spawner.js";
-import TileEvent from "./TileEvent.js";
 import Area from "./Area.js";
 
 export const TILE_SIZE = 48;
@@ -13,7 +11,7 @@ export default class Tile extends Entity {
      * @param {Number} indexY index in world tiles array
      * @param {Layer[]} layers array of sprite ids
      */
-    constructor(game, layers, indexX, indexY) {
+    constructor(game, config) {
         super(game);
 
         /*
@@ -26,15 +24,15 @@ export default class Tile extends Entity {
 
         this.width = TILE_SIZE;
         this.height = TILE_SIZE;
-        this.x = indexX * TILE_SIZE;
-        this.y = indexY * TILE_SIZE;
+        this.x = config.indexX * TILE_SIZE;
+        this.y = config.indexY * TILE_SIZE;
 
-        this.indexX = indexX;
-        this.indexY = indexY;
+        this.indexX = config.indexX;
+        this.indexY = config.indexY;
         
-        this.animation = new TileAnimation(this, layers);
+        this.animation = new TileAnimation(this, config.layers);
         this.event = null;
-        this.spawner = null;
+        this.spawners = config?.spawners;
         this.area = null;
     }
 
@@ -43,7 +41,6 @@ export default class Tile extends Entity {
      * @param {*} deltaTime 
      */
     update(deltaTime) {
-        this.spawner?.update(deltaTime);
         this.animation.animate(deltaTime);
     }
 
@@ -53,26 +50,7 @@ export default class Tile extends Entity {
      */
     draw(context) {
         this.animation.draw(context);
-        //context.fillText(`${this.getWorldXPixel() / 48};${this.getWorldYPixel() / 48}`, this.x + 2, this.y + 11);
-    }
-
-    /**
-     * Set spawner for enemies
-     * 
-     * @param {Entyti[]} enemies
-     */
-    setSpawner(enemies) {
-        this.spawner = new Spawner(this, enemies);
-    }
-
-    /**
-     * Set event that activates what current player steps on the tile
-     * 
-     * @todo
-     * @param {TileEvent} event 
-     */
-    setEvent(event) {
-        this.event = new TileEvent(this);
+        context.fillText(`${this.getWorldXPixel() / TILE_SIZE};${this.getWorldYPixel() / TILE_SIZE}`, this.x + 2, this.y + 11);
     }
 
     /**

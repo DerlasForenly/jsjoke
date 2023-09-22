@@ -1,4 +1,4 @@
-import Slime from "./Entities/Slime.js";
+import Slime from "./Entities/Enemies/Slime.js";
 
 export const Entities = [
     {

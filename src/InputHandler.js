@@ -29,18 +29,13 @@ export default class InputHandler {
             var mouseX = event.clientX - rect.left;
             var mouseY = event.clientY - rect.top;
 
-            console.log(mouseX, mouseY);
-
-            if (game.mapEditor.isActive) {
-                // Update to find exact element, not loop it
-                game.world.tiles.forEach(row => {
-                    row.forEach(tile => {
-                        if (tile.x <= mouseX && tile.x + tile.width >= mouseX && tile.y <= mouseY && tile.y + tile.width >= mouseY) {
-                            tile.setLayer(this.game.mapEditor.activeLayer, this.game.mapEditor.activeSprite);
-                        }
-                    })
-                });
-            }
+            game.world.tiles.forEach(row => {
+                row.forEach(tile => {
+                    if (tile.x <= mouseX && tile.x + tile.width >= mouseX && tile.y <= mouseY && tile.y + tile.width >= mouseY) {
+                        console.log(tile)
+                    }
+                })
+            });
         });
     }
 }
