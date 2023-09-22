@@ -1,5 +1,6 @@
 import { DIRECTIONS, PLAYER_STATES } from "../consts.js";
-import { Moving, Standing } from "../playerStates.js";
+import Moving from "../States/Moving.js";
+import Standing from "../States/Standing.js";
 
 export default class Entity {
     constructor(game) {
@@ -69,6 +70,9 @@ export default class Entity {
                     this.ySpeed = -1;
                     break;
             }
+        } else {
+            this.xSpeed = 0;
+            this.ySpeed = 0;
         }
     }
 
@@ -195,7 +199,7 @@ export default class Entity {
 
         return [referenceTile.x + x, referenceTile.y + y];
     }
-
+    
     getSpeed() {
         return this.xSpeed || this.ySpeed;
     }

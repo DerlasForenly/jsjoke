@@ -83,9 +83,17 @@ export default class Game {
         for (const nickname in players) {
             if (players.hasOwnProperty(nickname)) {
                 const value = players[nickname];
+
+                let player = null;
+                if (this.players.hasOwnProperty(nickname)) {
+                    player = this.players[nickname];
+                    player.x = this.world.referenceTile.x + value.worldX;
+                    player.y = this.world.referenceTile.y + value.worldY;
+                } else {
+                    player = new Player(this, nickname, value.worldX, value.worldY);
+                }
                 
-                data[nickname] = new Player(this, nickname, value.worldX, value.worldY);
-                data[nickname].animation.frameX = value.frameX;
+                data[nickname] = player;
                 data[nickname].direction = value.direction;
                 data[nickname].setStateWithId(value.currentState);
                 data[nickname].setSpeedByDirection(value.direction, value.speed);

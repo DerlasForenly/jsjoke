@@ -1,6 +1,6 @@
 import Player from "./Player.js";
 import CurrentPlayerAnimation from "../Animations/CurrentPlayerAnimation.js";
-import { Standing } from "../playerStates.js";
+import Standing from "../States/Standing.js";
 import { TILE_SIZE } from "./Tile.js";
 
 export default class CurrentPlayer extends Player {
@@ -14,6 +14,11 @@ export default class CurrentPlayer extends Player {
 
         this.movePlayerX = false;
         this.movePlayerY = false;
+
+        this.maxXSpeed = 1;
+        this.maxYSpeed = 1;
+
+        this.diagonalSwitcher = false;
 
         this.alingCamera();
     }
@@ -204,6 +209,9 @@ export default class CurrentPlayer extends Player {
         this.handlePlayScreenBorders();
         this.handleObstacle();
 
+        // It brokes direction calculation
+        //this.updateDiagonalSwitcher();
+
         const center = 288;
         const upperLeft = this.game.world.referenceTile;
         const lowerRight = this.game.world.tiles[this.game.world.worldXSize][this.game.world.worldYSize];
@@ -241,6 +249,16 @@ export default class CurrentPlayer extends Player {
         } else {
             this.game.world.moveAllTilesY(this.ySpeed);
             this.game.moveAllPlayersY(this.ySpeed);
+        }
+    }
+
+    updateDiagonalSwitcher() {
+        if (this.diagonalSwitcher === false && this.xSpeed != 0 && this.ySpeed !== 0) {
+            this.xSpeed = 0;
+            this.diagonalSwitcher = true;
+        } else if (this.diagonalSwitcher === true && this.xSpeed != 0 && this.ySpeed !== 0) {
+            this.ySpeed = 0;
+            this.diagonalSwitcher = false;
         }
     }
 

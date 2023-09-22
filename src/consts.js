@@ -27,4 +27,6 @@ export const PLAYER_STATES = {
     MOVING: 0,
     CURSED_MOVING: 1,
     STANDING: 2,
+    IDLE: 3,
+    DANCING: 4,
 }

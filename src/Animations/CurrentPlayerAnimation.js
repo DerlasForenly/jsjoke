@@ -1,5 +1,5 @@
 import { DIRECTIONS } from "../consts.js";
-import { Standing } from "../playerStates.js";
+import Standing from "../States/Standing.js"
 import Animation from "./Animation.js";
 import CurrentPlayer from "../Entities/CurrentPlayer.js";
 
