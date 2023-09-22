@@ -51,7 +51,6 @@ window.addEventListener('load', async function () {
             worldX: game.player.getWorldXPixel(),
             worldY: game.player.getWorldYPixel(),
             direction: game.player.direction,
-            frameX: game.player.animation.frameX,
             currentState: game.player.currentState.state,
             speed: game.player.getSpeed(),
         });
