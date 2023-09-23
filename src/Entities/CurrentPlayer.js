@@ -238,6 +238,7 @@ export default class CurrentPlayer extends Player {
         } else {
             this.game.world.moveAllTilesX(this.xSpeed);
             this.game.moveAllPlayersX(this.xSpeed);
+            this.game.moveAllEntitiesX(this.xSpeed);
         }
 
         if (this.movePlayerY) {
@@ -249,6 +250,7 @@ export default class CurrentPlayer extends Player {
         } else {
             this.game.world.moveAllTilesY(this.ySpeed);
             this.game.moveAllPlayersY(this.ySpeed);
+            this.game.moveAllEntitiesY(this.ySpeed);
         }
     }
 

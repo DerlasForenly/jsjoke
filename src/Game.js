@@ -12,7 +12,7 @@ export default class Game {
      * @param {Number} width
      * @param {Number} height
      */
-    constructor(width, height, map, playerData, players) {
+    constructor(width, height, map, playerData, players, mobs) {
         this.width = width;
         this.height = height;
 
@@ -20,7 +20,7 @@ export default class Game {
 
         this.players = {};
         this.players = this.loadPlayers(players);
-        this.entities = this.loadEntities(Entities);
+        this.mobs = this.loadPlayers(mobs);
 
         this.player = new CurrentPlayer(this, playerData.name, playerData.worldX, playerData.worldY);
 
@@ -35,9 +35,12 @@ export default class Game {
      */
     draw(context) {
         this.world.draw(context);
-        this.entities.forEach(entity => {
-            entity.draw(context);
-        });
+        for (const key in this.mobs) {
+            if (this.mobs.hasOwnProperty(key)) {
+                const value = this.mobs[key];
+                value.draw(context);
+            }
+        }
         for (const key in this.players) {
             if (this.players.hasOwnProperty(key)) {
                 const value = this.players[key];
@@ -54,9 +57,12 @@ export default class Game {
      */
     update(deltaTime) {
         this.player.update(this.inputHandler.keys, deltaTime);
-        this.entities.forEach(entity => {
-            entity.update(deltaTime);
-        });
+        for (const key in this.mobs) {
+            if (this.mobs.hasOwnProperty(key)) {
+                const value = this.mobs[key];
+                value.update(deltaTime);
+            }
+        }
         for (const key in this.players) {
             if (this.players.hasOwnProperty(key)) {
                 const value = this.players[key];
@@ -66,13 +72,27 @@ export default class Game {
     }
 
     loadEntities(entities) {
-        let data = [];
+        let data = {};
 
-        entities.forEach(entity => {
-            const classConstructor = classMapping[entity.class];
+        for (const name in entities) {
+            if (entities.hasOwnProperty(name)) {
+                const classConstructor = classMapping[name.split('_')[0]];
+                const value = entities[name];
 
-            data.push(new classConstructor(this, 'Some', entity.worldX, entity.worldY));
-        });
+                let mob = null;
+                if (this.mobs.hasOwnProperty(name)) {
+                    mob = this.mobs[name];
+                    mob.x = this.world.referenceTile.x + value.worldX;
+                    mob.y = this.world.referenceTile.y + value.worldY;
+                } else {
+                    mob = new classConstructor(this, name, value.worldX, value.worldY);
+                }
+                
+                data[name] = mob;
+                data[name].direction = value.direction;
+                data[name].setSpeedByDirection(value.direction, value.speed);
+            }
+        }
 
         return data;
     }
@@ -105,19 +125,27 @@ export default class Game {
 
     updatePlayers(newPlayers) {
         delete newPlayers[this.player.name];
-        this.players = this.loadPlayers(newPlayers)
+        this.players = this.loadPlayers(newPlayers);
+    }
+
+    updateEntities(newEntities) {
+        this.mobs = this.loadEntities(newEntities);
     }
 
     moveAllEntitiesX(offset) {
-        this.entities.forEach(entity => {
-            entity.x = entity.x + offset;
-        })
+        for (const key in this.mobs) {
+            if (this.mobs.hasOwnProperty(key)) {
+                this.mobs[key].x += offset;
+            }
+        }
     }
 
     moveAllEntitiesY(offset) {
-        this.entities.forEach(entity => {
-            entity.y = entity.y + offset;
-        })
+        for (const key in this.mobs) {
+            if (this.mobs.hasOwnProperty(key)) {
+                this.mobs[key].y += offset;
+            }
+        }
     }
 
     moveAllPlayersX(offset) {
