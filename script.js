@@ -18,7 +18,7 @@ window.addEventListener('load', async function () {
     const socket = io(SERVER_URL);
 
     const playerName = Math.random().toString(16).slice(2, 10);
-    let { player, players, world } = await socket.emitWithAck('init', {
+    let { player, players, mobs } = await socket.emitWithAck('init', {
         playerName,
     });
 
@@ -29,11 +29,12 @@ window.addEventListener('load', async function () {
         window.location.href = window.location.href;
     });
 
-    const game = new Game(canvas.width, canvas.height, map, player, players);
+    const game = new Game(canvas.width, canvas.height, map, player, players, mobs);
     let lastTime = 0;
 
-    socket.on('tick', (newPlayers) => {
-        game.updatePlayers(newPlayers);
+    socket.on('tick', (gameData) => {
+        game.updatePlayers(gameData.players);
+        game.updateEntities(gameData.mobs);
     });
 
     function animate(timeStamt = 0) {
