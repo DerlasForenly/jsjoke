@@ -6,12 +6,29 @@
 
 #canvas1 {
     border: 4px solid black;
+    margin-bottom: 2%;
+    image-rendering: pixelated;
+}
+
+#game-container {
+    /* border: 4px solid black; */
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 100%;
     max-height: 100%;
+}
+
+.bars {
+    max-width: 48%;
+    min-width: 48%;
+}
+
+#bars {
+    display: flex;
+    justify-content: space-between; /* This will push the elements to the left and right edges of the container */
+    align-items: center;
 }
 
 img {

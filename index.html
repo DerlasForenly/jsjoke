@@ -5,31 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+
+    <link href="assets/RPGUI/rpgui.min.css" rel="stylesheet" type="text/css" >
+	<script src="assets/RPGUI/rpgui.min.js"></script>
 </head>
-<body>
-    <canvas id="canvas1"></canvas>
+<body class="rpgui-content">
+    <div id="login">
+        <div class="rpgui-container framed"  id="game-container">
+            <h1>Welcome!</h1>
+            <hr class="golden" />
+            <br>
 
-    <div>
-        <button id="exportMap">Export</button>
-        <input type="file" id="import" placeholder="import">
+            <label>Your hero name:</label>
+            <input type="text" name="characterName" value="Bob" placeholder="Hero name" id="player-name">
+            <br/><br/>
+            <br>
+            <button class="rpgui-button" type="button" style="width:100%" id="login-button"><p>Login</p></button>
+        </div>
     </div>
+    <div id="game" style="display: none;">
+        <div id="game-container" class="rpgui-container framed-golden">
+            <canvas id="canvas1"></canvas>
 
-    <div class="tilesets">
-        <img id="player" src="assets/characters/Masha.png">
-        <img id="land_1" src="assets/tiles/land_1.jpg">
-        <img id="land_2" src="assets/tiles/land_2.png">
-        <img id="items_1" src="assets/tiles/items_1.png">
-        <img id="items_2" src="assets/tiles/items_2.png">
-    
-        <img id="slime_blue" src="assets/enemies/slime_blue_idle.png">
-        <img id="slime_ghost" src="assets/enemies/slime_ghost_idle.png">
-        <img id="slime_ice" src="assets/enemies/slime_ice_idle.png">
-        <img id="slime_pink" src="assets/enemies/slime_pink_idle.png">
-        <img id="slime_green" src="assets/enemies/slime_green_idle.png">
-        <img id="slime_honey" src="assets/enemies/slime_honey_idle.png">
+            <div>
+                <div id="bars">
+                    <div class="bars">
+                        <label>Health</label>
+                        <div id="hp-bar" data-value="0.4" class="rpgui-progress red"></div>
+                    </div>
+
+                    <div class="bars" style="align-items: right; text-align: right;">
+                        <label>Mana</label>
+                        <div id="mana-bar" data-value="0.8" class="rpgui-progress blue"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <button id="exportMap">Export</button>
+            <input type="file" id="import" placeholder="import">
+        </div>
+
+
+        <div class="tilesets">
+            <img id="player" src="assets/characters/Masha.png">
+            <img id="land_1" src="assets/tiles/land_1.jpg">
+            <img id="land_2" src="assets/tiles/land_2.png">
+            <img id="items_1" src="assets/tiles/items_1.png">
+            <img id="items_2" src="assets/tiles/items_2.png">
+
+            <img id="slime_blue" src="assets/enemies/slime_blue_idle.png">
+            <img id="slime_ghost" src="assets/enemies/slime_ghost_idle.png">
+            <img id="slime_ice" src="assets/enemies/slime_ice_idle.png">
+            <img id="slime_pink" src="assets/enemies/slime_pink_idle.png">
+            <img id="slime_green" src="assets/enemies/slime_green_idle.png">
+            <img id="slime_honey" src="assets/enemies/slime_honey_idle.png">
+        </div>
     </div>
 
     <script src="/socket.io/socket.io.js"></script>
-    <script type="module" src="script.js"></script>
+    <script type="module" src="script.js" defer></script>
 </body>
 </html>

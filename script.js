@@ -1,6 +1,26 @@
 import Game from "./src/Game.js";
 
-window.addEventListener('load', async function () {
+window.onload = () => {
+    const queryString = window.location.search;
+    if (queryString.includes('dev')) {
+        const playerName = Math.random().toString(16).slice(2, 10);
+        document.getElementById('login').style.display = 'none';
+        document.getElementById('game').style.display = 'block';
+        initGame(playerName);
+    } else {
+        const loginButton = document.getElementById('login-button');
+        loginButton.addEventListener('click', async () => {
+            const playerName = document.getElementById('player-name').value;
+            if (playerName && playerName.length > 0 && playerName.length < 10 && playerName.match(/^[a-zA-Z0-9]+$/)) {
+                document.getElementById('login').style.display = 'none';
+                document.getElementById('game').style.display = 'block';
+                initGame(playerName);
+            }
+        });
+    }
+}
+
+const initGame = async (playerName) => {
     const canvas = document.getElementById('canvas1');
     const ctx = canvas.getContext('2d');
 
@@ -8,16 +28,16 @@ window.addEventListener('load', async function () {
     canvas.width = 624;
 
     const SERVER_URL = await fetch(`${window.location.origin}/api/server-url`)
-    .then((res) => res.json())
-    .then((data) => data.SERVER_URL);
+        .then((res) => res.json())
+        .then((data) => data.SERVER_URL);
 
     const map = await fetch(`${window.location.origin}/api/map`)
-    .then((res) => res.json())
-    .then((data) => data.map);
+        .then((res) => res.json())
+        .then((data) => data.map);
 
     const socket = io(SERVER_URL);
 
-    const playerName = Math.random().toString(16).slice(2, 10);
+
     let { player, players, mobs } = await socket.emitWithAck('init', {
         playerName,
     });
@@ -58,4 +78,4 @@ window.addEventListener('load', async function () {
     }, 3);
 
     animate();
-});
+}
