@@ -19,7 +19,20 @@ export default class Slime extends Entity {
         this.animation.maxFrame = 7;
     }
 
-    update(deltaTime) {
-        this.animation.animate(deltaTime);
+    draw(context) {;
+        this.animation.draw(context);
+
+        context.font = '12px Arial';
+        context.fillStyle = 'white';
+        context.strokeStyle = 'black';
+
+        const nameWidth = context.measureText(this.name).width;
+        const offsetX = (nameWidth - this.width) / 2
+
+        context.strokeText(this.name, this.x - offsetX, this.y - 6);
+        context.fillText(this.name, this.x - offsetX, this.y - 6);
+
+        context.font = '10px Arial';
+        context.fillStyle = 'black';
     }
 }

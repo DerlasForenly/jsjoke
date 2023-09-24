@@ -32,7 +32,7 @@ export default class Tile extends Entity {
         
         this.animation = new TileAnimation(this, config.layers);
         this.event = null;
-        this.spawners = config?.spawners;
+        this.spawners = config.spawners;
         this.area = null;
     }
 

@@ -26,16 +26,14 @@ export default class MobAnimation extends Animation {
      * @param {CanvasRenderingContext2D} context 
      */
     draw(context) {
-        const referenceTile = this.entity.game.world.tiles[0][0];
-
         context.drawImage(
             this.image,
             this.frameX * this.entity.width, 
             this.frameY * this.entity.height, 
             this.entity.width, 
             this.entity.height, 
-            this.entity.x + referenceTile.x, 
-            this.entity.y + referenceTile.y, 
+            this.entity.x, 
+            this.entity.y, 
             this.entity.width, 
             this.entity.height
         );

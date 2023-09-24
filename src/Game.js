@@ -19,8 +19,9 @@ export default class Game {
         this.world = new World(this, map);
 
         this.players = {};
+        this.mobs = {};
         this.players = this.loadPlayers(players);
-        this.mobs = this.loadPlayers(mobs);
+        this.mobs = this.loadEntities(mobs);
 
         this.player = new CurrentPlayer(this, playerData.name, playerData.worldX, playerData.worldY);
 
@@ -59,14 +60,12 @@ export default class Game {
         this.player.update(this.inputHandler.keys, deltaTime);
         for (const key in this.mobs) {
             if (this.mobs.hasOwnProperty(key)) {
-                const value = this.mobs[key];
-                value.update(deltaTime);
+                this.mobs[key].update(deltaTime);
             }
         }
         for (const key in this.players) {
             if (this.players.hasOwnProperty(key)) {
-                const value = this.players[key];
-                value.update(deltaTime);
+                this.players[key].update(deltaTime);
             }
         }
     }
@@ -75,23 +74,20 @@ export default class Game {
         let data = {};
 
         for (const name in entities) {
-            if (entities.hasOwnProperty(name)) {
-                const classConstructor = classMapping[name.split('_')[0]];
-                const value = entities[name];
+            const classConstructor = classMapping[name.split('_')[0]];
+            const value = entities[name];
 
-                let mob = null;
-                if (this.mobs.hasOwnProperty(name)) {
-                    mob = this.mobs[name];
-                    mob.x = this.world.referenceTile.x + value.worldX;
-                    mob.y = this.world.referenceTile.y + value.worldY;
-                } else {
-                    mob = new classConstructor(this, name, value.worldX, value.worldY);
-                }
-                
-                data[name] = mob;
-                data[name].direction = value.direction;
-                data[name].setSpeedByDirection(value.direction, value.speed);
+            let mob = null;
+            if (this.mobs.hasOwnProperty(name)) {
+                mob = this.mobs[name];
+                mob.x = this.world.referenceTile.x + value.worldX;
+                mob.y = this.world.referenceTile.y + value.worldY;
+            } else {
+                mob = new classConstructor(this, name, value.worldX, value.worldY);
             }
+            
+            data[name] = mob;
+            data[name].direction = value.direction;
         }
 
         return data;
