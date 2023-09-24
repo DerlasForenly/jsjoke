@@ -27,7 +27,7 @@ export default class CurrentPlayer extends Player {
         this.handleInput(input);
         this.moveCamera();
 
-        this.currentState.handleInput(input);
+        this.currentState.handleInput(input.keys);
         this.animation.animate(deltaTime);
     }
 
@@ -66,24 +66,60 @@ export default class CurrentPlayer extends Player {
     }
 
     handleInput(input) {
-        if (input.includes('ArrowLeft')) {
+        this.xSpeed = 0;
+        this.ySpeed = 0;
+
+        if (input.keys.includes('ArrowLeft')) {
             this.xSpeed = this.maxXSpeed;
         }
-        if (input.includes('ArrowRight')) {
+        if (input.keys.includes('ArrowRight')) {
             this.xSpeed = -this.maxXSpeed;
         }
-        if (input.includes('ArrowUp')) {
+        if (input.keys.includes('ArrowUp')) {
             this.ySpeed = this.maxYSpeed;
         }
-        if (input.includes('ArrowDown')) {
+        if (input.keys.includes('ArrowDown')) {
             this.ySpeed = -this.maxYSpeed;
         }
-        if (input.includes('Enter')) {
+        if (input.keys.includes('Enter')) {
             console.log('Enter has been pressed');
         }
+        const centerX = window.innerWidth / 2;
+        const centerY = window.innerHeight / 2;
 
-        this.handleInputRelease(input);
-        this.handleOpositInputs(input);
+        if (input.isMouseDown) {
+            input.keys = [];
+            const mouseX = input.mouseX;
+            const mouseY = input.mouseY;
+            
+            const deltaX = mouseX - centerX;
+            const deltaY = mouseY - centerY;
+            
+            const angle = Math.atan2(deltaY, deltaX);
+            
+            this.xSpeed = Math.round(Math.cos(angle) * -this.maxXSpeed);
+            this.ySpeed = Math.round(Math.sin(angle) * -this.maxYSpeed);
+
+            if (this.xSpeed > 0) {
+                input.keys.push('ArrowLeft');
+                this.xSpeed = this.maxXSpeed;
+            } else if (this.xSpeed < 0) {
+                input.keys.push('ArrowRight');
+                this.xSpeed = -this.maxXSpeed;
+            }
+
+            if (this.ySpeed > 0) {
+                input.keys.push('ArrowUp');
+                this.ySpeed = this.maxYSpeed;
+            }
+            if (this.ySpeed < 0) {
+                input.keys.push('ArrowDown');
+                this.ySpeed = -this.maxYSpeed;
+            }
+        }
+
+        this.handleInputRelease(input.keys);
+        this.handleOpositInputs(input.keys);
     }
 
     /**

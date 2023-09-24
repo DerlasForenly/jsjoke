@@ -57,7 +57,7 @@ export default class Game {
      * @param {Number} deltaTime
      */
     update(deltaTime) {
-        this.player.update(this.inputHandler.keys, deltaTime);
+        this.player.update(this.inputHandler, deltaTime);
         for (const key in this.mobs) {
             if (this.mobs.hasOwnProperty(key)) {
                 this.mobs[key].update(deltaTime);

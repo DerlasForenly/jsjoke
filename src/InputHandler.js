@@ -8,6 +8,9 @@ export default class InputHandler {
      */
     constructor(game) {
         this.game = game;
+        this.isMouseDown = false;
+        this.mouseX = 0;
+        this.mouseY = 0;
         this.keys = [];
         
         const canvas = document.getElementById('canvas1');
@@ -24,7 +27,21 @@ export default class InputHandler {
             }
         });
 
-        canvas.addEventListener('click', function(event) {
+        document.addEventListener('mousemove', e => {
+            this.mouseX = e.clientX;
+            this.mouseY = e.clientY;
+        });
+
+        document.addEventListener("mousedown", (event) => {
+            this.isMouseDown = true;
+        });
+          
+        document.addEventListener("mouseup", (event) => {
+            this.isMouseDown = false;
+            this.keys = [];
+        });
+
+        canvas.addEventListener('click', (event) => {
             var rect = canvas.getBoundingClientRect();
             var mouseX = event.clientX - rect.left;
             var mouseY = event.clientY - rect.top;
