@@ -41,6 +41,15 @@ export default class InputHandler {
             this.keys = [];
         });
 
+        document.addEventListener('touchstart', e => {
+            this.isMouseDown = true;
+        });
+
+        document.addEventListener('touchend', e => {
+            this.isMouseDown = false;
+            this.keys = [];
+        });
+
         canvas.addEventListener('click', (event) => {
             var rect = canvas.getBoundingClientRect();
             var mouseX = event.clientX - rect.left;
