@@ -26,11 +26,12 @@ export default class Slime extends Entity {
         context.fillStyle = 'white';
         context.strokeStyle = 'black';
 
-        const nameWidth = context.measureText(this.name).width;
+        const name = this.name.split('_')[0] + ` [${this.lvl}]`;
+        const nameWidth = context.measureText(name).width;
         const offsetX = (nameWidth - this.width) / 2
 
-        context.strokeText(this.name, this.x - offsetX, this.y - 6);
-        context.fillText(this.name, this.x - offsetX, this.y - 6);
+        context.strokeText(name, this.x - offsetX, this.y - 6);
+        context.fillText(name, this.x - offsetX, this.y - 6);
 
         context.font = '10px Arial';
         context.fillStyle = 'black';

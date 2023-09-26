@@ -14,6 +14,8 @@ export default class Entity {
         this.maxXSpeed = 0;
         this.maxYSpeed = 0;
 
+        this.lvl = 0;
+
         this.currentState = null;
     }
 
