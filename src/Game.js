@@ -73,7 +73,6 @@ export default class Game {
     }
 
     loadEntities(entities) {
-        console.log(entities);
         let data = {};
 
         for (const name in entities) {
