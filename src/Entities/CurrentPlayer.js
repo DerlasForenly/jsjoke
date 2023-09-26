@@ -20,11 +20,15 @@ export default class CurrentPlayer extends Player {
 
         this.diagonalSwitcher = false;
 
+        this.selectedEntity = null;
+
         this.alingCamera();
     }
 
     update(input, deltaTime) {
         this.handleInput(input);
+        this.handlePlayScreenBorders();
+        this.handleObstacle();
         this.moveCamera();
 
         this.currentState.handleInput(input.keys);
@@ -50,17 +54,17 @@ export default class CurrentPlayer extends Player {
     }
 
     handlePlayScreenBorders() {
-        if (this.x < 0) {
+        if (this.x <= 0) {
             this.x = 0;
         }
-        if (this.x > this.game.width - this.width) {
+        if (this.x >= this.game.width - this.width) {
             this.x = this.game.width - this.width;
         }
 
-        if (this.y < 0) {
+        if (this.y <= 0) {
             this.y = 0;
         }
-        if (this.y > this.game.height - this.height) {
+        if (this.y >= this.game.height - this.height) {
             this.y = this.game.height - this.height;
         }
     }
@@ -70,16 +74,16 @@ export default class CurrentPlayer extends Player {
         this.ySpeed = 0;
 
         if (input.keys.includes('ArrowLeft')) {
-            this.xSpeed = this.maxXSpeed;
-        }
-        if (input.keys.includes('ArrowRight')) {
             this.xSpeed = -this.maxXSpeed;
         }
+        if (input.keys.includes('ArrowRight')) {
+            this.xSpeed = this.maxXSpeed;
+        }
         if (input.keys.includes('ArrowUp')) {
-            this.ySpeed = this.maxYSpeed;
+            this.ySpeed = -this.maxYSpeed;
         }
         if (input.keys.includes('ArrowDown')) {
-            this.ySpeed = -this.maxYSpeed;
+            this.ySpeed = this.maxYSpeed;
         }
         if (input.keys.includes('Enter')) {
             console.log('Enter has been pressed');
@@ -91,14 +95,14 @@ export default class CurrentPlayer extends Player {
             input.keys = [];
             const mouseX = input.mouseX;
             const mouseY = input.mouseY;
-            
+
             const deltaX = mouseX - centerX;
             const deltaY = mouseY - centerY;
             
             const angle = Math.atan2(deltaY, deltaX);
             
-            this.xSpeed = Math.round(Math.cos(angle) * -this.maxXSpeed);
-            this.ySpeed = Math.round(Math.sin(angle) * -this.maxYSpeed);
+            this.xSpeed = Math.round(Math.cos(angle) * this.maxXSpeed);
+            this.ySpeed = Math.round(Math.sin(angle) * this.maxYSpeed);
 
             if (this.xSpeed > 0) {
                 input.keys.push('ArrowLeft');
@@ -126,177 +130,213 @@ export default class CurrentPlayer extends Player {
      * Hard to understand shit
      */
     handleObstacle() {
-        const worldYPixel = this.getWorldYPixel();
-        const worldXPixel = this.getWorldXPixel();
+        let worldY = this.getWorldYPixel();
+        let worldX = this.getWorldXPixel();
 
-        if (worldXPixel % TILE_SIZE === 0) {
-            const minIndexYOffset = worldYPixel % TILE_SIZE;
-            const maxIndexYOffset = (worldYPixel + this.height - 1) % TILE_SIZE
+        if (this.xSpeed > 0) {
+            worldX += 1;
+            /*
+                Find indexes of upper and lower right tiles 
+             */
+            const minIndexYOffset = worldY % TILE_SIZE;
+            const maxIndexYOffset = (worldY + this.height - 1) % TILE_SIZE;
+            const minIndexY = (worldY - minIndexYOffset) / TILE_SIZE;
+            const maxIndexY = (worldY + this.height - 1 - maxIndexYOffset) / TILE_SIZE;
 
-            const minIndexY = (worldYPixel - minIndexYOffset) / TILE_SIZE;
-            const maxIndexY = (worldYPixel + this.height - 1 - maxIndexYOffset) / TILE_SIZE;
+            /*
+                Get right point of sprite
+            */
+            const xOffset = (worldX + this.width - 1) % TILE_SIZE;
+            const rightIndexX = ((worldX + this.width - 1) - xOffset) / TILE_SIZE;
 
-            if (this.xSpeed > 0) {
-                const leftIndexX = (worldXPixel - TILE_SIZE) / TILE_SIZE;
-                
-                let leftTiles = [];
-                for (let i = minIndexY; i <= maxIndexY; i++) {
-                    leftTiles.push(this.game.world.tiles[leftIndexX][i]);
+            /*
+                Find every tile on the right side.
+                For player with height 48 it can be 1 or 2 tiles.
+                Min and max index can be the same.
+            */
+            let tiles = [];
+            for (let i = minIndexY; i <= maxIndexY; i++) {
+                let tile = this.game.world.getTile(rightIndexX, i);
+                if (tile) {
+                    tiles.push(tile);
                 }
-        
-                leftTiles.forEach(tile => {
-                    if (tile?.isPassable === false) {
-                        this.xSpeed = 0;
-                    }
-                })
-            } else if (this.xSpeed < 0) {
-                const rightIndexX = (worldXPixel - TILE_SIZE + this.width) / TILE_SIZE;
-
-                let rightTiles = [];
-                for (let i = minIndexY; i <= maxIndexY; i++) {
-                    rightTiles.push(this.game.world.tiles[rightIndexX + 1][i]);
-                }
-        
-                rightTiles.forEach(tile => {
-                    if (tile?.isPassable === false) {
-                        this.xSpeed = 0;
-                    }
-                })
             }
+
+            /*
+                If at least 1 tile is not passable set xSpeed as 0
+            */
+            tiles.forEach(tile => {
+                if (!tile.isPassable) {
+                    //console.log('Obstacle right: ', tile.indexX, tile.indexY);
+                    this.xSpeed = 0;
+                }
+            });
+        } else if (this.xSpeed < 0) {
+            worldX -= 1;
+            /*
+                Find indexes of upper and lower right tiles 
+             */
+            const minIndexYOffset = worldY % TILE_SIZE;
+            const maxIndexYOffset = (worldY + this.height - 1) % TILE_SIZE;
+            const minIndexY = (worldY - minIndexYOffset) / TILE_SIZE;
+            const maxIndexY = (worldY + this.height - 1 - maxIndexYOffset) / TILE_SIZE;
+
+            /*
+                Get right point of sprite
+            */
+            const xOffset = worldX % TILE_SIZE;
+            const leftIndexX = (worldX - xOffset) / TILE_SIZE;
+
+            /*
+                Find every tile on the right side.
+                For player with height 48 it can be 1 or 2 tiles.
+                Min and max index can be the same.
+            */
+            let tiles = [];
+            for (let i = minIndexY; i <= maxIndexY; i++) {
+                let tile = this.game.world.getTile(leftIndexX, i);
+
+                if (tile) {
+                    tiles.push(tile);
+                }
+            }
+
+            /*
+                If at least 1 tile is not passable set xSpeed as 0
+            */
+            tiles.forEach(tile => {
+                console.log('left', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
+                if (!tile.isPassable) {
+                    //console.log('Obstacle left: ', tile.indexX, tile.indexY);
+                    this.xSpeed = 0;
+                }
+            });
         }
 
-        if (worldYPixel % TILE_SIZE === 0) {
-            const minIndexXOffset = worldXPixel % TILE_SIZE;
-            const maxIndexXOffset = (worldXPixel + this.width - 1) % TILE_SIZE
+        if (this.ySpeed > 0) {
+            worldY += 1;
+            /*
+                Find indexes of lower left and right tiles 
+             */
+            const minIndexXOffset = worldX % TILE_SIZE;
+            const maxIndexXOffset = (worldX + this.width - 1) % TILE_SIZE;
+            const minIndexX = (worldX - minIndexXOffset) / TILE_SIZE;
+            const maxIndexX = (worldX + this.width - 1 - maxIndexXOffset) / TILE_SIZE;
 
-            const minIndexX = (worldXPixel - minIndexXOffset) / TILE_SIZE;
-            const maxIndexX = (worldXPixel + this.width - 1 - maxIndexXOffset) / TILE_SIZE;
+            /*
+                Get right point of sprite
+            */
+            const yOffset = (worldY + this.height - 1) % TILE_SIZE;
+            const indexY = ((worldY + this.height - 1) - yOffset) / TILE_SIZE;
 
-            if (this.ySpeed > 0) {
-                const upperIndexY = (worldYPixel - TILE_SIZE) / TILE_SIZE;
-                
-                let upperTiles = [];
-                for (let i = minIndexX; i <= maxIndexX; i++) {
-                    upperTiles.push(this.game.world.tiles[i][upperIndexY]);
+            /*
+                Find every tile on the right side.
+                For player with height 48 it can be 1 or 2 tiles.
+                Min and max index can be the same.
+            */
+            let tiles = [];
+            for (let i = minIndexX; i <= maxIndexX; i++) {
+                let tile = this.game.world.getTile(i, indexY);
+                if (tile) {
+                    tiles.push(tile);
                 }
-        
-                upperTiles.forEach(tile => {
-                    if (tile?.isPassable === false) {
-                        this.ySpeed = 0;
-                    }
-                })
-            } else if (this.ySpeed < 0) {
-                const lowerIndexY = (worldYPixel + this.height - TILE_SIZE) / TILE_SIZE;
-                
-                let lowerTiles = [];
-                for (let i = minIndexX; i <= maxIndexX; i++) {
-                    lowerTiles.push(this.game.world.tiles[i][lowerIndexY + 1]);
+            }
+
+            /*
+                If at least 1 tile is not passable set xSpeed as 0
+            */
+            tiles.forEach(tile => {
+                if (!tile.isPassable) {
+                    //console.log('Obstacle down: ', tile.indexX, tile.indexY);
+                    this.ySpeed = 0;
                 }
-        
-                lowerTiles.forEach(tile => {
-                    if (tile?.isPassable === false) {
-                        this.ySpeed = 0;
-                    }
-                })
-            }
-        }
+            });
+        } else if (this.ySpeed < 0) {
+            worldY -= 1;
+            /*
+                Find indexes of lower left and right tiles 
+             */
+            const minIndexXOffset = worldX % TILE_SIZE;
+            const maxIndexXOffset = (worldX + this.width - 1) % TILE_SIZE;
+            const minIndexX = (worldX - minIndexXOffset) / TILE_SIZE;
+            const maxIndexX = (worldX + this.width - 1 - maxIndexXOffset) / TILE_SIZE;
 
-        if (worldYPixel % TILE_SIZE === 0 && worldXPixel % TILE_SIZE === 0 && this.xSpeed !== 0 && this.ySpeed !== 0) {
-            let indexX = null;
-            let indexY = null;
-            let tile = null;
+            /*
+                Get right point of sprite
+            */
+            const yOffset = worldY % TILE_SIZE;
+            const indexY = (worldY - yOffset) / TILE_SIZE;
 
-            if (this.xSpeed > 0 && this.ySpeed > 0) {
-                indexX = worldXPixel / 48;
-                indexY = worldYPixel / 48;
-
-                tile = this.game.world.tiles[indexX - 1][indexY - 1];
-            }
-
-            if (this.xSpeed < 0 && this.ySpeed > 0) {
-                const indexX = (worldXPixel + this.width) / 48;
-                const indexY = worldYPixel / 48;
-
-                tile = this.game.world.tiles[indexX][indexY - 1];
-            }
-
-            if (this.xSpeed < 0 && this.ySpeed < 0) {
-                indexX = (worldXPixel + this.width) / 48;
-                indexY = (worldYPixel + this.height) / 48;
-
-                tile = this.game.world.tiles[indexX + 1][indexY + 1];
+            /*
+                Find every tile on the right side.
+                For player with height 48 it can be 1 or 2 tiles.
+                Min and max index can be the same.
+            */
+            let tiles = [];
+            for (let i = minIndexX; i <= maxIndexX; i++) {
+                let tile = this.game.world.getTile(i, indexY);
+                
+                if (tile) {
+                    tiles.push(tile);
+                }
             }
 
-            if (this.xSpeed > 0 && this.ySpeed < 0) {
-                indexX = worldXPixel / 48;
-                indexY = (worldYPixel + this.height) / 48;
-
-                tile = this.game.world.tiles[indexX - 1][indexY];
-            }
-
-            if (tile?.isPassable === false) {
-                this.xSpeed = 0;
-                this.ySpeed = 0;
-            }
+            /*
+                If at least 1 tile is not passable set xSpeed as 0
+            */
+            tiles.forEach(tile => {
+                console.log('up', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
+                if (!tile.isPassable) {
+                    //console.log('Obstacle up: ', tile.indexX, tile.indexY);
+                    this.ySpeed = 0;
+                }
+            });
         }
     }
 
     moveCamera() {
-        this.handlePlayScreenBorders();
-        this.handleObstacle();
-
         // It brokes direction calculation
-        //this.updateDiagonalSwitcher();
+        //this.updateDiagonalSwitcher();;
 
         const center = 288;
         const upperLeft = this.game.world.referenceTile;
         const lowerRight = this.game.world.tiles[this.game.world.worldXSize][this.game.world.worldYSize];
 
-        if (upperLeft.x === 0 && this.xSpeed > 0) {
+        if (upperLeft.x === 0 && this.xSpeed < 0) {
             this.movePlayerX = true;
         }
-        if (lowerRight.x === this.game.width && this.xSpeed < 0) {
+        if (lowerRight.x === this.game.width && this.xSpeed > 0) {
             this.movePlayerX = true;
         }
-        if (upperLeft.y === 0 && this.ySpeed > 0) {
+        if (upperLeft.y === 0 && this.ySpeed < 0) {
             this.movePlayerY = true;
         }
-        if (lowerRight.y === this.game.height && this.ySpeed < 0) {
+        if (lowerRight.y === this.game.height && this.ySpeed > 0) {
             this.movePlayerY = true;
         }
 
         if (this.movePlayerX) {
-            this.x += -this.xSpeed;
+            this.x += this.xSpeed;
 
             if (this.x === center) {
                 this.movePlayerX = false;
             }
         } else {
-            this.game.world.moveAllTilesX(this.xSpeed);
-            this.game.moveAllPlayersX(this.xSpeed);
-            this.game.moveAllEntitiesX(this.xSpeed);
+            this.game.world.moveAllTilesX(-this.xSpeed);
+            this.game.moveAllPlayersX(-this.xSpeed);
+            this.game.moveAllEntitiesX(-this.xSpeed);
         }
 
         if (this.movePlayerY) {
-            this.y += -this.ySpeed;
+            this.y += this.ySpeed;
 
             if (this.y === center) {
                 this.movePlayerY = false;
             }
         } else {
-            this.game.world.moveAllTilesY(this.ySpeed);
-            this.game.moveAllPlayersY(this.ySpeed);
-            this.game.moveAllEntitiesY(this.ySpeed);
-        }
-    }
-
-    updateDiagonalSwitcher() {
-        if (this.diagonalSwitcher === false && this.xSpeed != 0 && this.ySpeed !== 0) {
-            this.xSpeed = 0;
-            this.diagonalSwitcher = true;
-        } else if (this.diagonalSwitcher === true && this.xSpeed != 0 && this.ySpeed !== 0) {
-            this.ySpeed = 0;
-            this.diagonalSwitcher = false;
+            this.game.world.moveAllTilesY(-this.ySpeed);
+            this.game.moveAllPlayersY(-this.ySpeed);
+            this.game.moveAllEntitiesY(-this.ySpeed);
         }
     }
 

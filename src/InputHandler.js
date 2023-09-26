@@ -51,9 +51,9 @@ export default class InputHandler {
         });
 
         canvas.addEventListener('click', (event) => {
-            var rect = canvas.getBoundingClientRect();
-            var mouseX = event.clientX - rect.left;
-            var mouseY = event.clientY - rect.top;
+            let rect = canvas.getBoundingClientRect();
+            let mouseX = event.clientX - rect.left;
+            let mouseY = event.clientY - rect.top;
 
             game.world.tiles.forEach(row => {
                 row.forEach(tile => {

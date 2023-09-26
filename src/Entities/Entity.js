@@ -77,31 +77,31 @@ export default class Entity {
     }
 
     updateDirection() {
-        if (this.xSpeed < 0 && this.ySpeed === 0) {
+        if (this.xSpeed > 0 && this.ySpeed === 0) {
             this.direction = DIRECTIONS.E;
         }
-        if (this.xSpeed > 0 && this.ySpeed === 0) {
+        if (this.xSpeed < 0 && this.ySpeed === 0) {
             this.direction = DIRECTIONS.W;
         }
 
-        if (this.xSpeed === 0 && this.ySpeed > 0) {
+        if (this.xSpeed === 0 && this.ySpeed < 0) {
             this.direction = DIRECTIONS.N;
         }
-        if (this.xSpeed === 0 && this.ySpeed < 0) {
+        if (this.xSpeed === 0 && this.ySpeed > 0) {
             this.direction = DIRECTIONS.S;
         }
 
-        if (this.xSpeed < 0 && this.ySpeed > 0) {
+        if (this.xSpeed > 0 && this.ySpeed < 0) {
             this.direction = DIRECTIONS.NE;
         }
-        if (this.xSpeed < 0 && this.ySpeed < 0) {
+        if (this.xSpeed > 0 && this.ySpeed > 0) {
             this.direction = DIRECTIONS.SE;
         }
 
-        if (this.xSpeed > 0 && this.ySpeed > 0) {
+        if (this.xSpeed < 0 && this.ySpeed < 0) {
             this.direction = DIRECTIONS.NW;
         }
-        if (this.xSpeed > 0 && this.ySpeed < 0) {
+        if (this.xSpeed < 0 && this.ySpeed > 0) {
             this.direction = DIRECTIONS.SW;
         }
     }

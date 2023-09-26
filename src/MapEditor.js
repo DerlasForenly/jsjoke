@@ -11,47 +11,49 @@ export default class MapEditor {
         const exportButton = document.getElementById('exportMap');
         const importInput = document.getElementById('import');
 
-        exportButton.onclick = e => {
-            let data = [];
-
-            this.world.tiles.forEach(row => {
-                row.forEach(tile => {
-                    data.push({
-                        indexX: tile.indexX,
-                        indexY: tile.indexY,
-                        layers: tile.animation.getLayerIds(),
-                    })
+        if (exportButton && importInput) {
+            exportButton.onclick = e => {
+                let data = [];
+    
+                this.world.tiles.forEach(row => {
+                    row.forEach(tile => {
+                        data.push({
+                            indexX: tile.indexX,
+                            indexY: tile.indexY,
+                            layers: tile.animation.getLayerIds(),
+                        })
+                    });
                 });
-            });
+        
+                let jsonString = JSON.stringify(data);
+                let blob = new Blob([jsonString], { type: 'application/json' });
+                let url = URL.createObjectURL(blob);
+                let a = document.createElement('a');
+                a.href = url;
+                a.download = 'map.json';
+                a.textContent = 'Download map.json';
+        
+                document.body.appendChild(a);
+            }
     
-            var jsonString = JSON.stringify(data);
-            var blob = new Blob([jsonString], { type: 'application/json' });
-            var url = URL.createObjectURL(blob);
-            var a = document.createElement('a');
-            a.href = url;
-            a.download = 'map.json';
-            a.textContent = 'Download map.json';
-    
-            document.body.appendChild(a);
-        }
-
-        importInput.onchange = e => {
-            let fileInput = importInput;
-            let data = null;
-            let file = fileInput.files[0]; 
-            let reader = new FileReader();
-            
-            reader.onload = function(event) {
-                let fileContent = event.target.result;
+            importInput.onchange = e => {
+                let fileInput = importInput;
+                let data = null;
+                let file = fileInput.files[0]; 
+                let reader = new FileReader();
                 
-                data = JSON.parse(fileContent);
-
-                data.forEach(item => {
-                    world.tiles[item.indexX][item.indexY] = new Tile(world.game, item.indexX, item.indexY, item.spriteId);
-                });
-            };
-
-            reader.readAsText(file);
+                reader.onload = function(event) {
+                    let fileContent = event.target.result;
+                    
+                    data = JSON.parse(fileContent);
+    
+                    data.forEach(item => {
+                        world.tiles[item.indexX][item.indexY] = new Tile(world.game, item.indexX, item.indexY, item.spriteId);
+                    });
+                };
+    
+                reader.readAsText(file);
+            }
         }
     }
 }
