@@ -5,15 +5,25 @@ export default class Slime extends Entity {
     static width = 36;
     static height = 22;
     
-    constructor(game, name, worldX, worldY) {
+    /**
+     * @param {Game} game 
+     * @param {Object} config 
+     */
+    constructor(game, config) {
         super(game);
-        this.name = name;
+        this.name = config.name;
 
         this.width = Slime.width;
         this.height = Slime.height;
 
-        this.x = game.world.referenceTile.x + worldX;
-        this.y = game.world.referenceTile.y + worldY;
+        this.x = game.world.referenceTile.x + config.worldX;
+        this.y = game.world.referenceTile.y + config.worldY;
+
+        this.lvl = config.lvl;
+        this.maxHp = config.maxHp;
+        this.hp = config.hp;
+        this.def = config.def;
+        this.exp = this.lvl * 10;
 
         this.animation = new MobAnimation(this);
         this.animation.maxFrame = 7;

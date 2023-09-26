@@ -3,7 +3,7 @@ import InputHandler from "../src/InputHandler.js";
 import World from "./World.js";
 import MapEditor from "./MapEditor.js";
 
-import { Entities, classMapping } from "./Entities.js";
+import { classMapping } from "./Entities.js";
 import CurrentPlayer from "./Entities/CurrentPlayer.js";
 
 export default class Game {
@@ -12,7 +12,9 @@ export default class Game {
      * @param {Number} width
      * @param {Number} height
      */
-    constructor(width, height, map, playerData, players, mobs) {
+    constructor(width, height, map, playerData, players, mobs, socket) {
+        this.socket = socket;
+
         this.width = width;
         this.height = height;
 
@@ -71,9 +73,14 @@ export default class Game {
     }
 
     loadEntities(entities) {
+        console.log(entities);
         let data = {};
 
         for (const name in entities) {
+            if (this.mobs.hasOwnProperty(name) && !entities.hasOwnProperty(name)) {
+                delete this.mobs[name];
+            }
+
             const classConstructor = classMapping[name.split('_')[0]];
             const value = entities[name];
 
@@ -82,8 +89,9 @@ export default class Game {
                 mob = this.mobs[name];
                 mob.x = this.world.referenceTile.x + value.worldX;
                 mob.y = this.world.referenceTile.y + value.worldY;
+                mob.hp = value.hp;
             } else {
-                mob = new classConstructor(this, name, value.worldX, value.worldY);
+                mob = new classConstructor(this, {...value, name});
             }
             
             data[name] = mob;

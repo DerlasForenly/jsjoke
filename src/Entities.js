@@ -1,38 +1,5 @@
-import Slime from "./Entities/Enemies/Slime.js";
-
-export const Entities = [
-    {
-        "class": "Slime",
-        "worldX": Math.floor(Math.random() * 10) * 48,
-        "worldY": Math.floor(Math.random() * 10) * 48,
-    },
-    {
-        "class": "Slime",
-        "worldX": Math.floor(Math.random() * 10) * 48,
-        "worldY": Math.floor(Math.random() * 10) * 48,
-    },
-    {
-        "class": "Slime",
-        "worldX": Math.floor(Math.random() * 10) * 48,
-        "worldY": Math.floor(Math.random() * 10) * 48,
-    },
-    {
-        "class": "Slime",
-        "worldX": Math.floor(Math.random() * 10) * 48,
-        "worldY": Math.floor(Math.random() * 10) * 48,
-    },
-    {
-        "class": "Slime",
-        "worldX": Math.floor(Math.random() * 10) * 48,
-        "worldY": Math.floor(Math.random() * 10) * 48,
-    },
-    {
-        "class": "Slime",
-        "worldX": Math.floor(Math.random() * 10) * 48,
-        "worldY": Math.floor(Math.random() * 10) * 48,
-    },
-]
+import Slime from "./Entities/Enemies/Slime.js"
 
 export const classMapping = {
-    "Slime": Slime,
-};
+    'Slime': Slime,
+}

@@ -49,7 +49,7 @@ const initGame = async (playerName) => {
         window.location.href = window.location.href;
     });
 
-    const game = new Game(canvas.width, canvas.height, map, player, players, mobs);
+    const game = new Game(canvas.width, canvas.height, map, player, players, mobs, socket);
     let lastTime = 0;
 
     socket.on('tick', (gameData) => {
@@ -76,6 +76,8 @@ const initGame = async (playerName) => {
             speed: game.player.getSpeed(),
         });
     }, 3);
+
+
 
     animate();
 }

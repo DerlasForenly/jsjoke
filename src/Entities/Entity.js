@@ -15,6 +15,10 @@ export default class Entity {
         this.maxYSpeed = 0;
 
         this.lvl = 0;
+        this.def = 0;
+        this.hp = 0;
+
+        this.isSelectedByPlayer = false;
 
         this.currentState = null;
     }

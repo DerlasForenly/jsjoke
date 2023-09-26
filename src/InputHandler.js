@@ -27,38 +27,66 @@ export default class InputHandler {
             }
         });
 
-        document.addEventListener('mousemove', e => {
+        canvas.addEventListener('mousemove', e => {
             this.mouseX = e.clientX;
             this.mouseY = e.clientY;
         });
 
-        document.addEventListener("mousedown", (event) => {
-            this.isMouseDown = true;
+        canvas.addEventListener("mousedown", (event) => {
+            const rect = canvas.getBoundingClientRect();
+            this.mouseX = event.clientX - rect.left;
+            this.mouseY = event.clientY - rect.top;
+
+            let mobClick = false;
+            for (const key in game.mobs) {
+                let mob = game.mobs[key];
+                mob.isSelectedByPlayer = false;
+
+                if (
+                    mob.x - 10 <= this.mouseX && 
+                    mob.x + 10 + mob.width >= this.mouseX && 
+                    mob.y - 10 <= this.mouseY && 
+                    mob.y + 10 + mob.height >= this.mouseY
+                ) {
+                    game.player.selectedEntity = mob;
+                    mob.isSelectedByPlayer = true;
+                    mobClick = true;
+                }
+            }
+
+            if (!mobClick) {
+                this.isMouseDown = true;
+            }
         });
           
-        document.addEventListener("mouseup", (event) => {
+        canvas.addEventListener("mouseup", (event) => {
             this.isMouseDown = false;
             this.keys = [];
         });
 
-        document.addEventListener('touchstart', e => {
+        canvas.addEventListener('touchstart', e => {
             this.isMouseDown = true;
         });
 
-        document.addEventListener('touchend', e => {
+        canvas.addEventListener('touchend', e => {
             this.isMouseDown = false;
             this.keys = [];
         });
 
         canvas.addEventListener('click', (event) => {
             let rect = canvas.getBoundingClientRect();
-            let mouseX = event.clientX - rect.left;
-            let mouseY = event.clientY - rect.top;
+            this.mouseX = event.clientX - rect.left;
+            this.mouseY = event.clientY - rect.top;
 
             game.world.tiles.forEach(row => {
                 row.forEach(tile => {
-                    if (tile.x <= mouseX && tile.x + tile.width >= mouseX && tile.y <= mouseY && tile.y + tile.width >= mouseY) {
-                        console.log(tile)
+                    if (
+                        tile.x <= this.mouseX && 
+                        tile.x + tile.width >= this.mouseX && 
+                        tile.y <= this.mouseY && 
+                        tile.y + tile.width >= this.mouseY
+                    ) {
+                        //console.log(tile)
                     }
                 })
             });

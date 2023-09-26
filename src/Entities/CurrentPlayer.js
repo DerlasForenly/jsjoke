@@ -2,6 +2,8 @@ import Player from "./Player.js";
 import CurrentPlayerAnimation from "../Animations/CurrentPlayerAnimation.js";
 import Standing from "../States/Standing.js";
 import { TILE_SIZE } from "./Tile.js";
+import Skill from "../Skills/Skill.js";
+import Casting from "../States/Casting.js";
 
 export default class CurrentPlayer extends Player {
     constructor(game, name, worldX, worldY) {
@@ -17,6 +19,15 @@ export default class CurrentPlayer extends Player {
 
         this.maxXSpeed = 1;
         this.maxYSpeed = 1;
+
+        this.lvl = 1;
+        this.def = 0;
+        this.hp = 20;
+
+        this.skills = [
+            new Skill(this, "Base attack"),
+            new Skill(this, "Fireball"),
+        ]
 
         this.diagonalSwitcher = false;
 
@@ -88,10 +99,18 @@ export default class CurrentPlayer extends Player {
         if (input.keys.includes('Enter')) {
             console.log('Enter has been pressed');
         }
-        const centerX = window.innerWidth / 2;
-        const centerY = window.innerHeight / 2;
 
+        if (input.keys.includes("1")) {
+            this.castSkill(0);
+        }
+        if (input.keys.includes("2")) {
+            this.castSkill(1);
+        }
+        
         if (input.isMouseDown) {
+            const centerX = window.innerWidth / 2;
+            const centerY = window.innerHeight / 2;
+
             input.keys = [];
             const mouseX = input.mouseX;
             const mouseY = input.mouseY;
@@ -121,9 +140,24 @@ export default class CurrentPlayer extends Player {
                 this.ySpeed = -this.maxYSpeed;
             }
         }
+        
 
         this.handleInputRelease(input.keys);
         this.handleOpositInputs(input.keys);
+    }
+
+    /**
+     * @param {Number} skillNumber 
+     */
+    castSkill(skillNumber) {
+        if (this.selectedEntity && !(this.state instanceof Casting)) {
+            //this.setState(new Casting());
+
+            this.game.socket.emit('client-player-casts-skill', {
+                skill: this.skills[skillNumber].name,
+                enemy: this.selectedEntity.name,
+            });
+        }
     }
 
     /**
@@ -205,7 +239,7 @@ export default class CurrentPlayer extends Player {
                 If at least 1 tile is not passable set xSpeed as 0
             */
             tiles.forEach(tile => {
-                console.log('left', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
+                //console.log('left', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
                 if (!tile.isPassable) {
                     //console.log('Obstacle left: ', tile.indexX, tile.indexY);
                     this.xSpeed = 0;
@@ -285,7 +319,7 @@ export default class CurrentPlayer extends Player {
                 If at least 1 tile is not passable set xSpeed as 0
             */
             tiles.forEach(tile => {
-                console.log('up', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
+                //console.log('up', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
                 if (!tile.isPassable) {
                     //console.log('Obstacle up: ', tile.indexX, tile.indexY);
                     this.ySpeed = 0;
