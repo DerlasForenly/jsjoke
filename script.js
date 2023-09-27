@@ -1,3 +1,4 @@
+import { CLIENT_TICK, DISCONNECT, INIT, SERVER_TICK } from "./emits.js";
 import Game from "./src/Game.js";
 
 window.onload = () => {
@@ -38,21 +39,21 @@ const initGame = async (playerName) => {
     const socket = io(SERVER_URL);
 
 
-    let { player, players, mobs } = await socket.emitWithAck('init', {
+    let { player, players, mobs } = await socket.emitWithAck(INIT, {
         playerName,
     });
 
     console.log('player', playerName);
     delete players[playerName];
 
-    socket.on('disconnect', () => { // Update page on disconnect
+    socket.on(DISCONNECT, () => { // Update page on disconnect
         window.location.href = window.location.href;
     });
 
     const game = new Game(canvas.width, canvas.height, map, player, players, mobs, socket);
     let lastTime = 0;
 
-    socket.on('tick', (gameData) => {
+    socket.on(SERVER_TICK, (gameData) => {
         game.updatePlayers(gameData.players);
         game.updateEntities(gameData.mobs);
     });
@@ -68,7 +69,7 @@ const initGame = async (playerName) => {
     }
 
     setInterval(() => {
-        socket.emit('client-tick', {
+        socket.emit(CLIENT_TICK, {
             worldX: game.player.getWorldXPixel(),
             worldY: game.player.getWorldYPixel(),
             direction: game.player.direction,
@@ -76,8 +77,6 @@ const initGame = async (playerName) => {
             speed: game.player.getSpeed(),
         });
     }, 3);
-
-
 
     animate();
 }

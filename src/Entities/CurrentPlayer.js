@@ -4,6 +4,7 @@ import Standing from "../States/Standing.js";
 import { TILE_SIZE } from "./Tile.js";
 import Skill from "../Skills/Skill.js";
 import Casting from "../States/Casting.js";
+import { CLIENT_CAST_SKILL } from "../../emits.js";
 
 export default class CurrentPlayer extends Player {
     constructor(game, name, worldX, worldY) {
@@ -153,7 +154,7 @@ export default class CurrentPlayer extends Player {
         if (this.selectedEntity && !(this.state instanceof Casting)) {
             //this.setState(new Casting());
 
-            this.game.socket.emit('client-player-casts-skill', {
+            this.game.socket.emit(CLIENT_CAST_SKILL, {
                 skill: this.skills[skillNumber].name,
                 enemy: this.selectedEntity.name,
             });
