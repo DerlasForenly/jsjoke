@@ -358,7 +358,6 @@ export default class CurrentPlayer extends Player {
             }
         } else {
             this.game.world.moveAllTilesX(-this.xSpeed);
-            this.game.moveAllPlayersX(-this.xSpeed);
             this.game.moveAllEntitiesX(-this.xSpeed);
         }
 
@@ -370,7 +369,6 @@ export default class CurrentPlayer extends Player {
             }
         } else {
             this.game.world.moveAllTilesY(-this.ySpeed);
-            this.game.moveAllPlayersY(-this.ySpeed);
             this.game.moveAllEntitiesY(-this.ySpeed);
         }
     }
@@ -393,7 +391,6 @@ export default class CurrentPlayer extends Player {
 
             this.game.world.moveAllTilesX(-offsetX);
             this.game.moveAllEntitiesX(-offsetX);
-            this.game.moveAllPlayersX(-offsetX);
 
             this.x = centerX;
         }
@@ -403,7 +400,6 @@ export default class CurrentPlayer extends Player {
 
             this.game.world.moveAllTilesY(-offsetY);
             this.game.moveAllEntitiesY(-offsetY);
-            this.game.moveAllPlayersY(-offsetY);
 
             this.y = centerY;
         }
@@ -414,7 +410,6 @@ export default class CurrentPlayer extends Player {
             
             this.game.world.moveAllTilesX(offsetX);
             this.game.moveAllEntitiesX(offsetX);
-            this.game.moveAllPlayersX(offsetX);
 
             this.movePlayerX = true;
         }
@@ -425,7 +420,6 @@ export default class CurrentPlayer extends Player {
             
             this.game.world.moveAllTilesY(offsetY);
             this.game.moveAllEntitiesY(offsetY);
-            this.game.moveAllPlayersY(offsetY);
 
             this.movePlayerY = true;
         }

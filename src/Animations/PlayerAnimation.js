@@ -1,4 +1,3 @@
-import Player from "../Entities/Player.js";
 import { DIRECTIONS } from "../consts.js";
 import Standing from "../States/Standing.js";
 import Animation from "./Animation.js";

@@ -97,4 +97,4 @@ export const TileConfigs = {
         "isAnimated": false,
         "isPassable": true
     },
-}
+};

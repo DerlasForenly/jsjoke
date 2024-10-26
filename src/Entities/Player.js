@@ -26,14 +26,14 @@ export default class Player extends Entity {
     }
 
     draw(context) {
-        this.animation.draw(context)
+        this.animation.draw(context);
 
         context.font = '17px Arial';
         context.fillStyle = 'white';
         context.strokeStyle = 'black';
 
         const nameWidth = context.measureText(this.name).width;
-        const offsetX = (nameWidth - this.width) / 2
+        const offsetX = (nameWidth - this.width) / 2;
 
         context.strokeText(this.name, this.x - offsetX, this.y - 6);
         context.fillText(this.name, this.x - offsetX, this.y - 6);

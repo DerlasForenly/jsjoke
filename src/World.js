@@ -40,8 +40,8 @@ export default class World {
         this.tiles.forEach(row => {
             row.forEach(tile => {
                 tile.x = tile.x + offset;
-            })
-        })
+            });
+        });
     }
 
     /**
@@ -53,8 +53,8 @@ export default class World {
         this.tiles.forEach(row => {
             row.forEach(tile => {
                 tile.y = tile.y + offset;
-            })
-        })
+            });
+        });
     }
 
     getRandomAdditionalLayer(layers) {
@@ -85,8 +85,6 @@ export default class World {
         if (randomItem >= 0 && randomItem < layer3.length) {
             layers.push(layer3[randomItem]);
         }
-
-        console.log(layers, randomItem)
 
         return layers;
     }

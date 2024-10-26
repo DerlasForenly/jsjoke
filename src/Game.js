@@ -20,11 +20,8 @@ export default class Game {
 
         this.world = new World(this, map);
 
-        this.players = {};
-        this.mobs = {};
         this.players = this.loadPlayers(players);
         this.mobs = this.loadEntities(mobs);
-
         this.player = new CurrentPlayer(this, playerData.name, playerData.worldX, playerData.worldY);
 
         this.mapEditor = new MapEditor(this.world);
@@ -38,18 +35,18 @@ export default class Game {
      */
     draw(context) {
         this.world.draw(context);
+
         for (const key in this.mobs) {
             if (this.mobs.hasOwnProperty(key)) {
-                const value = this.mobs[key];
-                value.draw(context);
+                this.mobs[key].draw(context);
             }
         }
         for (const key in this.players) {
             if (this.players.hasOwnProperty(key)) {
-                const value = this.players[key];
-                value.draw(context);
+                this.players[key].draw(context);
             }
         }
+
         this.player.draw(context);
     }
 
@@ -60,6 +57,7 @@ export default class Game {
      */
     update(deltaTime) {
         this.player.update(this.inputHandler, deltaTime);
+
         for (const key in this.mobs) {
             if (this.mobs.hasOwnProperty(key)) {
                 this.mobs[key].update(deltaTime);
@@ -141,6 +139,12 @@ export default class Game {
                 this.mobs[key].x += offset;
             }
         }
+
+        for (const key in this.players) {
+            if (this.players.hasOwnProperty(key)) {
+                this.players[key].x += offset;
+            }
+        }
     }
 
     moveAllEntitiesY(offset) {
@@ -149,17 +153,7 @@ export default class Game {
                 this.mobs[key].y += offset;
             }
         }
-    }
 
-    moveAllPlayersX(offset) {
-        for (const key in this.players) {
-            if (this.players.hasOwnProperty(key)) {
-                this.players[key].x += offset;
-            }
-        }
-    }
-
-    moveAllPlayersY(offset) {
         for (const key in this.players) {
             if (this.players.hasOwnProperty(key)) {
                 this.players[key].y += offset;

@@ -19,7 +19,7 @@ window.onload = () => {
             }
         });
     }
-}
+};
 
 const initGame = async (playerName) => {
     const canvas = document.getElementById('canvas1');
@@ -79,4 +79,4 @@ const initGame = async (playerName) => {
     }, 3);
 
     animate();
-}
+};

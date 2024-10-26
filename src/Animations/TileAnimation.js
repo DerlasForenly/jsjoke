@@ -1,6 +1,4 @@
-
 import Animation from "./Animation.js";
-import Tile from "../Entities/Tile.js";
 import Layer from "./Layer.js";
 import { TileConfigs } from "../DTO/TileConfigs.js";
 
@@ -22,8 +20,7 @@ export default class TileAnimation extends Animation {
             } else {
                 console.error('There is no tile sprite: ' + layer);
             }
-            
-        })
+        });
     }
 
     /**
@@ -52,7 +49,7 @@ export default class TileAnimation extends Animation {
         
         this.layers.forEach(layer => {
             ids.push(layer.spriteId);
-        })
+        });
 
         return ids;
     }

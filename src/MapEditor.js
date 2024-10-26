@@ -21,7 +21,7 @@ export default class MapEditor {
                             indexX: tile.indexX,
                             indexY: tile.indexY,
                             layers: tile.animation.getLayerIds(),
-                        })
+                        });
                     });
                 });
         
@@ -34,7 +34,7 @@ export default class MapEditor {
                 a.textContent = 'Download map.json';
         
                 document.body.appendChild(a);
-            }
+            };
     
             importInput.onchange = e => {
                 let fileInput = importInput;
@@ -53,7 +53,7 @@ export default class MapEditor {
                 };
     
                 reader.readAsText(file);
-            }
+            };
         }
     }
 }

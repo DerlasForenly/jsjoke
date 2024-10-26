@@ -1,5 +1,4 @@
 import { TileConfigs } from "../DTO/TileConfigs.js";
-import TileAnimation from "./TileAnimation.js";
 
 export default class Layer {
     /**

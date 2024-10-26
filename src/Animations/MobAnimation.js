@@ -44,7 +44,7 @@ export default class MobAnimation extends Animation {
             context.strokeRect(this.entity.x - 8, this.entity.y - 10, this.entity.width + 16, this.entity.height + 20);
         }
 
-        this.drawHpBar(context)
+        this.drawHpBar(context);
         context.lineWidth = 1;
     }
 

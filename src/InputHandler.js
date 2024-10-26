@@ -8,7 +8,6 @@ export default class InputHandler {
      */
     constructor(game) {
         this.game = game;
-        this.isMouseDown = false;
         this.mouseX = 0;
         this.mouseY = 0;
         this.keys = [];
@@ -25,11 +24,6 @@ export default class InputHandler {
             if (KEYS.includes(e.key)) {
                 this.keys.splice(this.keys.indexOf(e.key), 1);
             }
-        });
-
-        canvas.addEventListener('mousemove', e => {
-            this.mouseX = e.clientX;
-            this.mouseY = e.clientY;
         });
 
         canvas.addEventListener("mousedown", (event) => {
@@ -53,43 +47,12 @@ export default class InputHandler {
                     mobClick = true;
                 }
             }
-
-            if (!mobClick) {
-                this.isMouseDown = true;
-            }
-        });
-          
-        canvas.addEventListener("mouseup", (event) => {
-            this.isMouseDown = false;
-            this.keys = [];
-        });
-
-        canvas.addEventListener('touchstart', e => {
-            this.isMouseDown = true;
-        });
-
-        canvas.addEventListener('touchend', e => {
-            this.isMouseDown = false;
-            this.keys = [];
         });
 
         canvas.addEventListener('click', (event) => {
             let rect = canvas.getBoundingClientRect();
             this.mouseX = event.clientX - rect.left;
             this.mouseY = event.clientY - rect.top;
-
-            game.world.tiles.forEach(row => {
-                row.forEach(tile => {
-                    if (
-                        tile.x <= this.mouseX && 
-                        tile.x + tile.width >= this.mouseX && 
-                        tile.y <= this.mouseY && 
-                        tile.y + tile.width >= this.mouseY
-                    ) {
-                        //console.log(tile)
-                    }
-                })
-            });
         });
     }
 }

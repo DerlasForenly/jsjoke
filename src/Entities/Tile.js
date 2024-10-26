@@ -50,7 +50,7 @@ export default class Tile extends Entity {
      */
     draw(context) {
         this.animation.draw(context);
-        context.fillText(`${this.getWorldXPixel() / TILE_SIZE};${this.getWorldYPixel() / TILE_SIZE}`, this.x + 2, this.y + 11);
+        //context.fillText(`${this.getWorldXPixel() / TILE_SIZE};${this.getWorldYPixel() / TILE_SIZE}`, this.x + 2, this.y + 11);
     }
 
     /**
