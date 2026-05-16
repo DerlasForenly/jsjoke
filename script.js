@@ -54,8 +54,8 @@ const initGame = async (playerName) => {
     let lastTime = 0;
 
     socket.on(SERVER_TICK, (gameData) => {
-        game.updatePlayers(gameData.players);
         game.updateEntities(gameData.mobs);
+        game.updatePlayers(gameData.players);
     });
 
     function animate(timeStamt = 0) {
@@ -76,7 +76,7 @@ const initGame = async (playerName) => {
             currentState: game.player.currentState.state,
             speed: game.player.getSpeed(),
         });
-    }, 3);
+    }, 10);
 
     animate();
 };

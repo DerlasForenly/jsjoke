@@ -74,7 +74,7 @@ export default class Game {
         let data = {};
 
         for (const name in entities) {
-            if (this.mobs.hasOwnProperty(name) && !entities.hasOwnProperty(name)) {
+            if (this.mobs?.hasOwnProperty(name) && !entities?.hasOwnProperty(name)) {
                 delete this.mobs[name];
             }
 
@@ -82,7 +82,7 @@ export default class Game {
             const value = entities[name];
 
             let mob = null;
-            if (this.mobs.hasOwnProperty(name)) {
+            if (this.mobs?.hasOwnProperty(name)) {
                 mob = this.mobs[name];
                 mob.x = this.world.referenceTile.x + value.worldX;
                 mob.y = this.world.referenceTile.y + value.worldY;
@@ -102,11 +102,11 @@ export default class Game {
         let data = {};
 
         for (const nickname in players) {
-            if (players.hasOwnProperty(nickname)) {
+            if (players?.hasOwnProperty(nickname)) {
                 const value = players[nickname];
 
                 let player = null;
-                if (this.players.hasOwnProperty(nickname)) {
+                if (this.players?.hasOwnProperty(nickname)) {
                     player = this.players[nickname];
                     player.x = this.world.referenceTile.x + value.worldX;
                     player.y = this.world.referenceTile.y + value.worldY;

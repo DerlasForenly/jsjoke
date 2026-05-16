@@ -165,167 +165,71 @@ export default class CurrentPlayer extends Player {
      * Hard to understand shit
      */
     handleObstacle() {
-        let worldY = this.getWorldYPixel();
-        let worldX = this.getWorldXPixel();
+        const baseWorldY = this.getWorldYPixel();
+        const baseWorldX = this.getWorldXPixel();
 
         if (this.xSpeed > 0) {
-            worldX += 1;
-            /*
-                Find indexes of upper and lower right tiles 
-             */
-            const minIndexYOffset = worldY % TILE_SIZE;
-            const maxIndexYOffset = (worldY + this.height - 1) % TILE_SIZE;
-            const minIndexY = (worldY - minIndexYOffset) / TILE_SIZE;
-            const maxIndexY = (worldY + this.height - 1 - maxIndexYOffset) / TILE_SIZE;
+            const worldX = baseWorldX + 1;
+            const worldY = baseWorldY;
 
-            /*
-                Get right point of sprite
-            */
-            const xOffset = (worldX + this.width - 1) % TILE_SIZE;
-            const rightIndexX = ((worldX + this.width - 1) - xOffset) / TILE_SIZE;
+            const minIndexY = Math.floor(worldY / TILE_SIZE);
+            const maxIndexY = Math.floor((worldY + this.height - 1) / TILE_SIZE);
+            const rightIndexX = Math.floor((worldX + this.width - 1) / TILE_SIZE);
 
-            /*
-                Find every tile on the right side.
-                For player with height 48 it can be 1 or 2 tiles.
-                Min and max index can be the same.
-            */
-            let tiles = [];
             for (let i = minIndexY; i <= maxIndexY; i++) {
-                let tile = this.game.world.getTile(rightIndexX, i);
-                if (tile) {
-                    tiles.push(tile);
+                const tile = this.game.world.getTile(rightIndexX, i);
+                if (tile && !tile.isPassable) {
+                    this.xSpeed = 0;
+                    break;
                 }
             }
-
-            /*
-                If at least 1 tile is not passable set xSpeed as 0
-            */
-            tiles.forEach(tile => {
-                if (!tile.isPassable) {
-                    //console.log('Obstacle right: ', tile.indexX, tile.indexY);
-                    this.xSpeed = 0;
-                }
-            });
         } else if (this.xSpeed < 0) {
-            worldX -= 1;
-            /*
-                Find indexes of upper and lower right tiles 
-             */
-            const minIndexYOffset = worldY % TILE_SIZE;
-            const maxIndexYOffset = (worldY + this.height - 1) % TILE_SIZE;
-            const minIndexY = (worldY - minIndexYOffset) / TILE_SIZE;
-            const maxIndexY = (worldY + this.height - 1 - maxIndexYOffset) / TILE_SIZE;
+            const worldX = baseWorldX - 1;
+            const worldY = baseWorldY;
 
-            /*
-                Get right point of sprite
-            */
-            const xOffset = worldX % TILE_SIZE;
-            const leftIndexX = (worldX - xOffset) / TILE_SIZE;
+            const minIndexY = Math.floor(worldY / TILE_SIZE);
+            const maxIndexY = Math.floor((worldY + this.height - 1) / TILE_SIZE);
+            const leftIndexX = Math.floor(worldX / TILE_SIZE);
 
-            /*
-                Find every tile on the right side.
-                For player with height 48 it can be 1 or 2 tiles.
-                Min and max index can be the same.
-            */
-            let tiles = [];
             for (let i = minIndexY; i <= maxIndexY; i++) {
-                let tile = this.game.world.getTile(leftIndexX, i);
-
-                if (tile) {
-                    tiles.push(tile);
+                const tile = this.game.world.getTile(leftIndexX, i);
+                if (tile && !tile.isPassable) {
+                    this.xSpeed = 0;
+                    break;
                 }
             }
-
-            /*
-                If at least 1 tile is not passable set xSpeed as 0
-            */
-            tiles.forEach(tile => {
-                //console.log('left', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
-                if (!tile.isPassable) {
-                    //console.log('Obstacle left: ', tile.indexX, tile.indexY);
-                    this.xSpeed = 0;
-                }
-            });
         }
 
         if (this.ySpeed > 0) {
-            worldY += 1;
-            /*
-                Find indexes of lower left and right tiles 
-             */
-            const minIndexXOffset = worldX % TILE_SIZE;
-            const maxIndexXOffset = (worldX + this.width - 1) % TILE_SIZE;
-            const minIndexX = (worldX - minIndexXOffset) / TILE_SIZE;
-            const maxIndexX = (worldX + this.width - 1 - maxIndexXOffset) / TILE_SIZE;
+            const worldX = baseWorldX;
+            const worldY = baseWorldY + 1;
 
-            /*
-                Get right point of sprite
-            */
-            const yOffset = (worldY + this.height - 1) % TILE_SIZE;
-            const indexY = ((worldY + this.height - 1) - yOffset) / TILE_SIZE;
+            const minIndexX = Math.floor(worldX / TILE_SIZE);
+            const maxIndexX = Math.floor((worldX + this.width - 1) / TILE_SIZE);
+            const bottomIndexY = Math.floor((worldY + this.height - 1) / TILE_SIZE);
 
-            /*
-                Find every tile on the right side.
-                For player with height 48 it can be 1 or 2 tiles.
-                Min and max index can be the same.
-            */
-            let tiles = [];
             for (let i = minIndexX; i <= maxIndexX; i++) {
-                let tile = this.game.world.getTile(i, indexY);
-                if (tile) {
-                    tiles.push(tile);
+                const tile = this.game.world.getTile(i, bottomIndexY);
+                if (tile && !tile.isPassable) {
+                    this.ySpeed = 0;
+                    break;
                 }
             }
-
-            /*
-                If at least 1 tile is not passable set xSpeed as 0
-            */
-            tiles.forEach(tile => {
-                if (!tile.isPassable) {
-                    //console.log('Obstacle down: ', tile.indexX, tile.indexY);
-                    this.ySpeed = 0;
-                }
-            });
         } else if (this.ySpeed < 0) {
-            worldY -= 1;
-            /*
-                Find indexes of lower left and right tiles 
-             */
-            const minIndexXOffset = worldX % TILE_SIZE;
-            const maxIndexXOffset = (worldX + this.width - 1) % TILE_SIZE;
-            const minIndexX = (worldX - minIndexXOffset) / TILE_SIZE;
-            const maxIndexX = (worldX + this.width - 1 - maxIndexXOffset) / TILE_SIZE;
+            const worldX = baseWorldX;
+            const worldY = baseWorldY - 1;
 
-            /*
-                Get right point of sprite
-            */
-            const yOffset = worldY % TILE_SIZE;
-            const indexY = (worldY - yOffset) / TILE_SIZE;
+            const minIndexX = Math.floor(worldX / TILE_SIZE);
+            const maxIndexX = Math.floor((worldX + this.width - 1) / TILE_SIZE);
+            const topIndexY = Math.floor(worldY / TILE_SIZE);
 
-            /*
-                Find every tile on the right side.
-                For player with height 48 it can be 1 or 2 tiles.
-                Min and max index can be the same.
-            */
-            let tiles = [];
             for (let i = minIndexX; i <= maxIndexX; i++) {
-                let tile = this.game.world.getTile(i, indexY);
-                
-                if (tile) {
-                    tiles.push(tile);
+                const tile = this.game.world.getTile(i, topIndexY);
+                if (tile && !tile.isPassable) {
+                    this.ySpeed = 0;
+                    break;
                 }
             }
-
-            /*
-                If at least 1 tile is not passable set xSpeed as 0
-            */
-            tiles.forEach(tile => {
-                //console.log('up', this.getWorldXPixel() / 48, this.getWorldYPixel() / 48, tile.indexX, tile.indexY);
-                if (!tile.isPassable) {
-                    //console.log('Obstacle up: ', tile.indexX, tile.indexY);
-                    this.ySpeed = 0;
-                }
-            });
         }
     }
 
